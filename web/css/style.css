@@ -6,3 +6,6 @@ li{
 float:left;
 text-align:center;
 }
+li a:hover{
+	border: 1px solid red;
+}
