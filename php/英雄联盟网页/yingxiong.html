@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>英雄联盟2</title>
+<style>
+body,ul,li,p,span,a,img,h1{margin:0;
+	 padding:0;
+	 font-family:"微软雅黑";
+	}
+
+#nav{
+	width:100%;
+	height:80px;
+	background-color: #000;
+	min-width:1240px;
+	z-index:3;
+}
+#nav ul{
+	width:1240px;
+	margin:auto;
+
+}
+#logo{
+	width:230px;
+	height:130px;
+	/*border:1px solid red;*/
+	background-position:0px -166px;
+	background-image:url('q2.png');
+	float: left;
+}
+#nav li{
+	width:144px;
+	list-style: none;
+	float:left;
+	font-size:16px;
+	text-align: center;
+	margin-top:20px;
+}
+#nav a{
+	text-decoration: none;
+	color:#fff;
+}
+#nav span{
+	font-size:10px;
+	color:#575757; 
+}
+
+#nav1{
+	width:100%;
+	height:235px;
+	background: rgba(0,0,0,0.7);
+	position:absolute;
+	top:80px;
+	display:none;
+	z-index:2;
+}
+#nav1 ul{
+	position:relative;
+	left:372px;
+}
+
+#nav1 li{
+	float:left;
+}
+#nav1 a{
+	font-size:14px;
+	line-height:9px;
+	color: #e1e1e1;
+}
+#nav1 a:hover{
+	color:#00ab88;
+}
+
+#banner{
+	width:100%;
+	height:614px;
+	background: url(./q0.jpg)  no-repeat;
+	min-width:1240px;
+	z-index:-1;
+	position:relative;
+}
+
+#title{
+	width:480px;
+	height:500px;
+	line-height:12px;
+	position: absolute;
+	top:140px;
+	left:0;
+}
+#title p{
+	    font-weight: bold;
+		color: #00ab88;
+		font-size: 50px;
+}
+#title span{
+	    font-size: 14px;
+		color: #e3e3e3;
+		margin:30px 0 ;
+		display: block;
+		line-height: 25px;
+	}
+#title video{
+	position:absolute;
+	
+}
+#title img{
+	position:absolute;
+}
+#title a{
+	width: 155px;
+    height: 36px;
+	font-size: 14px;
+    font-weight: bold;
+    color: #1bf6cc;
+	border: 2px solid #05ad8d;
+	background: #000;
+	text-align: center;
+	line-height:36px;
+	display: block;
+	text-decoration:none;
+	margin-top:30px;
+}
+
+#more{
+	font-size: 14px;
+	color: #888787;
+	position:absolute;
+	right:0;
+	top: 450px;
+
+}
+#more span{
+	color: #1bf6cc;
+}
+
+#more a{
+	color: #1bf6cc;
+	border:2px solid #05ad8d;
+	background: #000;
+	padding:3px 16px 3px 16px;
+	font-size:12px;
+	text-decoration: none;
+
+}
+
+#xiazai{
+	position:absolute;
+	top:494px;
+
+}
+
+#xiazai li{
+	width:112px;
+	height:115px;
+	list-style: none;
+	float:left;
+	font-size:16px;
+	color:#fff;
+	text-align:center;
+	line-height:20px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#ul1{
+	width:1060px;
+	height:115px;
+	position:relative;
+	top:-100px;
+	left:220px;
+}
+
+li a{
+	text-decoration: none;
+	color:#fff;
+	display:block;
+}
+
+.j{
+	font-size:10px;
+	color:#5e677f; 	
+}
+
+.k{
+	color: #C1CFE8;
+	font-size:10px;
+	
+}
+.l{
+	color: #fff;
+	font-size:10px;
+}
+
+ul img{
+	z-index:2px;
+	margin-top:6px;
+}
+#ul1 li:hovor{
+	background-color:#33ccff;
+
+}
+
+
+#logo1{
+	width:40px;
+	height:40px;
+	/*border:1px solid red;*/
+	background-image:url('q2.png');
+	background-position:0 0;
+	margin-left:34px;
+	}
+#logo2{
+	width:40px;
+	height:40px;
+	/*border:1px solid red;*/
+	background-image:url('q2.png');
+	background-position:-40px 0;
+	margin-left:34px;
+	}
+#logo3{
+	width:40px;
+	height:40px;
+	/*border:1px solid red;*/
+	background-image:url('q2.png');
+	background-position:-80px 0;
+	margin-left:34px;
+	}
+#logo4{
+	width:40px;
+	height:40px;
+	/*border:1px solid red;*/
+	background-image:url('q2.png');
+	background-position:-120px 0;
+	margin-left:34px;
+	}
+#logo5{
+	width:40px;
+	height:40px;
+	/*border:1px solid red;*/
+	background-image:url('q2.png');
+	background-position:-160px 0;
+	margin-left:34px;
+	}
+#logo6{
+	width:330px;
+	height:115px;
+	float:left;
+	font-size:16px;
+	color:#fff;
+	line-height:20px;
+	text-decoration: none;
+}
+
+
+#center{
+	width:1240px;
+	height:100%;
+	/*border:1px solid red;*/
+	margin:auto;
+	position:relative;
+	top:-600px;
+
+}
+#tupian{
+	width:780px;
+	height:330px;
+	position: relative;
+	overflow: hidden;
+}
+
+#ww{
+	transition: left 0.5s;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 3900px;
+	}
+
+#tupian li{
+	float: left;
+}
+
+.hi{
+	font-size: 14px;
+	color: #333;
+	text-decoration: none;
+	display: block;
+}
+
+#bofang1{
+    float: left;
+    width: 156px;
+    height: 40px;
+    line-height: 40px;
+	text-align: center;
+	background-color:#e8e6e6;
+
+
+}
+#bofang2{
+    float: left;
+    width: 156px;
+    height: 40px;
+    line-height: 40px;
+	text-align: center;
+	background-color:#e8e6e6;
+}
+#bofang3{
+    float: left;
+    width: 156px;
+    height: 40px;
+    line-height: 40px;
+	text-align: center;
+	background-color:#e8e6e6;
+}
+#bofang4{
+    float: left;
+    width: 156px;
+    height: 40px;
+    line-height: 40px;
+	text-align: center;
+	background-color:#e8e6e6;
+}
+#bofang5{
+    float: left;
+    width: 156px;
+    height: 40px;
+    line-height: 40px;
+	text-align: center;
+	background-color:#e8e6e6;
+}
+
+#gonggao{
+	width:400px;
+	height:40px;
+	border:4px solid red;
+	border-width:0 0 3px 0;
+	line-height:40px;
+	position:absolute;
+	top:6px;
+	right:0px;
+}
+#g1{
+	width:90px;
+	height:40px;
+	border:4px solid #999999;
+	border-width:0 0 3px 0;
+	line-height:40px;
+	text-align: center;
+	float:left;
+}
+#gonggao a{
+	font-size: 18px;
+	color: #666666;
+	text-decoration:none;
+}
+#g1:hover{
+	color:#00ab88;
+	font-weight:bold;
+	border-color:#00ab88;
+}
+#g2:hover{
+	color:#00ab88;
+	font-weight:bold;
+	border-color:#00ab88;
+}
+#g3:hover{
+	color:#00ab88;
+	font-weight:bold;
+	border-color:#00ab88;
+}
+#g4:hover{
+	color:#00ab88;
+	font-weight:bold;
+	border-color:#00ab88;
+}
+
+#g2{
+	width:90px;
+	height:40px;
+	border:4px solid #999999;
+	border-width:0 0 3px 0;
+	line-height:40px;
+	text-align: center;
+	float:left;
+}
+#g3{
+	width:90px;
+	height:40px;
+	border:4px solid #999999;
+	border-width:0 0 3px 0;
+	line-height:40px;
+	text-align: center;
+	float:left;
+}
+#g4{
+	width:90px;
+	height:40px;
+	border:4px solid #999999;
+	border-width:0 0 3px 0;
+	line-height:40px;
+	text-align: center;
+	float:left;
+}
+#g5{
+	width:40px;
+	height:40px;
+	border:4px solid #999999;
+	border-width:0 0 3px 0;
+	line-height:40px;
+	text-align: center;
+	float:left;
+}
+
+
+#xinwen{
+	width:430px;
+	height:310px;
+	/*border:1px solid #999999;*/
+	line-height:40px;
+	position:absolute;
+	top:54px;
+	right:-20px;
+}
+#xinwen li{
+	list-style:none;
+	line-height:35px;
+}
+
+#saishi{
+	width:430px;
+	height:310px;
+	/*border:1px solid #999999;*/
+	line-height:40px;
+	position:absolute;
+	top:54px;
+	right:-20px;
+	display:none;
+}
+#saishi li{
+	list-style:none;
+	line-height:35px;
+}
+
+#luntan{
+	width:430px;
+	height:310px;
+	/*border:1px solid #999999;*/
+	line-height:40px;
+	position:absolute;
+	top:54px;
+	right:-20px;
+	display:none;
+}
+#luntan li{
+	list-style:none;
+	line-height:35px;
+}
+
+#zonghe{
+	width:430px;
+	height:310px;
+	/*border:1px solid #999999;*/
+	line-height:40px;
+	position:absolute;
+	top:54px;
+	right:-20px;
+	display:none;
+}
+#zonghe li{
+	list-style:none;
+	line-height:35px;
+}
+.as{
+	color: #00a684;
+	font-size: 20px;
+    font-weight: bold;
+	text-align:center;
+}
+.ad{
+	font-size: 14px;
+	color: #333;
+}
+.ad:hover{
+	color:#00a684;
+}
+.af{
+	font-size: 14px;
+	color: #333;
+	display:block;
+	color: #797979;
+	background: #efefef;
+}
+.af:hover{
+	background-color:#e4e4e4;
+}
+.ag{
+	font-size: 14px;
+	color: #797979;
+	background: #e8e6e6;
+	padding:3px 9px 3px 9px;
+	border-radius:10px;
+}
+.ah{
+	font-size: 14px;
+	color: #797979;
+}
+
+#shipin{
+	width:800px;
+	height:800px;
+	border:1px solid red;
+	position:absolute;
+	top:430px;
+	left:0px;
+}
+
+#tu1{
+	width:40px;
+	height:40px;
+	/*border:1px solid red;*/
+	background-image:url('q2.png');
+	background-position:-40px -40px;
+	float:left;
+	}
+h1{
+	font-size: 25px;
+    line-height: 40px;
+    color: #555555;
+}
+#tu2{
+	width:24px;
+	height:24px;
+	/*border:1px solid red;*/
+	background-image:url('q2.png');
+	background-position:-567px -46px;
+	float:left;
+	position:absolute;
+	top:8px;
+	left:562px;
+	}
+
+.aj{position:relative;
+	top:-30px;
+	left:584px;
+	font-size: 14px;
+	color: #777777;
+	background: #efefef;
+	border: 2px solid #efefef;
+	padding:3px 10px 3px 10px;
+	border-radius: 25px;
+	text-decoration: none;
+}
+#shipin a:hover{
+	color: #00ab88;	
+	border-color:#00ab88;
+	background: #fff;
+
+}
+
+/*#zhongxin{
+	width:780px;
+	height:40px;
+	border-bottom: 4px solid #ebecec;
+	position: relative;
+	top:155px;
+	left:1px;
+}*/
+
+#qiehuan{
+	position:absolute;
+	top:55px;
+}
+#qiehuan li{
+	list-style:none;
+	float:left;
+	padding:8px 33px 8px 33px;
+}
+
+#qiehuan a{
+	color:#666;
+	font-size: 16px;
+}
+
+#qiehuan li:hover{
+	font-weight: bold;
+    border-bottom: 4px solid #00ab88;
+}
+
+#xian{
+	width:780px;
+	border: 2px solid #ebecec;
+	position: absolute;
+	top:92px;
+	z-index:-1;
+}
+
+#jie{
+	position:absolute;
+	top:120px;
+	display:none;
+}
+#jie li{
+	width:180px;
+	height:147px;
+	/*border: 1px solid red;*/
+	float:left;
+	list-style:none;
+	margin:0 20px 15px 0;
+}
+#zhou{
+	position:absolute;
+	top:120px;
+	display:none;
+}
+#zhou li{
+	width:180px;
+	height:147px;
+	/*border: 1px solid red;*/
+	float:left;
+	list-style:none;
+	margin:0 20px 15px 0;
+}
+#zui{
+	position:absolute;
+	top:120px;
+	/*display:none;*/
+}
+#zui li{
+	width:180px;
+	height:147px;
+	/*border: 1px solid red;*/
+	float:left;
+	list-style:none;
+	margin:0 20px 15px 0;
+}
+#sai{
+	position:absolute;
+	top:120px;
+	display:none;
+}
+#sai li{
+	width:180px;
+	height:147px;
+	/*border: 1px solid red;*/
+	float:left;
+	list-style:none;
+	margin:0 20px 15px 0;
+}
+#qu{
+	position:absolute;
+	top:120px;
+	display:none;
+}
+#qu li{
+	width:180px;
+	height:147px;
+	/*border: 1px solid red;*/
+	float:left;
+	list-style:none;
+	margin:0 20px 15px 0;
+}
+#guan{
+	position:absolute;
+	top:120px;
+	display:none;
+}
+#guan li{
+	width:180px;
+	height:147px;
+	/*border: 1px solid red;*/
+	float:left;
+	list-style:none;
+	margin:0 20px 15px 0;
+}
+
+</style>
+</head>
+<body>
+<div id="nav">
+	<ul><div id="logo"></div>	
+		<li><a name="ji" href="">官方首页<br /><span>HOME</span></a></li>
+		<li><a name="ji" href="">游戏资料<br /><span>GAME INFO</span></a></li>
+		<li><a name="ji" href="">商城/合作<br /><span>STORE</span></a></li>
+		<li><a name="ji" href="">用户互动<br /><span>COMMUNITY</span></a></li>
+		<li><a name="ji" href="">赛事中心<br /><span>EVENTS</span></a></li>
+		<li><a name="ji" href="">自助系统<br /><span>SYSTEM</span></a></li>
+		<li><a name="ji" href="">个人中心<br /><span>USER CENTER</span></a></li>
+	</ul>
+	<div id="nav1">
+		<ul>
+			<li><a href="">新手指引</a><br /><a href="">资料库</a><br /><a href="">攻略中心</a><br /><a href="">模式实验室</a><br /><a href="">海克斯战利品库</a></li>
+			<li><a href="">点券充值</a><br /><a href="">到聚城</a><br /><a href="">周边商城</a><br /><a href="">英雄联盟画册</a><br /><a href="">网吧特权</a><br /><a href="">LOL信用卡</a></li>
+			<li><a href="">在线客服</a><br /><a href="">活动中心</a><br /><a href="">官方论坛</a><br /><a href="">官方微信</a><br /><a href="">官方微博</a>
+			<li><a href="">LPL职业联赛</a><br /><a href="">甲级职业联赛</a><br /><a href="">德玛西亚碑</a><br /><a href="">城市英雄争霸赛</a><br /><a href="">高校联赛</a><br /><a href="">校级精英赛</a></li>
+			<li><a href="">封号查询</a><br /><a href="">体验服申请</a><br /><a href="">服务器状态查询</a><br /><a href="">裁决之镰</a>
+			<li><a href="">个人资料</a><br /><a href="">我的游戏与皮肤</a><br /><a href="">战绩历史</a>
+		</ul>
+	</div>
+</div>
+
+<div id="banner"></div>
+	<div style="position:relative;top:-614px;width:1240px;height:610px;margin:auto;z-index:0;">
+		<div id="title">
+			<p>峡谷传说：大提魔节<br /><span>向这名黑暗的约德尔人献祭小兵可获得末日小兵图标奖励。仪式已经开始，
+	           我知道你会来的，召唤师！</span></p>
+		   	<div style="position:relative;height:120px">
+			   	<video autoplay="">
+					<source src="./v9.webm" type="video/webm">
+		       	</video>
+		       	<img src="./q1.png" alt="" />
+			</div>
+			<a href="">查看详情</a>
+		</div>
+
+		<div id="more">
+			当前游戏版本 : <span class="more1">Ver 6.21</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="">版本详情</a>
+		</div>
+
+		<div id="xiazai">
+			<img src="./q4.png" alt="" />
+			<ul id="ul1">
+				<li>
+					<a href="baidu.com"><div id="logo1"></div>新手礼包<br /><span class="j">新手任务好礼</span></a>
+				</li>
+				<li>
+					<a href=""><div id="logo2"></div>视频中心<br /><span class="j">最新最全视频</span></a>
+				</li>
+				<li>
+					<a href=""><div id="logo3"></div>赛事中心<br /><span class="j">权威赛事数据</span></a>
+				</li>
+				<li>
+					<a href=""><div id="logo4"></div>游戏资料<br /><span class="j">海量英雄资料</span></a>
+				</li>
+				<li>
+					<a href=""><div id="logo5"></div>新版客户端<br /><span class="j">用户体验升级</span></a>
+				</li>
+				<li>
+					<img src="q3.png" alt="" />
+				</li>
+				<div id="logo6">
+					<span>亲爱的召唤师，欢迎</span>
+					<a class="i" href="http://www.baidu.com" style="color:#0FC;cursor:pointer;">登陆</a><br />
+					<span class="k">登陆后查看自己的英雄联盟游戏信息，包括<br /><span class="l">召唤师等级、段位信息、游戏胜场数、账户信息、声望值</span> 等。</span>
+				</div>		
+	        </ul>
+		</div>	
+	</div>	
+
+
+<div id="center">
+	<div id="tupian">
+		<ul id="ww">
+			<li><a href=""><img src="q6.jpg" alt="" /></a></li>
+			<li><a href=""><img src="q22.jpg" alt="" /></a></li>
+			<li><a href=""><img src="q3.jpg" alt="" /></a></li>
+			<li><a href=""><img src="q5.jpg" alt="" /></a></li>
+			<li><a href=""><img src="q4.jpg" alt="" /></a></li>
+		</ul>
+	</div>
+	<div id="bofang1">
+		<a id="0" class="hi" href="">末日人机降临</a>
+	</div>
+	<div id="bofang2">
+		<a id="1" class="hi" href="">季前赛官方介绍</a>
+	</div>
+	<div id="bofang3" >
+		<a id="2" class="hi" href="">屏幕保护程序</a>
+	</div>
+	<div id="bofang4">
+		<a id="3" class="hi" href="">大提魔节皮肤</a>
+	</div>
+	<div id="bofang5">
+		<a id="4" class="hi" href="">冠军皮肤限时销售</a>
+	</div>
+
+	<div id="gonggao">
+		<div id="g1">
+			<a href="">综合</a>	
+		</div>
+		<div id="g2">
+			<a href="">公告</a>	
+		</div>
+		<div id="g3">
+			<a href="">赛事</a>	
+		</div>
+		<div id="g4">
+			<a href="">论坛</a>	
+		</div>
+		<div id="g5">
+			<a href="">…</a>	
+		</div>
+	</div>
+
+	<div id="xinwen">
+		<ul>
+			<li><a class="as" href="">拳头最早的实习生</a></li>
+			<li><a class="ad" href=""><span class="ag">新闻</span> 全新“比赛记录”统计页面测试上线公告&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ah">11/02</span></a></li>
+			<li><a class="ad" href=""><span class="ag">新闻</span> 年度MVP三雄争霸EDG与RNG选手入选&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ah">11/07</span></a></li>
+			<li><a class="ad" href=""><span class="ag">新闻</span> 究竟谁才是国际最强高校战队？&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ah">11/07</span></a></li>
+			<li><a class="ad" href=""><span class="ag">新闻</span> 11月4日免费英雄更换公告&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ah">11/05</span></a></li>
+			<li><a class="ad" href=""><span class="ag">新闻</span> 看比赛学套路 英雄时刻争霸赛火热进行中&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ah">11/04</span></a></li>
+			<li><a class="ad" href=""><span class="ag">新闻</span> 年度颁奖盛典Snake打野SofM提名最多&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ah">11/04</span></a></li>
+			<li><a class="ad" href=""><span class="ag">新闻</span> 2016年全明星赛投票今日开启&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ah">11/04</span></a></li>
+			<li><a class="af" href="">【调研】留下你的意见，我们会做的更好！</a></li>
+		</ul>
+	</div>
+
+	<div id="saishi">
+		<ul>
+			<li><a class="as" href="">从OMG到EDG 国内最佳俱乐部变迁史</a></li>
+			<li><a class="ad" href=""><span class="ag">公告</span> 全新“比赛记录”统计页面测试上线公告&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ah">11/07</span></a></li>
+			<li><a class="ad" href=""><span class="ag">公告</span> 年度MVP三雄争霸EDG与RNG选手入选&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ah">11/07</span></a></li>
+			<li><a class="ad" href=""><span class="ag">公告</span> 究竟谁才是国际最强高校战队？&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ah">11/04</span></a></li>
+			<li><a class="ad" href=""><span class="ag">公告</span> 11月4日免费英雄更换公告&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ah">11/05</span></a></li>
+			<li><a class="ad" href=""><span class="ag">公告</span> 看比赛学套路 英雄时刻争霸赛火热进行中&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ah">11/04</span></a></li>
+			<li><a class="ad" href=""><span class="ag">公告</span> 年度颁奖盛典Snake打野SofM提名最多&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ah">11/04</span></a></li>
+			<li><a class="ad" href=""><span class="ag">公告</span> 2016年全明星赛投票今日开启&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ah">11/02</span></a></li>
+			<li><a class="af" href="">【调研】留下你的意见，我们会做的更好！</a></li>
+		</ul>
+	</div>
+
+	<div id="luntan">
+		<ul>
+			<li><a class="as" href="">【红毯观礼粉丝招募】德玛西亚杯总决赛暨颁</a></li>
+			<li><a class="ad" href=""><span class="ag">论坛</span> 全新“比赛记录”统计页面测试上线公告&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ah">11/07</span></a></li>
+			<li><a class="ad" href=""><span class="ag">论坛</span> 年度MVP三雄争霸EDG与RNG选手入选&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ah">11/07</span></a></li>
+			<li><a class="ad" href=""><span class="ag">论坛</span> 究竟谁才是国际最强高校战队？&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ah">11/04</span></a></li>
+			<li><a class="ad" href=""><span class="ag">论坛</span> 11月4日免费英雄更换公告&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ah">11/05</span></a></li>
+			<li><a class="ad" href=""><span class="ag">论坛</span> 看比赛学套路 英雄时刻争霸赛火热进行中&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ah">11/04</span></a></li>
+			<li><a class="ad" href=""><span class="ag">论坛</span> 年度颁奖盛典Snake打野SofM提名最多&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ah">11/04</span></a></li>
+			<li><a class="ad" href=""><span class="ag">论坛</span> 2016年全明星赛投票今日开启&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ah">11/02</span></a></li>
+			<li><a class="af" href="">【调研】留下你的意见，我们会做的更好！</a></li>
+		</ul>
+	</div>
+
+	<div id="zonghe">
+		<ul>
+			<li><a class="as" href="">全新“比赛记录”统计页面测试上线公告</a></li>
+			<li><a class="ad" href=""><span class="ag">赛事</span> 全新“比赛记录”统计页面测试上线公告&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ah">11/07</span></a></li>
+			<li><a class="ad" href=""><span class="ag">赛事</span> 年度MVP三雄争霸EDG与RNG选手入选&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ah">11/07</span></a></li>
+			<li><a class="ad" href=""><span class="ag">赛事</span> 究竟谁才是国际最强高校战队？&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ah">11/04</span></a></li>
+			<li><a class="ad" href=""><span class="ag">赛事</span> 11月4日免费英雄更换公告&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ah">11/05</span></a></li>
+			<li><a class="ad" href=""><span class="ag">赛事</span> 看比赛学套路 英雄时刻争霸赛火热进行中&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ah">11/04</span></a></li>
+			<li><a class="ad" href=""><span class="ag">赛事</span> 年度颁奖盛典Snake打野SofM提名最多&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ah">11/04</span></a></li>
+			<li><a class="ad" href=""><span class="ag">赛事</span> 2016年全明星赛投票今日开启&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ah">11/02</span></a></li>
+			<li><a class="af" href="">【调研】留下你的意见，我们会做的更好！</a></li>
+		</ul>
+	</div>
+
+	<div id="shipin">
+		<div id="tu1"></div>
+		<h1>视频中心</h1>
+		<div id="tu2"></div>
+		<a class="aj" href="">我要投稿</a>&nbsp;
+		<a class="aj" href="">进入视频中心</a>
+		<ul id="qiehuan">
+			<li class="ak"><a href="">最新视频</a></li>
+			<li class="ak"><a href="">解说视频</a></li>
+			<li class="ak"><a href="">周兔英雄</a></li>
+			<li class="ak"><a href="">赛事视频</a></li>
+			<li class="ak"><a href="">趣味锦集</a></li>
+			<li class="ak"><a href="">官方视频</a></li>
+	    </ul>
+		<div id="xian"></div>
+		<ul id="jie" class="po">
+			<li><a class="ad" href=""><img src="./70.png" alt="" /><br />【抗韩中年人】.2v5反向大<br />招绕地球一圈日常五</a></li>
+			<li><a class="ad" href=""><img src="./71.png" alt="" /><br />【小仓第一视角】.黑科技新<br />套路AP中单狗头</a></li>
+			<li><a class="ad" href=""><img src="./72.png" alt="" /><br />【若风解说】.S7季前赛更新介绍改动解析</a></li>
+			<li><a class="ad" href=""><img src="./73.png" alt="" /><br />（小智）新流浪法师，地狱双五杀！</a></li>
+			<li><a class="ad" href=""><img src="./74.png" alt="" /><br />Miss排位日记346期大魔王摸提！19杀统御全场</a></li>
+			<li><a class="ad" href=""><img src="./75.png" alt="" /><br />【神探苍教你玩】赛季末冲分利器杰斯</a></li>
+			<li><a class="ad" href=""><img src="./76.png" alt="" /><br />JY解说：死亡风暴维克托秒人于无形之间</a></li>
+			<li><a class="ad" href=""><img src="./77.png" alt="" /><br />伊芙蕾雅：暴力小法师不讲道理E中就秒你</a></li>
+	    </ul>
+		<ul id="zhou" class="po">
+			<li><a class="ad" href=""><img src="./80.png" alt="" /><br />【抗韩中年人】.2v5反向大<br />招绕地球一圈日常五</a></li>
+			<li><a class="ad" href=""><img src="./81.png" alt="" /><br />【小仓第一视角】.黑科技新<br />套路AP中单狗头</a></li>
+			<li><a class="ad" href=""><img src="./82.png" alt="" /><br />【若风解说】.S7季前赛更新介绍改动解析</a></li>
+			<li><a class="ad" href=""><img src="./83.png" alt="" /><br />（小智）新流浪法师，地狱双五杀！</a></li>
+			<li><a class="ad" href=""><img src="./84.png" alt="" /><br />Miss排位日记346期大魔王摸提！19杀统御全场</a></li>
+			<li><a class="ad" href=""><img src="./85.png" alt="" /><br />【神探苍教你玩】赛季末冲分利器杰斯</a></li>
+			<li><a class="ad" href=""><img src="./86.png" alt="" /><br />JY解说：死亡风暴维克托秒人于无形之间</a></li>
+			<li><a class="ad" href=""><img src="./87.png" alt="" /><br />伊芙蕾雅：暴力小法师不讲道理E中就秒你</a></li>
+	    </ul>
+		<ul id="zui" class="po">
+			<li><a class="ad" href=""><img src="./60.png" alt="" /><br />【抗韩中年人】.2v5反向大<br />招绕地球一圈日常五</a></li>
+			<li><a class="ad" href=""><img src="./61.png" alt="" /><br />【小仓第一视角】.黑科技新<br />套路AP中单狗头</a></li>
+			<li><a class="ad" href=""><img src="./62.png" alt="" /><br />【若风解说】.S7季前赛更新介绍改动解析</a></li>
+			<li><a class="ad" href=""><img src="./63.png" alt="" /><br />（小智）新流浪法师，地狱双五杀！</a></li>
+			<li><a class="ad" href=""><img src="./64.png" alt="" /><br />Miss排位日记346期大魔王摸提！19杀统御全场</a></li>
+			<li><a class="ad" href=""><img src="./65.png" alt="" /><br />【神探苍教你玩】赛季末冲分利器杰斯</a></li>
+			<li><a class="ad" href=""><img src="./66.png" alt="" /><br />JY解说：死亡风暴维克托秒人于无形之间</a></li>
+			<li><a class="ad" href=""><img src="./67.png" alt="" /><br />伊芙蕾雅：暴力小法师不讲道理E中就秒你</a></li>
+	    </ul>
+		<ul id="sai" class="po">
+			<li><a class="ad" href=""><img src="./116.png" alt="" /><br />【抗韩中年人】.2v5反向大<br />招绕地球一圈日常五</a></li>
+			<li><a class="ad" href=""><img src="./117.png" alt="" /><br />【小仓第一视角】.黑科技新<br />套路AP中单狗头</a></li>
+			<li><a class="ad" href=""><img src="./110.png" alt="" /><br />【若风解说】.S7季前赛更新介绍改动解析</a></li>
+			<li><a class="ad" href=""><img src="./111.png" alt="" /><br />（小智）新流浪法师，地狱双五杀！</a></li>
+			<li><a class="ad" href=""><img src="./112.png" alt="" /><br />Miss排位日记346期大魔王摸提！19杀统御全场</a></li>
+			<li><a class="ad" href=""><img src="./113.png" alt="" /><br />【神探苍教你玩】赛季末冲分利器杰斯</a></li>
+			<li><a class="ad" href=""><img src="./114.png" alt="" /><br />JY解说：死亡风暴维克托秒人于无形之间</a></li>
+			<li><a class="ad" href=""><img src="./115.png" alt="" /><br />伊芙蕾雅：暴力小法师不讲道理E中就秒你</a></li>
+	    </ul>
+		<ul id="qu" class="po">
+			<li><a class="ad" href=""><img src="./90.png" alt="" /><br />【抗韩中年人】.2v5反向大<br />招绕地球一圈日常五</a></li>
+			<li><a class="ad" href=""><img src="./91.png" alt="" /><br />【小仓第一视角】.黑科技新<br />套路AP中单狗头</a></li>
+			<li><a class="ad" href=""><img src="./92.png" alt="" /><br />【若风解说】.S7季前赛更新介绍改动解析</a></li>
+			<li><a class="ad" href=""><img src="./93.png" alt="" /><br />（小智）新流浪法师，地狱双五杀！</a></li>
+			<li><a class="ad" href=""><img src="./94.png" alt="" /><br />Miss排位日记346期大魔王摸提！19杀统御全场</a></li>
+			<li><a class="ad" href=""><img src="./95.png" alt="" /><br />【神探苍教你玩】赛季末冲分利器杰斯</a></li>
+			<li><a class="ad" href=""><img src="./96.png" alt="" /><br />JY解说：死亡风暴维克托秒人于无形之间</a></li>
+			<li><a class="ad" href=""><img src="./97.png" alt="" /><br />伊芙蕾雅：暴力小法师不讲道理E中就秒你</a></li>
+	    </ul>
+		<ul id="guan" class="po">
+			<li><a class="ad" href=""><img src="./100.png" alt="" /><br />【抗韩中年人】.2v5反向大<br />招绕地球一圈日常五</a></li>
+			<li><a class="ad" href=""><img src="./101.png" alt="" /><br />【小仓第一视角】.黑科技新<br />套路AP中单狗头</a></li>
+			<li><a class="ad" href=""><img src="./102.png" alt="" /><br />【若风解说】.S7季前赛更新介绍改动解析</a></li>
+			<li><a class="ad" href=""><img src="./103.png" alt="" /><br />（小智）新流浪法师，地狱双五杀！</a></li>
+			<li><a class="ad" href=""><img src="./104.png" alt="" /><br />Miss排位日记346期大魔王摸提！19杀统御全场</a></li>
+			<li><a class="ad" href=""><img src="./105.png" alt="" /><br />【神探苍教你玩】赛季末冲分利器杰斯</a></li>
+			<li><a class="ad" href=""><img src="./106.png" alt="" /><br />JY解说：死亡风暴维克托秒人于无形之间</a></li>
+			<li><a class="ad" href=""><img src="./107.png" alt="" /><br />伊芙蕾雅：暴力小法师不讲道理E中就秒你</a></li>
+	    </ul>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+<script type="text/javascript">                            
+	var li=document.getElementsByName('ji');                 
+	var ya=document.getElementById('nav1');
+	for(var i=0;i<li.length;++i){                            
+		li[i].onmouseover=function(){
+			ya.style.display="block";
+		}	
+	}	
+	ya.onmouseover=function(){
+		this.style.display="block";
+	}
+	ya.onmouseout=function(){
+		this.style.display="none";
+	}	
+
+
+
+
+	var nan=document.getElementsByClassName('hi');
+	var zh=document.getElementById('ww');
+	for(var i=0;i<nan.length;++i){
+		nan[i].onmouseover=function(){
+			zh.style.left=-this.id*780+ "px";
+			this.style.backgroundColor="#36AB87";
+			this.style.color="#fff";
+		}
+		nan[i].onmouseout=function(){
+			this.style.backgroundColor="#e8e6e6";
+			this.style.color="#333";
+		}
+	}
+
+
+	var as=document.getElementById('g1');
+	var ad=document.getElementById('g2');
+	var af=document.getElementById('g3');
+	var ag=document.getElementById('g4');
+	var ah=document.getElementById('xinwen');
+	var aj=document.getElementById('saishi');
+	var ak=document.getElementById('zonghe');
+	var al=document.getElementById('luntan');
+	
+	as.onmouseover=function(){
+		ah.style.display="block";
+		al.style.display="none";
+		aj.style.display="none";
+		ak.style.display="none";
+	}
+
+	ad.onmouseover=function(){
+		aj.style.display="block";
+		ah.style.display="none";
+		ak.style.display="none";
+		al.style.display="none";
+	}
+
+	af.onmouseover=function(){
+		ak.style.display="block";
+		ah.style.display="none";
+		aj.style.display="none";
+		al.style.display="none";
+	}
+
+	ag.onmouseover=function(){
+		al.style.display="block";
+		ah.style.display="none";
+		aj.style.display="none";
+		ak.style.display="none";
+	}
+	
+	
+	var am=document.getElementsByClassName('ak');
+	var bm=document.getElementById('zui');
+	var cm=document.getElementById('jie');
+	var dm=document.getElementById('zhou');
+	var em=document.getElementById('sai');
+	var fm=document.getElementById('qu');
+	var gm=document.getElementById('guan');
+	am[0].onmouseover=function(){
+		bm.style.display="block";
+		cm.style.display="none";
+		dm.style.display="none";
+		em.style.display="none";
+		fm.style.display="none";
+		gm.style.display="none";		
+	}
+	am[1].onmouseover=function(){
+		cm.style.display="block";
+		bm.style.display="none";
+		dm.style.display="none";
+		em.style.display="none";
+		fm.style.display="none";
+		gm.style.display="none";
+	}
+	am[2].onmouseover=function(){
+		dm.style.display="block";
+		bm.style.display="none";
+		cm.style.display="none";
+		em.style.display="none";
+		fm.style.display="none";
+		gm.style.display="none";
+		
+	}
+	am[3].onmouseover=function(){
+		em.style.display="block";
+		bm.style.display="none";
+		cm.style.display="none";
+		dm.style.display="none";
+		fm.style.display="none";
+		gm.style.display="none";
+		
+	}
+	am[4].onmouseover=function(){
+		fm.style.display="block";
+		bm.style.display="none";
+		cm.style.display="none";
+		dm.style.display="none";
+		em.style.display="none";
+		gm.style.display="none";
+		
+	}
+	am[5].onmouseover=function(){
+		gm.style.display="block";
+		bm.style.display="none";
+		cm.style.display="none";
+		dm.style.display="none";
+		em.style.display="none";
+		fm.style.display="none";
+		
+	}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+﻿{include file='common/meta'}
+
+<title>分类管理</title>
+<link rel="stylesheet" href="_admin_/lib/zTree/v3/css/zTreeStyle/zTreeStyle.css" type="text/css">
+</head>
+<body>
+{include file='common/header'}
+{include file='common/menu'}
+
+<section class="Hui-article-box">
+	<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 分类管理 <span class="c-gray en">&gt;</span> 文章分类 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+	<div class="Hui-article">
+		<article class="cl pd-20">
+			<div class="Huialert Huialert-danger"><i class="icon-remove"></i>提示：点击树节点可删除该分类！</div>
+			<table class="table">
+				<tr>
+					<td width="200" class="va-t"><ul id="treeDemo" class="ztree"></ul></td>
+					<td class="va-t">
+						<iframe ID="testIframe" Name="testIframe" FRAMEBORDER=0 SCROLLING=AUTO width=100%  height=390px SRC="{:url('admin/category/category_add')}"></iframe>
+					</td>
+				</tr>
+			</table>
+		</article>
+	</div>
+</section>
+
+{include file='common/footer'}
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="_admin_/lib/My97DatePicker/4.8/WdatePicker.js"></script>
+<script type="text/javascript" src="_admin_/lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="_admin_/lib/laypage/1.2/laypage.js"></script>
+<script type="text/javascript" src="_admin_/lib/zTree/v3/js/jquery.ztree.all-3.5.min.js"></script>
+<script type="text/javascript">
+	/*var zNodes =[
+		{ id:1, pId:0, name:"一级分类", open:true},
+		{ id:11, pId:1, name:"二级分类"},
+		{ id:111, pId:11, name:"三级分类"},
+		{ id:112, pId:11, name:"三级分类"},
+		{ id:113, pId:11, name:"三级分类"},
+		{ id:114, pId:11, name:"三级分类"},
+		{ id:115, pId:11, name:"三级分类"},
+		{ id:12, pId:1, name:"二级分类 1-2"},
+		{ id:121, pId:12, name:"三级分类 1-2-1"},
+		{ id:122, pId:12, name:"三级分类 1-2-2"},
+	];*/
+
+
+	var setting = {
+	view: {
+		dblClickExpand: false,
+		showLine: false,
+		selectedMulti: false
+	},
+	data: {
+		simpleData: {
+			enable:true,
+			idKey: "id",
+			pIdKey: "pid",
+			rootPId: ""
+		}
+	},
+	callback: {
+		beforeClick: function(treeId, treeNode) {
+			confirmDel(function(){
+				$.ajax({
+					url: "{:url('admin/category/category_del_ajax')}",
+					type: 'GET',
+					data: {id: treeNode.id},
+					dataType: "json",
+					success: function(data){
+						if(data.error == 0){
+							layer.msg(data.msg, {icon:1,time:1000});
+							location.href = "{:url('admin/category/category_list')}";
+						}else{
+							layer.msg(data.msg, {icon:2,time:1000});
+						}
+					}
+				});
+			}, function(){
+				layer.msg("您以取消删除该分类！", {icon:1,time:1000});
+			});
+		}
+	}
+};
+	/**
+	 * 是否删除分类
+	 * @param confirmCall 确定删除的回调函数
+	 * @param delCall 取消删除的回调函数
+     */
+    function confirmDel(confirmCall, delCall){
+		layer.confirm('您确定删除该分类？', {
+			btn: ['删除','取消'] //按钮
+		}, function(){
+			confirmCall();
+		}, function(){
+			delCall();
+		});
+	}
+var code;
+
+function showCode(str) {
+	if (!code) code = $("#code");
+	code.empty();
+	code.append("<li>"+str+"</li>");
+}
+
+	$.ajax({
+		url: "{:url('admin/category/category_tree_ajax')}",
+		type: 'GET',
+		dataType: "json",
+		success: function(data){
+			bindTreeData(data);
+		}
+	});
+	function bindTreeData(zNodes){
+		var t = $("#treeDemo");
+		t = $.fn.zTree.init(t, setting, zNodes);
+		demoIframe = $("#testIframe");
+//		demoIframe.bind("load", loadReady);
+		var zTree = $.fn.zTree.getZTreeObj("tree");
+//		zTree.selectNode(zTree.getNodeByParam("id",'11'));
+	}
+$(document).ready(function(){
+
+});
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

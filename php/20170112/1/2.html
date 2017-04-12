@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2</title>
+    <script src="../../JQUERY/jquery-3.1.1.min.js"></script>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .clearFix{
+        zoom: 1;
+    }
+    .clearFix{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    #box{
+        width: 600px;
+        height: 300px;
+        margin:100px auto;
+        overflow: hidden;
+        position: relative;
+    }
+    #box ul{
+        width: calc(600px*6);
+        height: 300px;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    #box li{
+        list-style: none;
+        float: left;
+        width: 600px;
+        height: 300px;
+    }
+
+    #box li img{
+        display: inline-block;
+        width: 600px;
+        height: 300px;
+    }
+    #left{
+        width:22px;
+        height: 44px;
+        position: absolute;
+        left: -22px;
+        top: 50%;
+        margin-top: -22px;
+        background: rgba(0, 0, 0, 0.1);
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    #left span{
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-bottom: 3px solid #fff;
+        border-left: 3px solid #fff;
+        transform: rotate(45deg);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left:-5px;
+        margin-top: -5px;
+    }
+    #right{
+        width:22px;
+        height: 44px;
+        position: absolute;
+        right: -22px;
+        top: 50%;
+        margin-top: -22px;
+        background: rgba(0, 0, 0, 0.1);
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+    #right span{
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-bottom: 3px solid #fff;
+        border-left: 3px solid #fff;
+        transform: rotate(-135deg);
+        position: absolute;
+        top: 50%;
+        margin-top: -5px;
+    }
+    #indicate{
+        width: 600px;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        position: absolute;
+        bottom: 4px;
+    }
+    #indicate span{
+        display: inline-block;
+        width: 22px;
+        height: 4px;
+        border-radius: 2px;
+        background: #fff;
+    }
+    #indicate .active{
+        background: #6b6b6b;
+    }
+</style>
+<body>
+<div id="box">
+    <ul class="clearFix" id="roll">
+        <li><img src="./img/10.jpg" alt=""></li>
+        <li><img src="./img/11.jpg" alt=""></li>
+        <li><img src="./img/12.jpg" alt=""></li>
+        <li><img src="./img/13.jpg" alt=""></li>
+        <li><img src="./img/14.jpg" alt=""></li>
+        <li><img src="./img/15.jpg" alt=""></li>
+    </ul>
+    <div id="left">
+        <span></span>
+    </div>
+    <div id="right">
+        <span></span>
+    </div>
+    <div id="indicate">
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        var rollImg = $("#roll li");
+        $("#indicate span").click(function () {
+            $("#indicate span").removeClass("active");
+            $(this).addClass('active');
+            rollImg.hide();
+            var index = $(this).index();
+            $(rollImg[index]).show();
+        });
+        $("#left").click(function () {
+
+        });
+        var c = $("#right").click(function () {
+
+        });
+
+        $("#roll, span, #left,#right").hover(function () {
+            $("#left").animate({
+                "left":"0px"
+            });
+            $("#right").animate({
+                "right":"0px"
+            });
+        });
+        $("#roll").mouseout( function () {
+            $("#left").animate({
+                "left":"-22px"
+            });
+            $("#right").animate({
+                "right":"-22px"
+            });
+        });
+    });
+
+</script>
+</body>
+</html>

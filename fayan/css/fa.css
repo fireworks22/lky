@@ -1,0 +1,40 @@
+li{
+    list-style: none;
+}
+body{
+    font-family:"Microsoft HeiTi";
+}
+.container{
+    background: #c1e2b3;
+}
+.head{
+    width: 1024px;
+    margin:20px auto 0;
+}
+button{
+    display: inline-block;
+    width: 100px;
+}
+h1{
+    font-weight: 900;
+}
+h3{
+    display: inline-block;
+    padding:2px 3px;
+    border-radius: 2px;
+    background: red;
+    font-weight: 900;
+    color: #fff;
+}
+.footer p{
+    margin-left: 50px;
+}
+.col-md-10{
+    border-bottom: 1px solid #fff;
+}
+label{
+    font-weight: 900;
+}
+#btn{
+    margin-top: 20px;
+}

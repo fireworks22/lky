@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/ion.rangeSlider.css">
+    <link rel="stylesheet" href="css/ion.rangeSlider.skinHTML5.css">
+</head>
+<body>
+<div id="range"></div>
+<div class="change"></div>
+<div class="s"></div>
+<script src="js/vendor/jquery-1.12.3.min.js"></script>
+<script src="js/ion-rangeSlider/ion.rangeSlider.js"></script>
+<script>
+    $("#range").ionRangeSlider({
+        prettify_enabled: false
+    });
+    $(".change").ionRangeSlider({
+        type:"double",
+        grid:true,
+        min:0,
+        max:1000,
+        from:100,
+        to:500,
+        prefix: "$"
+    });
+    $(".s").ionRangeSlider({
+        grid: true,
+        from: 5,
+        values: [
+            "0", "1",
+            "2", "3",
+            "4", "5",
+            "6", "7",
+            "8", "9",
+            "10"
+        ]
+    });
+</script>
+</body>
+</html>

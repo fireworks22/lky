@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<link href="{dede:global.cfg_templets_skin/}/style.css" rel="stylesheet" type="text/css" />
+<link href="{dede:global.cfg_templets_skin/}/twoger.css" rel="stylesheet" type="text/css" />
+</head>
+<script src="{dede:global.cfg_templets_skin/}/jquery-1.6.2.min.js" type="text/javascript"></script>
+<script src="{dede:global.cfg_templets_skin/}/slideshow.js" type="text/javascript"></script>
+<script type="text/javascript">
+	var n = 0;
+	$(document).ready(function(){
+		count=$(".cont a").length;//显示区域的内容长度
+		$(".item a").click(function(){
+			$(this).addClass("seld").siblings().removeClass("seld");	
+			var _index=$(this).index();//分屏的数字索引
+			$(".cont>a").eq(_index).fadeIn(300).siblings().fadeOut(300);
+		});
+		t = setInterval("showAuto()", 2000);//执行定义好的函数
+		$(".box").hover(function(){clearInterval(t)}, function(){t = setInterval("showAuto()", 2000);});/*当鼠标划向图片时终止定时器，离开时再调用定时器*/
+	})
+	function showAuto()
+	{
+		n = n >=(count - 1)?0: ++n;
+		$(".item a").eq(n).trigger('click');
+	}	
+</script>
+<body>
+{dede:include filename="head.htm"/}
+    <div class="banner"><img src="{dede:global.cfg_templets_skin/}/images/2011101942270517.jpg"></div>  
+    <div class="main1" >
+    	<div class="main1_left">
+        	<div class="xian1"></div>
+            <div class="main1_left2">
+            	<h2 class="main_left3">【联系我们】</h2>
+                <ul class="main1_left4">
+                	<li class="cai"><a href="#" class="hover">联系我们</a> </li>
+                	
+                </ul>
+                <div>
+					<h2 class="title4">您的满意是我们最大的追求</h2>
+                    <div class="pic5">
+                    	<div class="pic6">
+                        	{dede:sql sql='Select content from dede_arctype where id=6'}
+　　     				<p>[field:content/]</p>
+							{/dede:sql}
+                        </div>
+                        <div class="pic7">
+  							<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1062562145&site=qq&menu=yes" class="qq1" ></a>
+  							<a target="_blank" href="http://amos.im.alisoft.com/msg.aw?v=2&uid=大喇叭头&site=cntaobao&s=1&charset=utf-8" class="qq2" /></a>
+  							<a target="_blank" href="skype:echoPVCBOARD-EXPORTER?call" class="qq3"></a>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main1_right yellow">
+        	<div class="main1_right1">您的位置：{dede:field name='position'/}</div>			<div class="main1_right2">
+  					<div class="main1_xuxian1">营销总部：：</div>
+  					<div class="main1_link2">
+   					{dede:sql sql='Select content from dede_arctype where id=6'}
+　　     				<p style="margin-bottom:20px">[field:content/]</p>
+					{/dede:sql}
+ 			 		</div>
+ 				
+                <div style="clear:both; overflow:hidden; height:0px;"></div>     
+            </div>
+        <div style="clear:both; overflow:hidden; height:0px;"></div>
+    </div> 
+
+{dede:include filename="footer.htm"/}
+</body>
+</html>
+<script type="text/javascript">
+	var lis = document.getElementById("Tabs").getElementsByTagName("li");
+	var uls = document.getElementById("TabsCon").getElementsByTagName("ul");
+	var order = 0;
+	for(var i=0; i<lis.length; i++){
+		lis[i].value = i;
+		lis[i].onmouseover = function(){
+			ChangeTabs(this.value);	
+		};
+		uls[i].className = "hidden";
+	}
+	lis[order].className = "cur";
+	uls[order].className = "block";
+	function ChangeTabs(nowTab){
+		lis[order].className = "";
+		uls[order].className = "hidden";
+		order = nowTab
+		lis[nowTab].className = "cur";
+		uls[nowTab].className = "block";
+	}
+</script>

@@ -1,0 +1,51 @@
+.outer{
+    width:900px;
+    position:relative;
+    top:200px;
+    left:100px;
+    -webkit-perspective: 1000px;
+    -webkit-perspective-origin:50% 50%;
+}
+.inner{
+    position:relative;
+    width:150px;
+    height:150px;
+    margin-left:50%;
+    left:-75px;
+    transition:all 1s ease-in;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+.image1{
+    transform:rotateY(0deg) translateZ(75px);
+    background-color: rgba(122, 121, 125, 0.5);
+}
+.image2{
+    transform:rotateY(90deg) translateZ(75px);
+    background-color: rgba(122, 121, 125, 0.5);
+}
+.image3{
+    transform:rotateY(180deg) translateZ(75px);
+    background-color: rgba(122, 121, 125, 0.5);
+}
+.image4{
+    transform:rotateY(270deg) translateZ(75px);
+    background-color: rgba(122, 121, 125, 0.5);
+}
+.image5{
+    transform:rotateX(90deg) translateZ(75px);
+    background-color: rgba(122, 121, 125, 0.5);
+}
+.image6{
+    transform:rotateX(270deg) translateZ(75px);
+    background-color: rgba(122, 121, 125, 0.5);
+}
+.image{
+    width:150px;
+    height:150px;
+    position:absolute;
+    text-align: center;
+    line-height: 150px;
+    border: 1px solid #000;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>无缝滚动效果</title>
+    <link rel="stylesheet" href="css/gundong.css">
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    li{
+        list-style: none;
+    }
+    .clearFix{
+        zoom: 1;
+    }
+    .clearFix:after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    #box{
+        margin: 0 auto;
+        position: relative;
+        height: 100px;
+        width: calc(155px*5);
+        margin-top: 100px;
+        overflow: hidden;
+    }
+    #box ul{
+        width: calc(155px*10);
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    #box li{
+        float: left;
+        width: 150px;
+        height: 100px;
+        font-size: 30px;
+        font-weight: bold;
+        background-color: #892;
+        text-align: center;
+        line-height: 100px;
+        margin-right: 5px;
+    }
+    #box2{
+        margin: 0 auto;
+        position: relative;
+        height: 100px;
+        width: calc(105px*5);
+        margin-top: 100px;
+        overflow: hidden;
+    }
+    #box2 ul{
+        width: calc(105px*10);
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    #box2 li{
+        float: left;
+        width: 100px;
+        height: 100px;
+        font-size: 30px;
+        font-weight: bold;
+        background-color: #892;
+        text-align: center;
+        line-height: 100px;
+        margin-right: 5px;
+    }
+</style>
+<body>
+<h2 id="h2"></h2>
+<div id="box">
+    <ul class="clearFix" id="roll">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+</div>
+<h1 id="h1"></h1>
+<div id="box2">
+    <ul class="clearFix" id="roll1">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+</div>
+<script>
+    var roll = document.getElementById("roll");
+    var li = document.querySelectorAll("#roll li");
+    roll.innerHTML = roll.innerHTML+roll.innerHTML;
+
+   // var w = li[0].offsetWidth;
+    //roll.style.width = li.length*w+"px";
+    var timer;
+    timer = setInterval(function () {
+        if(roll.offsetLeft <= -roll.offsetWidth/2){
+            roll.style.left = "0";
+        }else{
+            roll.style.left = roll.offsetLeft-2+"px";
+        }
+        document.getElementById("h2").innerHTML = roll.offsetLeft;
+    },30);
+    roll.onmouseover = function () {
+      clearInterval(timer);
+    };
+    roll.onmouseout = function () {
+        timer = setInterval(function () {
+            if(roll.offsetLeft <= -roll.offsetWidth/2){
+                roll.style.left = "0";
+            }else{
+                roll.style.left = roll.offsetLeft-2+"px";
+            }
+        },30);
+    };
+    var roll1 = document.getElementById("roll1");
+    roll1.innerHTML = roll1.innerHTML+roll1.innerHTML;
+    var timer1;
+    timer1 = setInterval(function () {
+        if(roll1.offsetLeft <= -roll1.offsetWidth/2){
+            roll1.style.left = "0";
+        }else{
+            roll1.style.left = roll1.offsetLeft-2+"px";
+        }
+        document.getElementById("h1").innerHTML = roll1.offsetLeft;
+    },30);
+</script>
+</body>
+</html>

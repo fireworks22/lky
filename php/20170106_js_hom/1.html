@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>css3+jQuery中国象棋</title>
+
+    <script id="jquery_172" type="text/javascript" class="library" src="../JQUERY/jquery-3.1.1.min.js"></script>
+</head>
+<style>
+    div{margin:0;padding:0}
+    #board{width:630px;height:690px;margin:20px auto; position:relative;background-color:#b19408}
+    /*棋盘*/
+    .line{position:absolute;background-color:#666;box-shadow:1px 1px 1px #ccc}
+    .line-x{top:30px;height:630px;width:2px;}
+    .line-y{left:30px;height:2px;width:560px;}
+    .line-divide{height:67px;width:556px;background-color: #b19408;position: absolute;top:313px;left: 34px; font-family:"Microsoft YaHei",simsun}
+    .line-divide span{ display: block;width:50%; float: left; text-align: center;line-height: 67px; font-size: 40px; text-shadow: 1px 1px 1px #ccc}
+    .line-angle{width: 200px;height:2px;left:211px;
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);}
+    .line-angle:after{position:absolute;background-color:#666;box-shadow:1px 1px 1px #ccc;content: " ";display: block;width: 200px;height:2px;top:0;left: 0;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);}
+    .line-star{width: 48px;height: 48px;position: absolute}
+    .line-star div{width: 18px;height: 18px;position: absolute}
+    .line-star-lt{border-bottom: #666 2px solid;border-right: #666 2px solid;left:0;top:0}
+    .line-star-lb{border-top: #666 2px solid;border-right: #666 2px solid;left:0;bottom:0}
+    .line-star-rt{border-bottom: #666 2px solid;border-left: #666 2px solid;right:0;top:0}
+    .line-star-rb{border-top: #666 2px solid;border-left: #666 2px solid;right:0;bottom:0}
+</style>
+<body>
+
+<div id="board">
+</div>
+<script>
+    //绘制棋盘
+    var showBord = function(){
+        var oBoard=$("#board");
+        var number = 0;
+        for(var m=0;m<2;m++){//士线
+            oBoard.append("<div class='line line-angle'></div>");
+            var lineA=$(".line-angle");
+        }
+        lineA.first().css("top","100px");
+        lineA.last().css("bottom","98px");
+        for(var n=0;n<9;n++){//横线
+            oBoard.append("<div class='line line-x'></div>");
+            var lineX=$(".line-x");
+            number = 30+70*n+"px";
+            lineX.eq(n).css("left",number);
+        }
+        lineX.first().css({width:"3px",backgroundColor:"#444"});
+        lineX.last().css({width:"3px",backgroundColor:"#444"});
+        for(var i=0;i<10;i++){//纵线
+            oBoard.append("<div class='line line-y'></div>");
+            number = 30+70*i+"px";
+            var lineY=$(".line-y");
+            lineY.eq(i).css("top",number);
+        }
+        lineY.first().css({height:"3px",backgroundColor:"#444"});
+        lineY.last().css({height:"3px",backgroundColor:"#444"});
+        oBoard.append("<div class='line-divide'><span>楚河</span><span>汉界</span></div>");//界
+        for(var j=0;j<14;j++){ //星标
+            oBoard.append("<div class='line-star'></div>");
+        }
+        var lineS=$(".line-star");
+        var starAll="<div class='line-star-lt'></div><div class='line-star-lb'></div><div class='line-star-rt'></div><div class='line-star-rb'></div>";
+        var starLeft="<div class='line-star-rt'></div><div class='line-star-rb'></div>";
+        var starRight="<div class='line-star-lt'></div><div class='line-star-lb'></div>";
+        for(var ji=0;ji<4;ji++){//炮星标
+            lineS.eq(ji).append(starAll).css({"left":(ji%2==0?77:497)+"px","top":(ji>1?497:147)+"px"});
+        }
+        for(var jj=4;jj<14;jj++){//卒星标
+            if(jj==5||jj==10)
+                lineS.eq(jj).append(starLeft).css({"left":(147+(jj%5-1)*140)+"px","top":(jj>8?427:217)+"px"});
+            else if(jj==4||jj==9)
+                lineS.eq(jj).append(starRight).css({"left":(147+(jj%5-1)*140)+"px","top":(jj>8?427:217)+"px"});
+            else
+                lineS.eq(jj).append(starAll).css({"left":(147+(jj%5-1)*140)+"px","top":(jj>8?427:217)+"px"});
+
+        }
+    };
+
+    $(function(){
+        showBord();//加载棋盘
+    });
+</script>
+</body>
+</html>

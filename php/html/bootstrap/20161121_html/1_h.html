@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>1_html/按钮/下拉菜单</title>
+<link rel="stylesheet" href="../dist/css/bootstrap.min.css" />
+<script src="jquery-3.1.1.min.js"></script>
+<script src="../dist/js/bootstrap.js"></script>
+</head>
+<style>
+#p{
+text-indent: 2em;
+}
+</style>
+<body>
+
+<h1>h1</h1>
+<h2>h2</h2>
+<h3>h3</h3>
+<h4>h4</h4>
+<h5>h5</h5>
+<h6>h6</h6>
+
+<p id="p"> p标签定义段落，它在网页中是 成对出现的，  p 元素会自动在其前后创建一些空白。浏览器会自动添加这些空间，您也可以在样式表中规定。</p>
+<abbr title="http://www.baidu.com">百度</abbr>
+<abbr title="http://sina.com.cn">新浪</abbr>
+<abbr title="你好！这是XX">你好</abbr>
+<address>
+	<abbr title="电话号码">TEL:</abbr>15156845589
+</address>
+<blockquote>
+	<p>日照香炉生紫烟，遥看瀑布挂前川。飞流直下三千尺，疑是银河落九天。</p>
+	<footer>李白</footer>
+</blockquote>
+
+
+<button type="button">
+<span class="glyphicon glyphicon-user"></span>&nbsp;李白
+</button>
+<div class="dropdown">
+<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+    Dropdown
+    <span class="caret"></span>
+ </button>
+  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+    <li role="presentation" class="disabled"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+    <li role="presentation" class="divider"></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+    <li role="presentation" class="dropdown-header"><a role="menuitem" tabindex="-1" href="#">dropdown-menu-right</a></li>
+  </ul>
+</div>
+</body>
+</html>

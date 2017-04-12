@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM象棋棋盘</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #chess{
+        width: 576px;
+        height: 632px;
+        background: #b19408;
+        border: 3px solid #444444;
+        border-left: 4px solid #444444;
+        border-top: 4px solid #444444;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left:-288px;
+        margin-top:-310px;
+    }
+    .cell{
+        width: 70px;
+        height: 70px;
+        border: 1px solid #666666;
+        box-shadow:-1px -1px 1px #ccc;
+        display: inline-block;
+    }
+    .p{
+        width: 286px;
+        height: 70px;
+        border: 1px solid #666666;
+        display: inline-block;
+        text-align: center;
+        line-height: 70px;
+        font-size: 2.5rem;
+        font-weight:700;
+    }
+    .bg{
+        width:630px;
+        height: 690px;
+        position: absolute;
+        left: 50%;
+        margin-left:-314px;
+        background: #b19408;
+    }
+    .diagonalLeft{
+        width: 200px;
+        height: 0px;
+        margin-left:-28px;
+        border-bottom: 1px solid #666666;
+        box-shadow:-1px -1px 1px #ccc;
+        -webkit-transform: rotate(45deg);
+    }
+    .diagonalRight{
+        width: 200px;
+        height: 0px;
+        margin-left:-30px;
+        border-bottom: 1px solid #666666;
+        box-shadow:-1px -1px 1px #ccc;
+        -webkit-transform: rotate(135deg);
+
+    }
+    .cornerLeft{
+        width: 20px;
+        height: 20px;
+        margin-top:44px;
+        margin-left:46px;
+        border-right:2px solid #666666;
+        border-top:2px solid #666666;
+        -webkit-transform: rotate(90deg);
+    }
+    .cornerRight{
+        width: 20px;
+        height: 20px;
+        margin-top:7px;
+        margin-left:46px;
+        border-top:2px solid #666666;
+        border-right:2px solid #666666;
+        -webkit-transform: rotate(0deg);
+    }
+    .cornerTop{
+        width: 20px;
+        height: 20px;
+        margin-top:-51px;
+        margin-left: 74px;
+        border-top:2px solid #666666;
+        border-right:2px solid #666666;
+        -webkit-transform: rotate(180deg);
+    }
+    .cornerButton{
+        width: 20px;
+        height: 20px;
+        margin-top:7px;
+        margin-left: 74px;
+        border-top:2px solid #666666;
+        border-right:2px solid #666666;
+        -webkit-transform: rotate(-90deg);
+    }
+</style>
+<body>
+<div class="bg"></div>
+<!--<div class="diagonal"></div>-->
+<div id="chess">
+
+</div>
+<script>
+    function chessboard() {
+        var chess = document.getElementById("chess");
+        for(var i=0; i<9; i++){
+            var div = document.createElement("div");
+            if(i == 4){
+                for(var j=0;j<2; j++){
+                    var p  = document.createElement("span");
+                    p.className = "p";
+                    if(j == 0){
+                        p.innerHTML = "楚河";
+                        p.style.borderRight = "1px solid #b19408";
+                    }else if(j == 1){
+                        p.innerHTML = "汉界";
+                        p.style.borderLeft = "1px solid #b19408";
+                    }
+                    div.appendChild(p);
+
+                }
+            }else {
+                for (var j=0; j<8; j++){
+                    var span  = document.createElement("span");
+                    span.className = "cell";
+                    div.appendChild(span);
+                    if(i==1 && j == 3){
+                        diagonal();
+                    }else  if(i ==8 && j== 3){
+                        diagonal();
+                    }else  if(i == 1 && j==0){
+                        leftTop();
+                        rightTop();
+                    }else if(i == 1 && j == 6){
+                        leftTop();
+                        rightTop();
+                    }else if(i == 2 && j == 0){
+
+                    }else if(i == 2 && j == 1){
+                        leftTop();
+                        rightTop();
+                    }else if(i == 2 && j == 3){
+                        leftTop();
+                    }else  if(i == 2 && j == 5){
+                        leftTop();
+                    }else  if(i == 2 && j == 7){
+                        leftTop();
+                    }else if(i == 5 && j == 1){
+                        leftTop();
+                    }else if(i == 5 && j == 3){
+                        leftTop();
+                    }else  if(i == 5 && j == 5){
+                        leftTop();
+                    }else  if(i == 5 && j == 7){
+                        leftTop();
+                    }else if(i == 6 && j == 0){
+                        leftTop();
+                    }else  if(i == 6 && j == 6){
+                        leftTop();
+                    }
+                    if(i == 2 && j == 0){
+
+                    }
+                }
+            }
+            chess.appendChild(div);
+            div.style.height = "70px";
+
+        }
+        function diagonal() {
+            var diagonalLeft = document.createElement("div");
+            diagonalLeft.className = "diagonalLeft";
+            span.appendChild(diagonalLeft);
+            var diagonalRight = document.createElement("div");
+            diagonalRight.className = "diagonalRight";
+            span.appendChild(diagonalRight);
+        }
+        function leftTop() {
+           var cornerLeft = document.createElement("div");
+            cornerLeft.className = "cornerLeft";
+            span.appendChild(cornerLeft);
+            var cornerRight = document.createElement("div");
+            cornerRight.className = "cornerRight";
+            span.appendChild(cornerRight);
+
+        }
+        function rightTop() {
+            var cornerTop = document.createElement("div");
+            cornerTop.className = "cornerTop";
+            span.appendChild(cornerTop);
+            var cornerButton = document.createElement("div");
+            cornerButton.className = "cornerButton";
+            span.appendChild(cornerButton);
+        }
+    }
+    chessboard();
+
+</script>
+</body>
+</html>

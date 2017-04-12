@@ -1,0 +1,40 @@
+<!--_menu 作为公共模版分离出去-->
+<aside class="Hui-aside">
+    <input runat="server" id="divScrollValue" type="hidden" value="" />
+    <div class="menu_dropdown bk_2">
+        <dl id="menu-article">
+            <dt>
+                <a href="{:url('admin/article/article_list')}"><i class="Hui-iconfont">&#xe616;</i> 文章管理</a>
+            </dt>
+        </dl>
+
+        <dl id="menu-product">
+            <dt>
+                <a href="{:url('admin/category/category_list')}">
+                    <i class="Hui-iconfont">&#xe620;</i> 分类管理
+                </a>
+            </dt>
+        </dl>
+        <dl id="menu-topic">
+            <dt>
+                <a href="{:url('admin/topic/topic_list')}">
+                    <i class="Hui-iconfont">&#xe6b3;</i> 专题管理
+                </a>
+            </dt>
+        </dl>
+
+        <dl id="menu-admin">
+            <dt data-level="0"><i class="Hui-iconfont">&#xe62d;</i> 管理员管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a href="{:url('admin/permission/admin_role')}" title="角色管理">角色管理</a></li>
+                    <li><a href="{:url('admin/permission/admin_permission')}" title="权限管理">权限管理</a></li>
+                    <li><a href="{:url('admin/Permission/admin_list')}" title="管理员列表">管理员列表</a></li>
+                </ul>
+            </dd>
+        </dl>
+    </div>
+</aside>
+<div class="dislpayArrow hidden-xs"><a class="pngfix" href="javascript:void(0);" onClick="displaynavbar(this)"></a></div>
+<!--/_menu 作为公共模版分离出去-->
+

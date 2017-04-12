@@ -1,0 +1,1 @@
+INSERT INTO `dede_flink` VALUES('10','1','http://www.dongshangxinxi.com','东尚建站','','','','1379926561','1','2');

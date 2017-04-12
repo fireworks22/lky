@@ -1,0 +1,458 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.clearFix{
+    zoom: 1;
+}
+.clearFix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+li{
+    list-style: none;
+    float: left;
+}
+ul{
+    margin-bottom:0;
+}
+body{
+    font-family:"Microsoft HeiTi";
+    font-size: 12px;
+}
+a{
+    display: inline-block;
+}
+a:hover{
+    text-decoration: none;
+}
+.head{
+    width: 100%;
+    height: 30px;
+    background-color: #fff;
+}
+.head .container{
+    max-width: 1000px;
+    max-height: 30px;
+}
+.head .head_nav{
+    max-width: 100%;
+    max-height: 30px;
+    line-height: 30px;
+
+}
+
+.head .head_nav ul{
+    width: 100%;
+    height: 100%;
+    
+    margin-bottom:0;
+}
+.head .head_nav ul .active{
+    font-weight: 600;
+}
+.head .head_nav ul li{
+    padding:0 3px;
+}
+.head .head_nav ul li a{
+    font-size: 1.4rem;
+    color: #1264b0;
+}
+.head .head_nav ul li a:hover{
+    font-weight: 600;
+}
+.head .head_nav ul li p{
+    color: #1264b0;
+}
+
+/*head end */
+
+
+.menu{
+    width: 100%;
+    background-color: #070c28;
+}
+.menu .container{
+    width: 1000px;
+    height: 100%;
+}
+.menu .container .slide{
+    width: 1000px;
+    height: 480px;
+    position: relative;
+    background:  url(../img/010.png) -270px 0 no-repeat;
+}
+.menu .container .tim1{
+    margin-top:10px;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: url(../img/1.png) 0 0 no-repeat;
+}
+.menu .container .tim2{
+     margin-top:10px;
+     width: 100%;
+     height: 80px;
+     background-image: url(../img/2.png);
+ }
+.menu .container .tim3{
+    margin-top:10px;
+    width: 100%;
+    height: 80px;
+    background: url(../img/t5.png) 280px 0 no-repeat;
+}
+.menu .container .tim4{
+    margin-top:20px;
+    width: 100%;
+    height: 80px;
+    background: url(../img/4.png);
+}
+.menu .container .tim img{
+    width: 100%;
+    height: 100%;
+}
+.menu .container .col{
+    width: 1000px;
+    height: 400px;
+    margin-top:10px;
+    background:  url(../img/03.png) 0 0 no-repeat;
+}
+.menu .container .col ul{
+    width: 100%;
+    height: 400px;
+}
+.menu .container .col ul li{
+    width: 25%;
+    height: 100%;
+    background:  url(../img/xian.png) 126px 0 no-repeat;
+}
+
+.menu .container .col ul li:last-child{
+    border-right:none;
+}
+.menu .container .col ul li .img{
+    width: 100%;
+    height: 180px;
+    position: relative;
+}
+.menu .container .col ul li:first-child  .img{
+    background:  url(../img/061.png) 0 0 no-repeat;
+}
+.menu .container .col ul li:nth-child(2) .img{
+    background:  url(../img/062.png) 0 0 no-repeat;
+}
+.menu .container .col ul li:nth-child(3) .img{
+    background:  url(../img/063.png) 0 0 no-repeat;
+}
+.menu .container .col ul li:nth-child(4) .img{
+    background:  url(../img/064.png) 0 0 no-repeat;
+}
+.menu .container .col ul li .img img{
+    width: 200px;
+    height: 160px;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left:-100px;
+    margin-top:-80px;
+}
+.menu .container .col ul li .ter{
+    width: 100%;
+    height: 220px;
+    line-height:20px;
+    padding:12px 11px;
+    padding-bottom:50px;
+    font-size: 1rem;
+    color: #fff;
+}
+.menu .tim{
+    width: 1000px;
+    margin-top:-10px;
+    background: url(../img/04.png) -70px 0 no-repeat;
+}
+.menu .activity{
+    width: 100%;
+    height: 370px;
+    padding-top:30px;
+    position: relative;
+}
+
+.menu .activity .activity_col p{
+    color: #fff;
+    font-size: 1rem;
+
+}
+.menu .activity .activity_col p span {
+    color: #ffdb03;
+    font-weight: 600;
+}
+
+.menu .join .join_title{
+    width: 100%;
+    height: 100%;
+    background:  url(../img/5.png) 0 0 no-repeat;
+}
+.menu .join .join_title a{
+    display:block;
+    padding:10px 0;
+    width: 100px;
+    height: 40px;
+    line-height: 20px;
+    margin-right:20px;
+    float: right;
+    position: relative;
+}
+.menu .join .join_title a:hover{
+    color: #3badff;
+}
+.menu .join .join_title a p{
+    background: url(../img/right.png) 0 0 no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 15px;
+}
+.menu .join .join_title a span{
+    color: #3badff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+.menu .join ul{
+    width: 100%;
+    height: 250px;
+    padding-left:40px;
+}
+.menu .join ul li{
+    width: 20%;
+
+}
+.menu .join ul li .join_img{
+    width: 100%;
+    height:145px;
+    background:  url(../img/051.png) -3px 0 no-repeat;
+}
+.menu .join ul li .join_l{
+    width: 100%;
+    max-height: 90px;
+    padding:10px;
+
+    color: #fff;
+    font-size: 1rem;
+}
+.menu .join ul li .join_l p{
+    display: inline-block;
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.menu .times{
+    width: 1000px;
+    background: url(../img/ff.png) -270px 0 no-repeat;
+}
+.menu .tu{
+    width: 970px;
+    height: 280px;
+    margin-top: 20px;
+    text-align: center;
+}
+.menu .tu img:first-child{
+    margin-left:10px;
+}
+.menu .tu img:nth-child(2){
+    margin-left:-10px;
+}
+.menu .tu img:last-child{
+    margin-left:-10px;
+}
+.menu .menu_foot{
+    margin-top: 35px;
+    width: 100%;
+    height: 410px;
+}
+.menu .menu_foot ul{
+    width: 100%;
+    height: 345px;
+}
+.menu .menu_foot ul li{
+    width: 33.33%;
+}
+.menu .menu_foot ul li p{
+    display: inline-block;
+    width: 100%;
+    height:60px;
+    margin: 0;
+}
+.menu .menu_foot ul li:first-child  p{
+    background:  url(../img/7.png) 12px 0 no-repeat;
+}
+.menu .menu_foot ul li:nth-child(2) p{
+    background:  url(../img/8.png) 12px 0 no-repeat;
+}
+.menu .menu_foot ul li:last-child p{
+    background:  url(../img/9.png) 40px 0 no-repeat;
+}
+.menu .menu_foot ul li ul{
+    padding:10px;
+}
+.menu .menu_foot ul li ul li{
+    position: relative;
+    float: none;
+    width: 100%;
+    margin-bottom:6px;
+}
+.menu .menu_foot ul li:first-child ul li{
+background: url(../img/22.png) 0 0 no-repeat;
+}
+.menu .menu_foot ul li:nth-child(2) ul li{
+    background: url(../img/22.png) 0 0 no-repeat;
+}
+.menu .menu_foot ul li ul li a{
+    margin-left:20px;
+    font-family:"Microsoft HeiTi";
+}
+.menu .menu_foot ul li ul li a:hover{
+    color: #3badff;
+}
+.menu .menu_foot ul li .microblog{
+    width: 310px;
+    height: 250px;
+    border: 1px solid #848484;
+    margin: 10px;
+    background: #292929;
+}
+.menu .menu_foot ul li .microblog img{
+    float: left;
+}
+.menu .menu_foot ul li .microblog .microblog_title{
+    width: 100%;
+    height: 220px;
+    background: #434343;
+    margin-top:28px;
+    border-top: 1px solid #848484;
+}
+.menu .menu_foot ul li .microblog .microblog_title .title_blog{
+    width: 100%;
+    height: 80px;
+    padding:15px;
+}
+.menu .menu_foot ul li .microblog .microblog_title .title_blog img{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+.menu .menu_foot ul li .microblog .microblog_title .title_blog div{
+    width: 228px;
+    margin-left:50px;
+    height: 50px;
+    position: relative;
+}
+.menu .menu_foot ul li .microblog .microblog_title .title_blog div a{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    position: absolute;
+    left: 10px;
+    top: 0;
+}
+.menu .menu_foot ul li .microblog .microblog_title .title_blog div span{
+    color: #b5b5b5;
+    font-size: 1rem;
+    margin-left:50px;
+}
+.menu .menu_foot ul li .microblog .microblog_title .title_blog div img{
+    display: inline-block;
+    width: 65px;
+    height: 25px;
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+}
+.menu .menu_foot ul li .microblog .microblog_title  .title_blog .title_top{
+    width: 100%;
+    height: 8px;
+    background: #555;
+    margin: 0;
+    margin-top:20px;
+}
+.menu .menu_foot ul li .microblog .microblog_title  .title_blog .title_bom{
+    width: 100%;
+    height: 8px;
+    background: #555;
+    margin: 0;
+}
+.menu .menu_foot ul li .microblog .microblog_title  .title_blog .title_con{
+    width: 100%;
+    height: 100px;
+    margin:0;
+    background: #353535;
+}
+.menu .menu_foot ul li .microblog .microblog_title  .title_blog .title_con ul {
+    padding: 0;
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+}
+.menu .menu_foot ul li .microblog .microblog_title  .title_blog .title_con ul li {
+    width: 100%;
+    height: 20px;
+    margin: 0;
+    color: #b5b5b5;
+    font-size: 1rem;
+}
+/*menu end*/
+
+
+
+
+
+/*footer*/
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: #004783;
+}
+.footer .container{
+    width: 1000px;
+    height: 100px;
+
+}
+.footer .container .nav, .root{
+    width: 680px;
+    height: 50px;
+    margin: 0 auto;
+    color: #5b95c7;
+    text-align: center;
+}
+
+
+.footer .container .nav ul{
+    padding:20px 5px;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    color: #5b95c7;
+}
+.footer .container .nav ul li{
+    margin:0 3px;
+}
+.footer .container .nav ul li a{
+    font-size: 1.2rem;
+    color: #5b95c7;
+}
+.footer .container .root span{
+    font-size: 1.2rem;
+    color: #5b95c7;
+}
+.footer .container .root a{
+    font-size: 1.2rem;
+    color: #5b95c7;
+}

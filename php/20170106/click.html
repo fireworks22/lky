@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    *{
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+    }
+    body{
+        font-family: "Microsoft YaHei";
+    }
+    #parent{
+        width: 200px;
+        margin-left:20px;
+        background: gainsboro;
+    }
+    #parent h2{
+        width: 180px;
+        height: 40px;
+        line-height: 40px;
+        padding-left:20px;
+        background: #969696;
+        margin-top: 10px;
+    }
+
+    .child{
+        display: none;
+    }
+    .child li{
+        width: 200px;
+        height: 30px;
+        line-height: 30px;
+        background: #b9b9b9;
+    }
+    .child li:hover{
+        background: #969696;
+    }
+</style>
+<body>
+<ul id="parent">
+    <li class="a">
+        <h2>我的好友</h2>
+        <ul class="child">
+            <li>码云</li>
+            <li>码云</li>
+            <li>码云</li>
+            <li>码云</li>
+        </ul>
+    </li>
+    <li class="a">
+        <h2>我的好友</h2>
+        <ul class="child">
+            <li>码云</li>
+            <li>码云</li>
+            <li>码云</li>
+            <li>码云</li>
+        </ul>
+    </li>
+    <li class="a">
+        <h2>我的好友</h2>
+        <ul class="child">
+            <li>码云</li>
+            <li>码云</li>
+            <li>码云</li>
+            <li>码云</li>
+        </ul>
+    </li>
+    <li class="a">
+        <h2>我的好友</h2>
+        <ul class="child">
+            <li>码云</li>
+            <li>码云</li>
+            <li>码云</li>
+            <li>码云</li>
+        </ul>
+    </li>
+    <li class="a">
+        <h2>我的好友</h2>
+        <ul class="child">
+            <li>码云</li>
+            <li>码云</li>
+            <li>码云</li>
+            <li>码云</li>
+        </ul>
+    </li>
+    <li class="a">
+        <h2>我的好友</h2>
+        <ul class="child">
+            <li>码云</li>
+            <li>码云</li>
+            <li>码云</li>
+            <li>码云</li>
+        </ul>
+    </li>
+    <li class="a">
+        <h2>我的好友</h2>
+        <ul class="child">
+            <li>码云</li>
+            <li>码云</li>
+            <li>码云</li>
+            <li>码云</li>
+        </ul>
+    </li>
+    
+</ul>
+</div>
+    <script>
+        var h2 = document.getElementsByTagName("h2");
+        var child = document.getElementsByClassName("child");
+        for(var i=0; i<h2.length; i++){
+            var flag = false;
+            h2[i].onclick = function(){
+                for(var j=0; j<child.length; j++){
+                    child[j].style.display = "none"
+
+                }
+                if(flag == false){
+                    this.nextElementSibling.style.display = "block";
+                    flag = true;
+                }else{
+                    this.nextElementSibling.style.display = "none";
+                    flag = false;
+                }
+            }
+        }
+
+    </script>
+</body>
+</html>

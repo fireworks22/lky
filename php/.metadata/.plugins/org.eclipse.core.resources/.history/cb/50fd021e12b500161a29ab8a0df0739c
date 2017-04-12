@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Input</title>
+
+</head>
+<body>
+<div class="container">
+    <div class="dol-md-4">
+        <form action="">
+           <div class="form-group">
+               <!--颜色选择-->
+               <input type="color" name="" />
+               <br>
+               <!--数字-->
+               <input type="number" name=""/>
+               <br>
+               <!--滑动条-->
+               <input type="range" name="" min="1" max="100" step="1" />
+               <br>
+               <!--电话号码-->
+               <input type="tel" name="" id="" />
+               <input type="submit" value="ent" />
+               <br>
+               <input type="password" name="" placeholder="密码" />
+               <br>
+               <!--选择文件-->
+               <input type="file" name="" />
+               <br>
+               <!--多选-->
+               <input type="checkbox" name="" />
+               <!--单选-->
+               <input type="radio" name="sex" />
+               <br>
+               <!--提交-->
+               <input type="submit" value="提交" class="btn btn-default" />
+               <br>
+               <!--重置-->
+               <input type="reset" value="重置" class="btn btn-default" />
+               <br />
+               <!--只读-->
+               <input type="text" readonly />
+               <br />
+               <!--不可用-->
+               <input type="text" disabled />
+               <br>
+               <!--邮箱-->
+               E-mail:<input type="email" name="" />
+               <br>
+               URL:<input type="url" name="" />
+               <br>
+               DateTime:<input type="datetime" name="" />
+               <br>
+               DateTimeLocal: <input type="datetime-local" name="" />
+               <br>
+               Date:<input type="date" name="" />
+               <br>
+               month:<input type="month" name=""/>
+               <br>
+               week:<input type="week" name="" />
+           </div>
+        </form>
+    </div>
+</div>
+
+
+
+</body>
+</html>

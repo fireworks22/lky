@@ -1,0 +1,13 @@
+INSERT INTO `dede_uploads` VALUES('1','272','春节手机资费省钱全攻略','/uploads/140129/1-1401291531505Y.jpg','1','250','320','0','40762','1390980710','1');
+INSERT INTO `dede_uploads` VALUES('2','272','春节手机资费省钱全攻略','/uploads/allimg/140129/153210D12-0.jpg','1','500','375','0','35020','1390980740','1');
+INSERT INTO `dede_uploads` VALUES('3','465','Win8.1 2014 Update汇总：关机按钮归来','/uploads/140129/1-140129153R1103.jpg','1','250','320','0','22118','1390981101','1');
+INSERT INTO `dede_uploads` VALUES('4','465','Win8.1 2014 Update汇总：关机按钮归来','/uploads/allimg/140129/153SI495-0.JPG','1','600','350','0','24470','1390981119','1');
+INSERT INTO `dede_uploads` VALUES('5','465','Win8.1 2014 Update汇总：关机按钮归来','/uploads/allimg/140129/153SMa6-1.jpg','1','600','382','0','51255','1390981120','1');
+INSERT INTO `dede_uploads` VALUES('6','465','Win8.1 2014 Update汇总：关机按钮归来','/uploads/allimg/140129/153SL456-2.jpg','1','600','450','0','30128','1390981122','1');
+INSERT INTO `dede_uploads` VALUES('7','465','Win8.1 2014 Update汇总：关机按钮归来','/uploads/allimg/140129/153SJ934-3.jpg','1','600','297','0','25305','1390981125','1');
+INSERT INTO `dede_uploads` VALUES('8','465','Win8.1 2014 Update汇总：关机按钮归来','/uploads/allimg/140129/153SI406-4.jpg','1','600','450','0','49512','1390981127','1');
+INSERT INTO `dede_uploads` VALUES('9','465','Win8.1 2014 Update汇总：关机按钮归来','/uploads/allimg/140129/153SJA4-5.jpg','1','600','450','0','49102','1390981128','1');
+INSERT INTO `dede_uploads` VALUES('10','465','Win8.1 2014 Update汇总：关机按钮归来','/uploads/allimg/140129/153SH537-6.jpg','1','600','382','0','40162','1390981129','1');
+INSERT INTO `dede_uploads` VALUES('11','466','选购必看：关于国行iPhone5的十问十答','/uploads/140129/1-140129154050619.jpg','1','250','320','0','35904','1390981250','1');
+INSERT INTO `dede_uploads` VALUES('12','467','5分钟搞定，真正纯净的iOS7.x完美越狱教程','/uploads/allimg/140129/1-1401291543210-L.jpg','1','0','0','0','5607','1390981401','1');
+INSERT INTO `dede_uploads` VALUES('13','467','5分钟搞定，真正纯净的iOS7.x完美越狱教程','/uploads/140129/1-140129154435530.jpg','1','250','320','0','28159','1390981475','1');

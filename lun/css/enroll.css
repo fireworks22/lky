@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearFix{
+    zoom: 1;
+}
+.clearFix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+li{
+    list-style: none;
+}
+a:hover{
+    text-decoration:none;
+}
+body{
+    font-family:"Microsoft HeiTi";
+    background: url(../img/login_bg.jpg) repeat;
+    margin: 0;
+}
+.enroll{
+    width: 714px;
+    min-height: 810px;
+    background: #fff;
+    margin:100px auto 50px;
+    padding:50px 0;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.mod-head{
+    width: 100%;
+    height: 143px;
+}
+.mod-head img{
+    display: inline-block;
+    width: 100%;
+    height: 64px;
+    padding:0 257px;
+}
+.mod-head h3{
+    display: inline-block;
+    width: 100%;
+    height: 79px;
+    padding-top: 36px;
+    text-align: center;
+    line-height:33px;
+}
+.mod-body{
+    width: 390px;
+    height: 470px;
+    margin:0 auto;
+    padding: 40px;
+}
+.mod-body .it{
+    display: block;
+    height: 40px;
+}
+.mod-body hr{
+    margin:30px 0;
+}
+.mod-body .hr{
+    position: relative;
+}
+.mod-body .more-information-btn{
+    position: absolute;
+    top: -10px;
+    left: 127px;
+}
+.mod-body .form-box{
+    width: 190px;
+    float: left;
+}
+.mod-body .img{
+    width: 100px;
+    height: 40px;
+    float: right;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.mod-body .img img{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+}
+.mod-body .lest{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-size: 1.3rem;
+}
+.mod-body label{
+    font-weight: normal;
+}
+.mod-body .lest span{
+    float: right;
+}
+.mod-body .btn{
+    color: #fff;
+    background: #4daaff;
+    height: 40px;
+    font-size: 2rem;
+}
+.mod-footer{
+    width: 100%;
+    height: 95px;
+    border-top: 1px solid #ddd;
+    padding: 40px 107px 0;
+}
+.mod-footer span{
+    display: inline-block;
+    width: 154px;
+    height: 55px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #666;
+    float: left;
+}
+.mod-footer ul{
+    float: right;
+}
+.mod-footer ul li{
+    float: left;
+    margin-left:3px;
+}
+.mod-footer a{
+    display: block;
+    width: 170px;
+    height: 34px;
+    background: silver;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+.mod-footer .btn-weibo{
+    background: red;
+}
+.mod-footer .btn-qq{
+    background: #418ac2;
+}
+.mod-footer a img{
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    left: -1px;
+    top: -1px;
+}
+.mod-footer a span{
+    width: 135px;
+    height: 34px;
+    display: inline-block;
+    color: #fff;
+    font-size: 1.8rem;
+    line-height: 34px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.aw-footer{
+    color: #666;
+    width: 100%;
+    height: 62px;
+    line-height: 62px;
+    text-align: center;
+    font-size: 1.3rem;
+}

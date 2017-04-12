@@ -1,0 +1,124 @@
+﻿<!Doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="账号密码" />
+<meta name="keywords" content="账号密码" />
+<title>安全密码</title>
+<link href="../../css/new-style.css" rel="stylesheet" media="screen" type="text/css" />
+<link href="../../css/pass-style.css" rel="stylesheet" media="screen" type="text/css" />
+<link href="../../css/lbcss.css" rel="stylesheet" type="text/css" />
+<SCRIPT src="../../js/lbjs.js" type=text/javascript></SCRIPT>
+<script type="text/javascript">if(window.location.toString().indexOf('pref=padindex') != -1){}else{if(/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))){if(window.location.href.indexOf("?mobile")<0){try{if(/Android|Windows Phone|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)){window.location.href="{dede:global.cfg_mobileurl/}/index.php";}else if(/iPad/i.test(navigator.userAgent)){}else{}}catch(e){}}}}</script>
+</head>
+<body>
+<!--头部文字-->
+<div class="textlogo">
+<div class="textlogo1">
+<!--
+<div class="yusi-logo"><a href="http://www.hello.hc.am"><h1><span class="yusi-mono">Shark.博客 Hello.hc.am</span><span class="yusi-bloger">——专注于分享网络精品 高质量资源网</span></h1></a></div></div>
+-->
+<a href="{dede:global.cfg_cmsurl/}/">安全密码</a>
+</div>
+<!--头部文字-->
+<!--导航区域-->
+<div class="daohang">
+	<div class="daohang1">
+		<ul>
+<li class="shouye"><a href="../index.php">返回首页</a></li>
+		</ul>
+	</div>
+</div>
+<!--导航区域-->
+<!--系统公告-->
+
+<div class="gonggao">
+	<span class="gonggaotext"><span class="gonggaotext1">请牢记您修改的新密码，忘记密码请联系站长并提供注册信息，方可找回密码。</span></span>
+	<span class="login"><a href="../member/index_do.php?fmdo=login&dopost=exit#">安全退出</a></span>
+</div>
+<!--系统公告-->
+<!--广告区域-->
+<!--
+<div class="guanggao1">
+	<a href="http://www.hello.hc.am" target="target="_blank""><img src="../../images/guanggao1.jpg" title="本站模板由小文个人编写，并非大众模板，欢迎模仿 - Hello.HC.AM"></a>
+</div>
+-->
+<!--广告区域-->
+<!--会员中心-->
+<div class="member">
+	<div class="memberli">
+		<ul>
+			<li><a href="index.php">会员信息</a></li>
+			<li><a href="#">投稿文章</a></li>
+			<li><a href="#">个人资料</a></li>
+			<li><a href="#">修改信息</a></li>
+			<li><a href="edit_baseinfo.php" class="shouye1">安全密码</a></li>
+		</ul>
+	</div>
+	<div class="membernr">
+	<div class="biankuang">
+		<div class="memberbt"> 
+
+			<span class="memberbt1">安全密码</span>
+			<span class="memberbt2"><a href="#"></a></span>
+		</div>
+
+		<div class="password">
+     <form action="edit_baseinfo.php" method="post" enctype="multipart/form-data" name="form2" onsubmit="return checkSubmit();">
+     <input type="hidden" name="dopost" value="save" />
+      <div id="mainCp">
+        <div class="postForm">
+
+          <p>
+            <label>旧的密码：</label>
+            <input name="oldpwd" type="password" id="oldpwd" class="intxt" />
+          </p>
+          <p class="cellBg">
+            <label>新的密码：</label>
+            <input name="userpwd" type="password" id="userpwd" class="intxt" />
+            <span id="_userpwdok">不修改密码请留空</span>
+          </p>
+          <p>
+            <label>确认密码：</label>
+            <input name="userpwdok" type="password" id="userpwdok" value="" class="intxt" />
+          </p>
+          <p class="cellBg">
+            <label>验证字母：</label>
+			<input name="vdcode" type="text" id="vdcode" class="intxt" />
+           <img src="../include/vdimgck.php" align="absmiddle" alt="看不清？点击更换" style="cursor:pointer" onclick="this.src=this.src+'?'" />
+          </p>
+          <p>
+            <button class="button2" type="submit">确定修改</button>
+            <button class="button2 ml10" type="reset">重新填写</button>
+          </p>
+<div style="margin-left:-100%;">
+
+            <input name="email" type="text" id="email" value="<?php echo $row['email']; ?>" class="intxt"/>
+
+			<input type="radio" name="sex" value="男" <?php if($row['sex']=='男') echo " checked='checked' "; ?>/>
+
+            <input type="radio" name="sex" value="女" <?php if($row['sex']=='女') echo " checked='checked' "; ?>/>
+
+            <input type="radio" name="sex" value="保密'" <?php if($row['sex']=='保密') echo " checked='checked' "; ?>/>
+
+</div>
+    </div>
+      </div>
+      </form>
+		</div>
+
+
+
+
+
+	</div>
+	</div>
+</div>
+<!--会员中心-->
+<div class="dibu">
+	<div class="banquan">
+		<span class="banquan1">Change Password DedeCms templets by qq1070892573 name wen</span>
+	</div>
+</div>
+</body>
+</html>

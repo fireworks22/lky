@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<link href="{dede:global.cfg_templets_skin/}/style.css" rel="stylesheet" type="text/css" />
+<link href="{dede:global.cfg_templets_skin/}/twoger.css" rel="stylesheet" type="text/css" />
+</head>
+<script src="{dede:global.cfg_templets_skin/}/jquery-1.6.2.min.js" type="text/javascript"></script>
+<script src="{dede:global.cfg_templets_skin/}/slideshow.js" type="text/javascript"></script>
+<script type="text/javascript">
+	var n = 0;
+	$(document).ready(function(){
+		count=$(".cont a").length;//显示区域的内容长度
+		$(".item a").click(function(){
+			$(this).addClass("seld").siblings().removeClass("seld");	
+			var _index=$(this).index();//分屏的数字索引
+			$(".cont>a").eq(_index).fadeIn(300).siblings().fadeOut(300);
+		});
+		t = setInterval("showAuto()", 2000);//执行定义好的函数
+		$(".box").hover(function(){clearInterval(t)}, function(){t = setInterval("showAuto()", 2000);});/*当鼠标划向图片时终止定时器，离开时再调用定时器*/
+	})
+	function showAuto()
+	{
+		n = n >=(count - 1)?0: ++n;
+		$(".item a").eq(n).trigger('click');
+	}	
+</script>
+<body>
+
+{dede:include filename="head.htm"/}
+    <div class="banner"><img src="{dede:global.cfg_templets_skin/}/images/2011101942270517.jpg"></div>  
+    <div class="main1" >
+    	<div class="main1_left">
+        	<div class="xian1"></div>
+            <div class="main1_left2">
+            	<h2 class="main_left3">【产品介绍】</h2>
+                <ul class="main1_left4">
+                	{dede:channelartlist typeid=3 row=4}
+					<li class="cai"><a href='{dede:field name='typeurl'/}'>{dede:field name='typename'/}</a>
+					<ul>
+{dede:sql sql='Select * from dede_arctype where reid=~id~ ORDER BY id limit 0,7'}
+<li><a href='[field:typedir/]' target='_blank'>[field:typename/]</a></li>
+{/dede:sql}
+					</ul>
+					</li>
+				{/dede:channelartlist}
+                </ul>
+                <div>
+					<h2 class="title4">您的满意是我们最大的追求</h2>
+                    <div class="pic5">
+                    	<div class="pic6">
+                        	{dede:sql sql='Select content from dede_arctype where id=6'}
+　　     				<p>[field:content/]</p>
+							{/dede:sql}
+                        </div>
+                        <div class="pic7">
+  							<a target="blank" href="#" class="qq1"></a>
+  							<a href="#" target="_blank" class="qq2"></a>
+  							<a href="#" class="qq3"></a>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main1_right">
+        	<div class="main1_right1">您的位置：{dede:field name='position'/}</div>
+			<div id="c1">
+			<h2>产品名称</h2>
+				<div class="proListBottom">
+                	<ul>
+					{dede:list pagesize='9' }
+                    	<li class="">
+            				
+            				<div class="plbintro">
+              					<h3><a href="[field:arcurl/]">[field:title function=' ( strlen("@me")>30 ? cn_substr("@me",30)."…" : "@me") ' /] </a></h3>
+            				</div>  
+							
+          				</li>
+						{/dede:list}
+					</ul> 
+                 </div>       
+          		</div>
+                <div style="clear:both; overflow:hidden; height:0px;"></div>
+                <div class="main1_title2" >
+                        <table border="0" align="center">
+                        <form onsubmit="document.location = 'http://www.baidu.com?keywords=&Page='+ this.page.value;return false;" method="get"></form><tbody><tr>
+                        <td align="right">
+                        <p align="center">
+                      <div style="list-style-type:none;text-align:right;width:380px;">{dede:pagelist listitem="info,pre,next" listsize="5"/}</div>
+					  </p></td>
+                        </tr>
+                        </tbody></table>
+					</div> 
+            </div>
+        <div style="clear:both; overflow:hidden; height:0px;"></div>
+    </div> 
+
+{dede:include filename="footer.htm"/}
+</body>
+</html>
+<script type="text/javascript">
+	var lis = document.getElementById("Tabs").getElementsByTagName("li");
+	var uls = document.getElementById("TabsCon").getElementsByTagName("ul");
+	var order = 0;
+	for(var i=0; i<lis.length; i++){
+		lis[i].value = i;
+		lis[i].onmouseover = function(){
+			ChangeTabs(this.value);	
+		};
+		uls[i].className = "hidden";
+	}
+	lis[order].className = "cur";
+	uls[order].className = "block";
+	function ChangeTabs(nowTab){
+		lis[order].className = "";
+		uls[order].className = "hidden";
+		order = nowTab
+		lis[nowTab].className = "cur";
+		uls[nowTab].className = "block";
+	}
+</script>

@@ -1,0 +1,164 @@
+﻿<!Doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="{dede:global.cfg_description/}" />
+	<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+		<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+	<link href="{dede:global.cfg_cmsurl/}/css/new-style.css" rel="stylesheet" media="screen" type="text/css" />
+	<link href="{dede:global.cfg_cmsurl/}/css/page.css" rel="stylesheet" media="screen" type="text/css" />
+	<link href="{dede:global.cfg_cmsurl/}/css/lbcss.css" rel="stylesheet" type="text/css" />
+
+	<SCRIPT src="{dede:global.cfg_cmsurl/}/js/lbjs.js" type=text/javascript></SCRIPT>
+<script type="text/javascript">if(window.location.toString().indexOf('pref=padindex') != -1){}else{if(/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))){if(window.location.href.indexOf("?mobile")<0){try{if(/Android|Windows Phone|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)){window.location.href="{dede:global.cfg_mobileurl/}/index.php";}else if(/iPad/i.test(navigator.userAgent)){}else{}}catch(e){}}}}</script>
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+</head>
+<body>
+<!--头部文字-->
+<div class="textlogo">
+<div class="textlogo1">
+<a href="{dede:global.cfg_cmsurl/}/">Shark.博客</a>
+</div>
+</div>
+<!--头部文字-->
+<!--导航区域-->
+<div class="daohang">
+	<div class="daohang1">
+		<ul>
+<li><a href="{dede:global.cfg_cmsurl/}/">首页</a></li>
+      	{dede:channel type='top' row='9' currentstyle="<li class='shouye' class='nav-item'><a style='color:#fff;' href='~typelink~' ~rel~>~typename~</a></li>"}
+            <li class="nav-item"><a href='[field:typeurl/]' [field:rel/]>[field:typename/]</a></li>
+      	{/dede:channel}
+		</ul>
+	</div>
+</div>
+<!--导航区域-->
+<!--系统公告-->
+<div class="gonggao">
+	<span class="gonggaotext"><span class="gonggaotext1">{dede:global.cfg_beian/}</span></span>
+		<span class="login"><a href="{dede:global.cfg_cmsurl/}/member/index.php" tarhet="_blank">会员中心</a></span>
+</div>
+<!--系统公告-->
+<!--广告区域-->
+<div class="guanggao1">
+	<a href="http://www.hello.hc.am" target="target="_blank"><img src="{dede:global.cfg_cmsurl/}/images/guanggao1.jpg"></a>
+</div>
+<!--广告区域-->
+<!--当前位置-->
+<div class="weizhi">
+<div class="weizhi_body">
+<span class="weizhi_span1">您当前的位置：{dede:field name='position'/}</span>
+</div>
+</div>
+<!--当前位置-->
+<!--总体-->
+<div class="zongti">
+	<div class="zuo"><!--左边列表-->
+<!--博客列表-->
+		<div class="blogli">
+
+			<ul>
+	{dede:list pagesize='20' titlelen='225'}
+				<li>	<!--	一篇文章就是从这里开始	-->
+					<div class="blogli1">
+						<div class="blogli2">
+							<div class="blogico"><a href="#" target="_blank">[field:typelink/]</a></div>
+							<div class="blogbiaoti">
+								<a href="[field:arcurl/]" target="_blank">[field:title/]</a>  <img src="../images/new.gif">
+							</div>
+						</div>
+						<div class="blogli3">
+							<div class="blogimg">
+[field:array runphp='yes']@me = (empty(@me['litpic']) ? "" : "<a target='_blank' href='{@me['arcurl']}'><img src='{@me['litpic']}' height=123 width=200/></a>"); [/field:array]
+							</div>
+							<div class="blogp1">
+								<p>[field:description/]......<a href="[field:arcurl/]" target="blank" style="color:#1abc9c;">继续阅读 »</a></p>
+							</div>
+							<div class="blogp2">
+								<span1 class="blogspan1">查看 <span class="blogspan2">[field:click/]</span> 次</span>
+							</div>
+						</div>
+					</div>
+				</li>	<!--	一篇文章就是从这里结束	-->
+			{/dede:list}
+			</ul>
+  <div class="pages">
+   <ul class="pagelist">
+    {dede:pagelist listitem="info,index,end,pre,next,pageno,option" listsize="5"/}
+</ul>
+</div>
+		</div><!--左边列表-->
+<!--博客列表-->
+	</div>
+	<div class="you">	<!--右侧列表-->
+<!--
+		<div class="fenxiang">
+
+			<li><span class="jiyu1">成功不在于你坚持了多久，<br/>而在于你能否继续坚持。</span></li>
+			<li><span class="jiyu2">——Shark.博客.寄语</span></li>
+<video controls="" autoplay="" width=100% height=100% name="media"><source src="http://7xqmpr.com1.z0.glb.clouddn.com/520.mp3" type="audio/mp3"></video>
+
+
+<video width=380 height=40 controls="controls" autoplay="autoplay" name="media"><source src="http://hd.111ttt.cn/2016/xc/08/AEV.mp4?#.mp3" type="audio/mp4"></video>
+		</div>
+-->
+		<div class="guanggao2">
+			<a href="http://www.hello.hc.am" target="_blank"><img src="{dede:global.cfg_cmsurl/}/images/guanggao2.jpg"></a>
+		</div>
+		<div class="lianxi">
+			<a href="tencent://message/?uin=1070892573&Site=hello.hc.am&Menu=yes" target="_blank"><img src="{dede:global.cfg_cmsurl/}/images/lianxi.jpg"></a>
+		</div>
+		<div class="weixin">
+		{dede:type typeid='5'}
+			<div class="biaoti1">[field:typename /]</div>
+		{/dede:type}
+			<div class="xian1"></div>
+					<ul>
+						{dede:arclist row=10 titlelen='225' noflag='h' typeid='5'}
+						<li><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+						{/dede:arclist}
+					<ul>
+		</div>
+		<div class="yqlj">
+			<div class="biaoti1">友情链接</div>
+			<div class="xian1"></div>
+					<ul>
+						{dede:sql sql='select * from dede_flink where ischeck=2 limit 0,30 '}
+						<li><a href="[field:url/]" target="_blank">[field:webname/]</a></li>
+						{/dede:sql}
+					<ul>
+		</div>
+		<div class="chilun">
+			<img class="xuanzhuan" src="{dede:global.cfg_cmsurl/}/images/org.png">
+		</div>
+	</div>	<!--右侧列表-->
+</div>
+<!--总体-->
+<div class="dibu">
+	<div class="banquan">
+		<span class="banquan1">Copyright©2016 <a href="#" target="_blank">hello.hc.am</a> 版权所有 <a href="#" target="_blank">Shark.博客</a></span><span class="banquan1"> 本站已经安全运行 <span id="days">0</span> 天 </span>
+<script>
+var s1 = '2016-08-24';//建站时间
+s1 = new Date(s1.replace(/-/g, "/"));
+s2 = new Date();
+var days = s2.getTime() - s1.getTime();
+var number_of_days = parseInt(days / (1000 * 60 * 60 * 24));
+document.getElementById('days').innerHTML = number_of_days;
+</script>
+	</div>
+</div>
+</body>
+</html>

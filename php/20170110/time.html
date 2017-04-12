@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>倒计时</title>
+</head>
+<body>
+<h1 id="h1"></h1>
+<div id="CountMsg" class="HotDate">
+    <span>距春节还有：</span>
+    <span id="t_d"></span>
+    <span id="t_h"></span>
+    <span id="t_m"></span>
+    <span id="t_s"></span>
+</div>
+<script>
+
+    var time;
+    time = setInterval(function () {
+        var date = new Date();
+        var s = date.getTime();
+        var d = new Date(s);
+        console.log(s);
+        function formatDate(now) {
+            var h1 = document.getElementById("h1");
+            var year=now.getFullYear();
+            var month=now.getMonth()+1;
+            var date=now.getDate();
+            var hour=now.getHours();
+            var minute=now.getMinutes();
+            var second=now.getSeconds();
+            month = checkTime(month);
+            date = checkTime(date);
+            hour = checkTime(hour);
+            minute = checkTime(minute);
+            second = checkTime(second);
+            h1.innerHTML =  year+"-"+month+"-"+date+"  "+hour+":"+minute+":"+second;
+
+        }
+        function checkTime(time) {
+            if(time <10){
+                return "0"+time;
+            }else {
+                return time+"";
+            }
+        }
+       console.log(formatDate(d));
+    },1000);
+    function getRTime(){
+        var EndTime= new Date('2018/1/27 11:59:59'); //截止时间
+        var NowTime = new Date();
+        var t =EndTime.getTime() - NowTime.getTime();
+        var d=Math.floor(t/1000/60/60/24);
+        var h=Math.floor(t/1000/60/60%24);
+        var m=Math.floor(t/1000/60%60);
+        var s=Math.floor(t/1000%60);
+        d = checkTime(d);
+        h = checkTime(h);
+        m = checkTime(m);
+        s = checkTime(s);
+        document.getElementById("t_d").innerHTML = d + "天";
+        document.getElementById("t_h").innerHTML = h + "时";
+        document.getElementById("t_m").innerHTML = m + "分";
+        document.getElementById("t_s").innerHTML = s + "秒";
+    }
+    function checkTime(time) {
+        if(time <10){
+            return "0"+time;
+        }else {
+            return time+"";
+        }
+    }
+    setInterval(getRTime,1000);
+</script>
+</body>
+</html>

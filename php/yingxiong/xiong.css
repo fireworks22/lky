@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+#header{
+	width: 100%;
+	height: 75px;
+	background: #000;
+}
+#header .main_content{
+	width: 1240px;
+	height: 75px;
+	background: red;
+	margin: 0 auto;
+}
+#header ul{
+	list-style: none;
+	margin-left: 20px;
+}
+#header ul li{
+	float: left;
+	
+}
+.chinese{
+	margin: 0 30px;
+	text-align: center;
+	padding-top: 20px;
+	color:#fff;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: 微软雅黑 Regular;
+}
+#beaner{
+	width: 100%;
+	height: 610px;
+	background: #555;
+	positon:relative;
+}
+#beaner .main_content{
+	width: 1240px;
+	height: 610px;
+	background: #666;
+	margin: 0 auto;
+}

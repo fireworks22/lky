@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearFix{
+    zoom: 1;
+}
+.clearFix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+li{
+    list-style: none;
+}
+.left{
+    float: left;
+}
+a{
+    display: inline-block;
+}
+a:hover{
+    text-decoration:none;
+}
+@font-face {
+    font-family: 'AX';/*自己定义字体名称，不能用汉字*/
+    src: url('../font/iconfont.eot'); /* IE9+ */
+    src: url('../font/iconfont.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../font/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../font/iconfont.svg#fontname') format('svg'); /* iOS 4.1- */
+}
+body{
+    font-family:"Microsoft HeiTi";
+}
+.warp{
+    width: 100%;
+    height: 52px;
+}
+.warp .container{
+    width:990px;
+    height: 100%;
+    position: relative;
+}
+.search{
+    width: 260px;
+    height: 100%;
+    position: absolute;
+    left: 15px;
+    top: 0;
+}
+.search input{
+    font-size: 0.5rem;
+    display:block;
+    height: 32px;
+    margin-top: 10px;
+}
+.search span{
+    display: inline-block;
+    font-family: AX;
+    font-size: 2rem;
+    position: absolute;
+    top:12px;
+    right: 10px;
+    color: gray;
+}
+.center{
+    width: 160px;
+    height: 100%;
+    position: absolute;
+    left: 285px;
+    top: 0;
+}
+.center ul{
+    width: 160px;
+    height: 100%;
+}
+.nav-tabs{
+    border:none;
+}
+.center ul li{
+    width: 50%;
+    height: 100%;
+    border: none;
+    float: left;
+}
+.center ul li a{
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 52px;
+    color: #000;
+    text-align: center;
+    border:none;
+    font-size: 1.7rem;
+}
+.center ul li .active{
+    font-weight: 600;
+}
+.center ul li a span{
+    display: inline-block;
+    font-family: AX;
+    font-size: 2rem;
+    color: #000;
+    line-height: 52px;
+}
+.center ul li p{
+    display: inline-block;
+}
+.login{
+    width: 162px;
+    height: 100%;
+    position: absolute;
+    right: 15px;
+    top: 0;
+}
+.login ul{
+    width: 100%;
+    height: 100%;
+    margin:0 0 0 0;
+}
+.login ul li{
+    width: 71px;
+    height: 100%;
+    float: left;
+    margin-left:10px;
+}
+.login ul li a{
+    width: 100%;
+    height: 100%;
+}
+.login ul li a span{
+    display: inline-block;
+    width: 100%;
+    height: 32px;
+    line-height:32px;
+    text-align: center;
+    color: #fff;
+    border-radius: 2px;
+    margin-top:10px;
+}
+.enter span{
+    background: #4daaff;
+}
+.enter span:hover{
+    background: #4BA6F9;
+}
+.enroll span{
+    background: #38b836;
+}
+.enroll span:hover{
+    background: #349E32;
+}

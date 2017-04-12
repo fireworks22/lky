@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .clearFix{
+        zoom: 1;
+    }
+    .clearFix{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    #box{
+        width: 600px;
+        height: 300px;
+        margin:100px auto;
+        overflow: hidden;
+        position: relative;
+    }
+    #box ul{
+        width: calc(600px*6);
+        height: 300px;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    #box li{
+        list-style: none;
+        float: left;
+        width: 600px;
+        height: 300px;
+    }
+    #box li img{
+        display: inline-block;
+        width: 600px;
+        height: 300px;
+    }
+    #left{
+        width:22px;
+        height: 44px;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        margin-top: -22px;
+        background: rgba(0, 0, 0, 0.1);
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    #left span{
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-bottom: 3px solid #fff;
+        border-left: 3px solid #fff;
+        transform: rotate(45deg);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left:-5px;
+        margin-top: -5px;
+    }
+    #right{
+        width:22px;
+        height: 44px;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        margin-top: -22px;
+        background: rgba(0, 0, 0, 0.1);
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+    #right span{
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-bottom: 3px solid #fff;
+        border-left: 3px solid #fff;
+        transform: rotate(-135deg);
+        position: absolute;
+        top: 50%;
+        margin-top: -5px;
+    }
+    #indicate{
+        width: 600px;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        position: absolute;
+        bottom: 4px;
+    }
+    #indicate span{
+        display: inline-block;
+        width: 22px;
+        height: 4px;
+        border-radius: 2px;
+        background: #fff;
+    }
+    #indicate .active{
+        background: #6b6b6b;
+    }
+</style>
+<body>
+<div id="box">
+    <ul class="clearFix" id="roll">
+        <li><img src="./img/10.jpg" alt=""></li>
+        <li><img src="./img/11.jpg" alt=""></li>
+        <li><img src="./img/12.jpg" alt=""></li>
+        <li><img src="./img/13.jpg" alt=""></li>
+        <li><img src="./img/14.jpg" alt=""></li>
+        <li><img src="./img/15.jpg" alt=""></li>
+    </ul>
+    <div id="left">
+        <span></span>
+    </div>
+    <div id="right">
+        <span></span>
+    </div>
+    <div id="indicate">
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+<script src="move.js"></script>
+<script>
+    var roll = document.getElementById("roll");
+    var liImg = document.querySelectorAll("#box li");
+    var ind = document.getElementById("indicate");
+    var span = document.querySelectorAll("#indicate span");
+    var w = liImg[0].offsetWidth;
+    for(var i=0; i<span.length; i++){
+        span[i].index = i;
+        span[i].onclick = function () {
+            for(var j=0; j<span.length; j++){
+                span[j].className = "";
+            }
+            span[this.index].className = "active";
+            startMove(roll,{"left": -this.index*w});
+        }
+    }
+    var now = 0;
+    function am() {
+        for(var j=0; j<span.length; j++){
+            span[j].className = "";
+        }
+        span[now].className = "active";
+        startMove(roll,{"left": -now*w});
+    }
+    var left = document.getElementById("left");
+    var right = document.getElementById("right");
+    left.onclick = function () {
+        now--;
+        if(now == -1){
+            now = liImg.length-1;
+        }
+        am();
+    };
+    var ss;
+    ss = right.onclick = function () {
+        now++;
+        if(now == liImg.length){
+            now = 0;
+        }
+        am();
+    };
+    var timer;
+    timer = setInterval(ss,2000);
+    roll.onmouseover = function () {
+        clearInterval(timer);
+    };
+    roll.onmouseout = function () {
+        timer = setInterval(ss,2000);
+    }
+</script>
+</body>
+</html>

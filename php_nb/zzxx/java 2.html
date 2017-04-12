@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <style type="text/css">
+ #xxx{
+	width:380px;
+	height:287px;
+	border:1px solid red;
+	background-image:url("./a0.jpg");	
+ }
+
+ #jt1{
+	width:50px;
+	height:40px;
+	border:1px solid red;
+	position:relative;    /* 位置  absolute绝对定位  relative相对定位 */
+	left:0px;
+	top:120px;
+ }
+
+ #jt2{
+	width:50px;
+	height:40px;
+	border:1px solid red;
+	position:relative;    /* 位置  absolute绝对定位  relative相对定位 */
+	left:329px;
+	top:80px;
+ }
+ 
+ </style>
+
+ 
+ <body>
+  <div id="xxx">
+		<div id="jt1">
+			
+		</div>
+		<div id="jt2">
+			
+		</div>
+  </div>
+ </body>
+</html>
+
+<script type="text/javascript">
+	 window.onload = function(){
+		window.arr = ['url("./a0.jpg")', 'url("./f0.jpg")', 'url("./4.jpg")', 'url("./5.jpg")', 'url("./c0.jpg")'];
+		var jt1 = document.getElementById('jt1');
+		var jt2 = document.getElementById('jt2');
+
+		jt1.onclick = function(){
+			var div = document.getElementById("xxx");
+			if(!div.style.backgroundImage){
+				div.style.backgroundImage = window.arr[window.arr.length-1];
+			}else{
+				for(var i=0; i<window.arr.length; ++i){
+					if(div.style.backgroundImage == window.arr[i]){
+						if(i == 0){
+							div.style.backgroundImage = window.arr[window.arr.length-1];
+							return;
+						}else{
+							div.style.backgroundImage = window.arr[i-1];
+							return;
+						}
+					}
+				}
+			}
+		}
+jt2.onclick = function(){
+			var div = document.getElementById("xxx");
+			if(!div.style.backgroundImage){
+				div.style.backgroundImage = window.arr[1];
+			}else{
+				for(var i=0; i<window.arr.length; ++i){
+					if(div.style.backgroundImage == window.arr[i]){
+						if(i == window.arr.length-1){
+							div.style.backgroundImage = window.arr[window.arr.length-1-i];
+							return;
+						}else{
+							div.style.backgroundImage = window.arr[i+1];
+							return;
+						}
+					}
+				}
+			}
+		}
+
+/* window.onload = function(){
+var jt1 = document.getElementById('jt1');
+var jt2 = document.getElementById('jt2');
+jt1.onclick = function(){
+			var div = document.getElementById("xxx");
+			if(!div.style.backgroundImage || div.style.backgroundImage == 'url("./a0.jpg")' ){
+				div.style.backgroundImage = "url('./f0.jpg')";
+			}else{
+				div.style.backgroundImage = "url('./a0.jpg')";
+			}
+		}
+	
+jt2.onclick = function(){
+			var div = document.getElementById("xxx");
+			if(!div.style.backgroundImage || div.style.backgroundImage == 'url("./a0.jpg")' ){
+				div.style.backgroundImage = "url('./f0.jpg')";
+			}else{
+				div.style.backgroundImage = "url('./a0.jpg')";
+			}
+		}*/
+	} 
+
+ </script>
+	function yyy(){
+		alert(1);
+
+		re = setTimeout("yyy()", 2000);
+	}
+
+	function zzz(){
+		alert(2);
+	}
+
+	function ccc(){
+		clearTimeout(re);
+	}
+ 

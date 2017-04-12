@@ -1,0 +1,76 @@
+.news1{width:800px;background:#fff;height:256px;margin-bottom:10px;}
+#ifocus { 
+	width:800px;
+	height:400px;
+	 }
+ #ifocus_pic 
+ {
+	  display:inline;
+	  position:relative; 
+	  float:left; 
+	  width:600px; 
+	  height:225px; 
+	  overflow:hidden; 
+	  margin:10px 0 0 10px; 
+	  }
+#ifocus_piclist { 
+position:absolute;
+ }
+#ifocus_piclist li { 
+	 width:600px;
+	 height:225px; 
+	 overflow:hidden;
+ }
+#ifocus_piclist img {
+	 width:600px;
+	  height:225px; 
+	  }
+#ifocus_btn { 
+     display:inline; 
+	 float:right; 
+	 width:150px; 
+	 margin:9px 9px 0 0; 
+	 }
+#ifocus_btn li { 
+
+     width:100px; 
+	 height:57px; 
+	 cursor:pointer; 
+	 opacity:0.5;
+	  -moz-opacity:0.5; 
+	  filter:alpha(opacity=50); 
+	  }
+#ifocus_btn img { 
+ 	width:100px;
+	height:50px;
+    margin:7px 0 0 11px; 
+	}
+#ifocus_btn .current {
+	 background: url(i/ifocus_btn_bg.gif) no-repeat; 
+	 opacity:1; -moz-opacity:1; filter:alpha(opacity=100); 
+	 }
+#ifocus_opdiv { 
+	  position:absolute; 
+	  left:0; 
+	  bottom:0; 
+	  width:600px;
+	   height:35px;
+		background:#000;
+		 opacity:0.5; 
+		 -moz-opacity:0.5; 
+		 filter:alpha(opacity=50); 
+   }
+#ifocus_tx { 
+  position:absolute; 
+  left:8px; 
+  bottom:8px; 
+  color:#FFF; }
+#ifocus_tx .normal { 
+  display:none;
+  }
+
+/*ÂÖ²¥2*/
+#owl-demo { float:left;width: 380px; margin-left: auto; margin-right: auto;background:#fff;margin-bottom:10px;}
+#owl-demo .item{ display: block;}
+#owl-demo img { display: block; width: 100%;}
+/*ÂÖ²¥2*/

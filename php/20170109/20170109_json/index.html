@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var ad = [];
+    var obj = {};
+
+    //json对象：
+     var s = {
+         "name": "dg",
+         "age": 23,
+         "sex": "w",
+         "image": "i.jpg",
+         "eat": function(){
+            console.log("df");
+         },
+         date: new Date()
+    };
+    var arr = ["name", "age"];
+//    var str = JSON.stringify(s, arr, );
+    var results = {
+            "_id": "5872234c421aa93161103dc7",
+            "createdAt": "2017-01-08T19:32:28.973Z",
+            "desc": "Lint \u662f\u4f18\u79c0\u7a0b\u5e8f\u5458\u4e4b\u53cb\uff0c\u68c0\u6d4b\u6f5c\u5728\u95ee\u9898\uff0c\u6027\u80fd\u4f18\u5316\uff0c\u53bb\u9664\u65e0\u7528\u8d44\u6e90\u5fc5\u5907\uff01",
+            "publishedAt": "2017-01-09T11:46:59.821Z",
+            "source": "web",
+            "type": "Android",
+            "url": "http://blog.csdn.net/u011240877/article/details/54141714",
+            "used": true,
+            "who": "Shixin Zhang"
+        }
+    var arr = ["url", "who"];
+    /**
+     * 1. 对象：需要转成字符串的对象
+     * 2. Array：过滤（需要装换成字符串的键）
+     * 3. String：为了方便阅读，增加换行
+     */
+    var str = JSON.stringify(results);
+
+    /**
+     * 本地存储：
+     */
+
+    //存到localStorage
+    localStorage.setItem("results", str);
+    localStorage.setItem("key", str);
+    //从localStorage中取出数据
+    var obj = localStorage.getItem("results");
+
+    //clear() 删除全部的localStorage
+//    localStorage.clear()
+    //删除指定的localStorage
+   // localStorage.removeItem("key");
+
+
+    obj = JSON.parse(obj);
+    // '{"name":"dg","sex":"w","image":"i.jpg"}'
+
+    var sd = JSON.parse(str);
+    console.log(obj);
+    /**
+     * 基本数据类型：
+     * 1. 数值
+     * 2. 字符串
+     * 3. 布尔值
+     * 4. Null
+     * 5. undefined
+     * 对象：
+     * 1. {}
+     * 2. 数组
+     */
+    /***
+     * 1. {}
+     * 2. 键值对
+     * 3. 每一个值之间使用`,`
+     * 4. 键和值之间使用`:`分隔
+     */
+//new RegExp(\$df^\);
+//    for..in
+</script>
+</body>
+</html>

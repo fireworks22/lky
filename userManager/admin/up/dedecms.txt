@@ -1,0 +1,34 @@
+
+dedecms网站模板制作 
+
+index.htm  首页
+list_article.htm  文章列表
+list_img.htm      图片列表
+article_article.htm  文章内容
+article_img.htm
+
+2, 模板上传到dedecms程序里templets
+3，模板安装1 修改系统基本参数模板风格 2选择主页文件
+4，dede标签作用就是把后台数据调用到前端来显示
+首页有问题就改首页文件（index.htm）
+ a、网站css img js 调用方法 {dede:global.cfg_templets_skin/}/
+ b、动态网址不需要生成
+ c、添加新变量方法 {dede:global.cfg_webname/}
+ d、导航制作 删掉重复的代码 留下一条作为来循环使用
+ E、网站头部底部分离 {dede:include filename="left.htm"/}
+F、当前栏目标签{dede:field.typename/}
+
+{dede:global.dizhi/}
+
+
+
+http://localhost/dedecms/index.asp?upcache=1  不需要生成
+http://localhost/dedecms/a/xinwenzhongxin/  必须生成
+
+
+
+
+
+
+
+

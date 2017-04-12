@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+  <div id="div1" style="width:100%;height:5%;border:1px solid red;position:absolute;left:0px;top:0px">
+  </div>
+ <div id="div2" style="width:100%;height:10%;border:1px solid red;position:absolute;left:0px;top:5%">
+	<p id="p1">Hello World!</p>
+	<p>上面的段落被一条JavaScript脚本修改了。</p>
+  </div>
+ </body>
+</html>
+<script type="text/javascript">
+var div1 = document.getElementById("div1");
+document.write(Date());
+var div2 = document.getElemntById("div2");
+document.getElemntById("p1").innerHTML = "New text!";
+function sortNumber(a, b)
+{
+return a - b
+}
+
+var arr = new Array(6)
+arr[0] = "10"
+arr[1] = "5"
+arr[2] = "40"
+arr[3] = "25"
+arr[4] = "1000"
+arr[5] = "1"
+
+document.write(arr + "<br />")
+document.write(arr.sort(sortNumber))
+</script>

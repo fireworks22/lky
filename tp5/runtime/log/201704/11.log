@@ -1,0 +1,31 @@
+[ 2017-04-11T16:23:11+08:00 ] ::1 ::1 GET /tp5/public/
+[ log ] localhost/tp5/public/ [运行时间：0.105006s][吞吐率：9.52req/s] [内存消耗：1,794.70kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=8354029568; UM_distinctid=15aefc3785143b-00fb0ae83b8784-4049042b-100200-15aefc3785626c; Phpstorm-4ce5e59f=e30c4d48-9c14-4589-809e-db1838da767f; _pk_id.1.1fff=32e73f3c5f63b43f.1490080271.2.1490259285.1490257505.; Hm_lvt_a6adf98bf5f7dd3d72872cf8b3535543=1490176310,1490247209,1490258988,1490599702; Hm_lvt_6a30590aa8493671246d87a320807461=1490176310,1490247210,1490258988,1490599703; CNZZDATA1261058309=1493572498-1490080594-http%253A%252F%252Flocalhost%252F%7C1490663648; Hm_lvt_3a93da1a563d8d1c151716e2b12738c9=1490176310,1490247210,1490258988,1490599703; bdshare_firstime=1491551887698; PHPSESSID=vssa34phntq7tkl9ku93c79l24; CNZZDATA1000446293=1320311719-1490254793-http%253A%252F%252Flocalhost%253A83%252F%7C1491877772; DedeUserID=1; DedeUserID__ckMd5=fb67bd62d888f1b9; DedeLoginTime=1491889135; DedeLoginTime__ckMd5=8280feb0c41931e6; lastCid=2; lastCid__ckMd5=cc1217a8a31ac20f',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/tp5/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

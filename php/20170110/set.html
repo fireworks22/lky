@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定时</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #div{
+        width: 100px;
+        height: 100px;
+        background: #666666;
+        position: absolute;
+        left:-100px;
+        border-top-right-radius:5px;
+        border-bottom-right-radius:5px;
+    }
+    #div span{
+        width: 20px;
+        height: 40px;
+        line-height: 20px;
+        padding-left: 5px;
+        color: #fff;
+        font-size:14px;
+        background-color: red;
+        position: absolute;
+        left: 100px;
+        top: 50%;
+        margin-top:-20px;
+        border-top-right-radius:5px;
+        border-bottom-right-radius:5px;
+    }
+    #share{
+        width: 100px;
+        height: 100px;
+        background: #666666;
+        position: absolute;
+        left:-100px;
+        top:150px;
+        border-top-right-radius:5px;
+        border-bottom-right-radius:5px;
+    }
+    #share span{
+        width: 20px;
+        height: 40px;
+        line-height: 20px;
+        padding-left: 5px;
+        color: #fff;
+        font-size:14px;
+        background-color: red;
+        position: absolute;
+        left: 100px;
+        top: 50%;
+        margin-top:-20px;
+        border-top-right-radius:5px;
+        border-bottom-right-radius:5px;
+    }
+</style>
+<body>
+<div id="div" onmouseover="move(this, 0)" onmouseout="move(this,-100)">
+    <span >分享</span>
+</div>
+<div id="share" onmouseover="move(this, 0)" onmouseout="move(this, -100)">
+    <span >分享</span>
+</div>
+<script>
+    var timer;
+    function move(obj, target) {
+    clearInterval(timer);
+    timer = setInterval(function () {
+        var div = document.getElementById("div");
+        var speed = 10;
+        var left = obj.offsetLeft;
+        if(target-left>0){
+            speed = 10;
+        }else{
+            speed = -10;
+        }
+        if(obj.offsetLeft == target){
+            clearInterval(timer);
+        }else {
+            obj.style.left = obj.offsetLeft+speed+"px";
+        }
+    },10);
+        console.log(timer);
+    }
+</script>
+</body>
+</html>

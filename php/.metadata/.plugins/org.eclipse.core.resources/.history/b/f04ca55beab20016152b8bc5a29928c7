@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>登录</title>
+<link rel="stylesheet" href="../dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="2.css" />
+</head>
+<body>
+<div class="center">
+	<div class="text-center logo-title">
+		<h1 >登录</h1>
+	</div>
+	<div class="logo-content">`
+		<form action="" class="form-inline">
+		<br />
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<div class="form-group">
+					<div class="input-group">
+						<div class="input-group-addon">
+							<span class="glyphicon glyphicon-user"></span>
+						</div>
+						<input type="text" class="form-control" placeholder="用户名"/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br />
+		<br />
+		<br />
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<div class="form-group">
+					<div class="input-group">
+						<div class="input-group-addon">
+							<span class="glyphicon glyphicon-lock"></span>
+						</div>
+						<input type="text" class="form-control" placeholder="密码"/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br />
+		<br />
+		<div class="row">
+			<div class="col-md-3 col-md-offset-4">
+				<div class="form-group">
+					<label for="">
+					<input type="submit" value="登录" class="form-control" />
+				</label>
+				</div>
+			</div>
+		</div>
+		</form>
+	</div>
+</div>
+</body>
+</html>

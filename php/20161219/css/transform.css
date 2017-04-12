@@ -1,0 +1,13 @@
+#div{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+#div img{
+    width: 400px;
+    height: 400px;
+    transition: 1s;/*transition:属性 dur 类型 delay*/
+}
+#div img:hover{
+    transform: scale(1.2);
+}

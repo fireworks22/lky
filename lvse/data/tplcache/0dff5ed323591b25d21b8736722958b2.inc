@@ -1,0 +1,1 @@
+<p style="line-height:180%;text-indent:24px">[field:content function='html2text(cn_substr(@me,500))'/]...</p>

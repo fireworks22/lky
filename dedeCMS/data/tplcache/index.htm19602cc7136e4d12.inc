@@ -1,0 +1,40 @@
+<?php
+$z[0]=Array("global","",300,332);
+$z[0][4]['name']="cfg_templets_skin";
+$z[1]=Array("global","",498,530);
+$z[1][4]['name']="cfg_templets_skin";
+$z[2]=Array("global","",628,660);
+$z[2][4]['name']="cfg_templets_skin";
+$z[3]=Array("global","",737,759);
+$z[3][4]['name']="dianhua";
+$z[4]=Array("channel","\r\n            <li><img src=\"/dedecms/templets/yitong/skin//lan_6.gif\" /></li>\r\n        <li><a href=\"[field:typelink/]\">[field:typename/]</a></li>\r\n\r\n        ",931,1147);
+$z[4][4]['row']="7";
+$z[4][4]['type']="top";
+$z[5]=Array("global","",1222,1254);
+$z[5][4]['name']="cfg_templets_skin";
+$z[6]=Array("global","",1601,1633);
+$z[6][4]['name']="cfg_templets_skin";
+$z[7]=Array("global","",1761,1793);
+$z[7][4]['name']="cfg_templets_skin";
+$z[8]=Array("channel","\r\n                    <li><a href=\"[field:typelink/]\">[field:typename/]</a></li>\r\n                    ",2426,2610);
+$z[8][4]['row']="6";
+$z[8][4]['type']="son";
+$z[8][4]['typeid']="3";
+$z[9]=Array("global","",3040,3060);
+$z[9][4]['name']="dizhi";
+$z[10]=Array("global","",3553,3585);
+$z[10][4]['name']="cfg_templets_skin";
+$z[11]=Array("global","",3783,3815);
+$z[11][4]['name']="cfg_templets_skin";
+$z[12]=Array("global","",4943,4975);
+$z[12][4]['name']="cfg_templets_skin";
+$z[13]=Array("arclist","\r\n                    <li><a href=\"[field:arcurl/]\">[field:title/]</a></li>\r\n                    ",5125,5285);
+$z[13][4]['row']="6";
+$z[13][4]['typeid']="4";
+$z[14]=Array("global","",5648,5680);
+$z[14][4]['name']="cfg_templets_skin";
+$z[15]=Array("arclist","\r\n                    <div class=\"prod_box\">\r\n                        <a href=\"[field:arcurl/]\"><img src=\"[field:picname/]\" class=\"prod\"/></a><br />\r\n                        <a href=\"[field:arcurl/]\" class=\"prod_font\">[field:title/]</a>\r\n                    </div>\r\n                    ",5794,6151);
+$z[15][4]['row']="4";
+$z[15][4]['typeid']="3";
+
+?>

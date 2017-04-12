@@ -1,0 +1,3761 @@
+[ 2017-03-27T09:34:20+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/article_list
+[ log ] mine.cn/admin/article/article_list [运行时间：2.271035s][吞吐率：0.44req/s] [内存消耗：2,002.42kb] [文件加载：48]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:34:20+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] mine.cn/ [运行时间：0.842861s][吞吐率：1.19req/s] [内存消耗：2,408.33kb] [文件加载：47]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ I:\wamp\www\blog\mine\application\index\controller\Index.php ]
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:34:21+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/sea.js
+[ log ] mine.cn/Scripts/sea.js [运行时间：0.177985s][吞吐率：5.62req/s] [内存消耗：1,597.08kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'sea.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:34:21+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/seajs_css.js
+[ log ] mine.cn/Scripts/seajs_css.js [运行时间：0.248524s][吞吐率：4.02req/s] [内存消耗：1,597.18kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'seajs_css.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:34:21+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/jquery-1.11.1.min.js
+[ log ] mine.cn/Scripts/jquery-1.11.1.min.js [运行时间：0.461351s][吞吐率：2.17req/s] [内存消耗：1,597.38kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'jquery-1.11.1.min.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:34:21+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/jquery.detection.js
+[ log ] mine.cn/Scripts/jquery.detection.js [运行时间：0.230253s][吞吐率：4.34req/s] [内存消耗：1,597.28kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'jquery.detection.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:34:21+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/wxlogin.js
+[ log ] mine.cn/Scripts/wxlogin.js [运行时间：0.282157s][吞吐率：3.54req/s] [内存消耗：1,597.20kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'wxlogin.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:34:22+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/sea.js
+[ log ] mine.cn/Scripts/sea.js [运行时间：0.111627s][吞吐率：8.96req/s] [内存消耗：1,597.10kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'sea.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:34:22+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/seajs_css.js
+[ log ] mine.cn/Scripts/seajs_css.js [运行时间：0.093456s][吞吐率：10.70req/s] [内存消耗：1,597.19kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'seajs_css.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:34:22+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/wxlogin.js
+[ log ] mine.cn/Scripts/wxlogin.js [运行时间：0.185508s][吞吐率：5.39req/s] [内存消耗：1,597.20kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'wxlogin.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:34:23+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/ds.js
+[ log ] mine.cn/Scripts/ds.js [运行时间：0.116106s][吞吐率：8.61req/s] [内存消耗：1,597.13kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'ds.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:35:41+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] mine.cn/ [运行时间：0.082933s][吞吐率：12.06req/s] [内存消耗：1,992.66kb] [文件加载：45]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ I:\wamp\www\blog\mine\application\index\controller\Index.php ]
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:35:41+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/jquery-1.11.1.min.js
+[ log ] mine.cn/Scripts/jquery-1.11.1.min.js [运行时间：0.239475s][吞吐率：4.18req/s] [内存消耗：1,597.38kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'jquery-1.11.1.min.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:35:41+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/seajs_css.js
+[ log ] mine.cn/Scripts/seajs_css.js [运行时间：0.256912s][吞吐率：3.89req/s] [内存消耗：1,597.19kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'seajs_css.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:35:41+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/sea.js
+[ log ] mine.cn/Scripts/sea.js [运行时间：0.168380s][吞吐率：5.94req/s] [内存消耗：1,597.10kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'sea.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:35:41+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/jquery.detection.js
+[ log ] mine.cn/Scripts/jquery.detection.js [运行时间：0.270576s][吞吐率：3.70req/s] [内存消耗：1,597.36kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'jquery.detection.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:35:41+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/wxlogin.js
+[ log ] mine.cn/Scripts/wxlogin.js [运行时间：0.256532s][吞吐率：3.90req/s] [内存消耗：1,597.20kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'wxlogin.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:35:41+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/ds.js
+[ log ] mine.cn/Scripts/ds.js [运行时间：0.160682s][吞吐率：6.22req/s] [内存消耗：1,597.13kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'ds.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:35:42+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/seajs_css.js
+[ log ] mine.cn/Scripts/seajs_css.js [运行时间：0.085482s][吞吐率：11.70req/s] [内存消耗：1,597.19kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'seajs_css.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:35:42+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/wxlogin.js
+[ log ] mine.cn/Scripts/wxlogin.js [运行时间：0.089167s][吞吐率：11.21req/s] [内存消耗：1,597.20kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'wxlogin.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:35:42+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/ds.js
+[ log ] mine.cn/Scripts/ds.js [运行时间：0.093841s][吞吐率：10.66req/s] [内存消耗：1,597.13kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'ds.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:39:47+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] mine.cn/ [运行时间：0.083109s][吞吐率：12.03req/s] [内存消耗：1,992.66kb] [文件加载：45]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ I:\wamp\www\blog\mine\application\index\controller\Index.php ]
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:39:47+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/jquery-1.11.1.min.js
+[ log ] mine.cn/Scripts/jquery-1.11.1.min.js [运行时间：0.098298s][吞吐率：10.17req/s] [内存消耗：1,597.38kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'jquery-1.11.1.min.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:39:47+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/jquery.detection.js
+[ log ] mine.cn/Scripts/jquery.detection.js [运行时间：0.211330s][吞吐率：4.73req/s] [内存消耗：1,597.36kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'jquery.detection.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:39:47+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/sea.js
+[ log ] mine.cn/Scripts/sea.js [运行时间：0.234069s][吞吐率：4.27req/s] [内存消耗：1,597.10kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'sea.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:39:47+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/seajs_css.js
+[ log ] mine.cn/Scripts/seajs_css.js [运行时间：0.255667s][吞吐率：3.91req/s] [内存消耗：1,597.19kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'seajs_css.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:39:47+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/ds.js
+[ log ] mine.cn/Scripts/ds.js [运行时间：0.278881s][吞吐率：3.59req/s] [内存消耗：1,597.13kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'ds.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:39:48+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/wxlogin.js
+[ log ] mine.cn/Scripts/wxlogin.js [运行时间：0.308646s][吞吐率：3.24req/s] [内存消耗：1,597.20kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'wxlogin.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:39:48+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/jquery-1.11.1.min.js
+[ log ] mine.cn/Scripts/jquery-1.11.1.min.js [运行时间：0.187060s][吞吐率：5.35req/s] [内存消耗：1,597.38kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'jquery-1.11.1.min.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:39:48+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/jquery.detection.js
+[ log ] mine.cn/Scripts/jquery.detection.js [运行时间：0.119578s][吞吐率：8.36req/s] [内存消耗：1,597.36kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'jquery.detection.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:39:48+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/sea.js
+[ log ] mine.cn/Scripts/sea.js [运行时间：0.091009s][吞吐率：10.99req/s] [内存消耗：1,597.10kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'sea.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:39:48+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/seajs_css.js
+[ log ] mine.cn/Scripts/seajs_css.js [运行时间：0.084472s][吞吐率：11.84req/s] [内存消耗：1,597.19kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'seajs_css.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:39:48+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/wxlogin.js
+[ log ] mine.cn/Scripts/wxlogin.js [运行时间：0.115011s][吞吐率：8.69req/s] [内存消耗：1,597.20kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'wxlogin.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:39:48+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/ds.js
+[ log ] mine.cn/Scripts/ds.js [运行时间：0.115988s][吞吐率：8.62req/s] [内存消耗：1,597.13kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'ds.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:40:47+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] mine.cn/ [运行时间：0.083831s][吞吐率：11.93req/s] [内存消耗：1,992.66kb] [文件加载：45]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ I:\wamp\www\blog\mine\application\index\controller\Index.php ]
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:40:47+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/jquery-1.11.1.min.js
+[ log ] mine.cn/Scripts/jquery-1.11.1.min.js [运行时间：0.106511s][吞吐率：9.39req/s] [内存消耗：1,597.38kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'jquery-1.11.1.min.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:40:47+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/jquery.detection.js
+[ log ] mine.cn/Scripts/jquery.detection.js [运行时间：0.119296s][吞吐率：8.38req/s] [内存消耗：1,597.36kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'jquery.detection.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:40:47+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/sea.js
+[ log ] mine.cn/Scripts/sea.js [运行时间：0.164529s][吞吐率：6.08req/s] [内存消耗：1,597.10kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'sea.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:40:47+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/seajs_css.js
+[ log ] mine.cn/Scripts/seajs_css.js [运行时间：0.149046s][吞吐率：6.71req/s] [内存消耗：1,597.19kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'seajs_css.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:40:47+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/jquery-1.11.1.min.js
+[ log ] mine.cn/Scripts/jquery-1.11.1.min.js [运行时间：0.143979s][吞吐率：6.95req/s] [内存消耗：1,597.38kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'jquery-1.11.1.min.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:40:47+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/ds.js
+[ log ] mine.cn/Scripts/ds.js [运行时间：0.164931s][吞吐率：6.06req/s] [内存消耗：1,597.13kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'ds.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:40:47+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/wxlogin.js
+[ log ] mine.cn/Scripts/wxlogin.js [运行时间：0.182606s][吞吐率：5.48req/s] [内存消耗：1,597.20kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'wxlogin.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:40:48+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/jquery.detection.js
+[ log ] mine.cn/Scripts/jquery.detection.js [运行时间：0.089303s][吞吐率：11.20req/s] [内存消耗：1,597.36kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'jquery.detection.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:40:48+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/sea.js
+[ log ] mine.cn/Scripts/sea.js [运行时间：0.078418s][吞吐率：12.75req/s] [内存消耗：1,597.10kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'sea.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:40:48+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/seajs_css.js
+[ log ] mine.cn/Scripts/seajs_css.js [运行时间：0.131189s][吞吐率：7.62req/s] [内存消耗：1,597.19kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'seajs_css.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:40:48+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/wxlogin.js
+[ log ] mine.cn/Scripts/wxlogin.js [运行时间：0.117693s][吞吐率：8.50req/s] [内存消耗：1,597.20kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'wxlogin.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:40:48+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/ds.js
+[ log ] mine.cn/Scripts/ds.js [运行时间：0.089074s][吞吐率：11.23req/s] [内存消耗：1,597.13kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'ds.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:41:06+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] mine.cn/ [运行时间：0.134889s][吞吐率：7.41req/s] [内存消耗：1,992.66kb] [文件加载：45]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ I:\wamp\www\blog\mine\application\index\controller\Index.php ]
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:41:06+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/jquery-1.11.1.min.js
+[ log ] mine.cn/Scripts/jquery-1.11.1.min.js [运行时间：0.134794s][吞吐率：7.42req/s] [内存消耗：1,597.38kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'jquery-1.11.1.min.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:41:06+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/jquery.detection.js
+[ log ] mine.cn/Scripts/jquery.detection.js [运行时间：0.104019s][吞吐率：9.61req/s] [内存消耗：1,597.36kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'jquery.detection.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:41:06+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/seajs_css.js
+[ log ] mine.cn/Scripts/seajs_css.js [运行时间：0.175747s][吞吐率：5.69req/s] [内存消耗：1,597.19kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'seajs_css.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:41:06+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/sea.js
+[ log ] mine.cn/Scripts/sea.js [运行时间：0.228568s][吞吐率：4.38req/s] [内存消耗：1,597.10kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'sea.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:41:06+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/jquery-1.11.1.min.js
+[ log ] mine.cn/Scripts/jquery-1.11.1.min.js [运行时间：0.142544s][吞吐率：7.02req/s] [内存消耗：1,597.38kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'jquery-1.11.1.min.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:41:06+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/ds.js
+[ log ] mine.cn/Scripts/ds.js [运行时间：0.213496s][吞吐率：4.68req/s] [内存消耗：1,597.13kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'ds.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+-------------
+[ 2017-03-27T09:41:07+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/jquery.detection.js
+[ log ] mine.cn/Scripts/jquery.detection.js [运行时间：0.076625s][吞吐率：13.05req/s] [内存消耗：1,597.36kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'jquery.detection.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:41:07+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/sea.js
+[ log ] mine.cn/Scripts/sea.js [运行时间：0.073242s][吞吐率：13.65req/s] [内存消耗：1,597.10kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'sea.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:41:07+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/seajs_css.js
+[ log ] mine.cn/Scripts/seajs_css.js [运行时间：0.067680s][吞吐率：14.78req/s] [内存消耗：1,597.19kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'seajs_css.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:41:07+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/wxlogin.js
+[ log ] mine.cn/Scripts/wxlogin.js [运行时间：0.073156s][吞吐率：13.67req/s] [内存消耗：1,597.20kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'wxlogin.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:41:07+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/ds.js
+[ log ] mine.cn/Scripts/ds.js [运行时间：0.072959s][吞吐率：13.71req/s] [内存消耗：1,597.13kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'ds.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:41:37+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] mine.cn/ [运行时间：0.067364s][吞吐率：14.84req/s] [内存消耗：1,992.66kb] [文件加载：45]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ I:\wamp\www\blog\mine\application\index\controller\Index.php ]
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:41:37+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/jquery-1.11.1.min.js
+[ log ] mine.cn/Scripts/jquery-1.11.1.min.js [运行时间：0.081388s][吞吐率：12.29req/s] [内存消耗：1,597.38kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'jquery-1.11.1.min.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:41:37+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/jquery.detection.js
+[ log ] mine.cn/Scripts/jquery.detection.js [运行时间：0.092501s][吞吐率：10.81req/s] [内存消耗：1,597.36kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'jquery.detection.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:41:37+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/seajs_css.js
+[ log ] mine.cn/Scripts/seajs_css.js [运行时间：0.230326s][吞吐率：4.34req/s] [内存消耗：1,597.19kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'seajs_css.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:41:37+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/wxlogin.js
+[ log ] mine.cn/Scripts/wxlogin.js [运行时间：0.253473s][吞吐率：3.95req/s] [内存消耗：1,597.20kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'wxlogin.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:41:37+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/jquery-1.11.1.min.js
+[ log ] mine.cn/Scripts/jquery-1.11.1.min.js [运行时间：0.170838s][吞吐率：5.85req/s] [内存消耗：1,597.38kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'jquery-1.11.1.min.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:41:37+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/sea.js
+[ log ] mine.cn/Scripts/sea.js [运行时间：0.233664s][吞吐率：4.28req/s] [内存消耗：1,597.10kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'sea.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:41:37+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/jquery.detection.js
+[ log ] mine.cn/Scripts/jquery.detection.js [运行时间：0.070027s][吞吐率：14.28req/s] [内存消耗：1,597.36kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'jquery.detection.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:41:37+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/sea.js
+[ log ] mine.cn/Scripts/sea.js [运行时间：0.089918s][吞吐率：11.12req/s] [内存消耗：1,597.10kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'sea.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:41:37+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/seajs_css.js
+[ log ] mine.cn/Scripts/seajs_css.js [运行时间：0.068520s][吞吐率：14.59req/s] [内存消耗：1,597.19kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'seajs_css.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:41:38+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/wxlogin.js
+[ log ] mine.cn/Scripts/wxlogin.js [运行时间：0.075332s][吞吐率：13.27req/s] [内存消耗：1,597.20kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'wxlogin.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:41:38+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/ds.js
+[ log ] mine.cn/Scripts/ds.js [运行时间：0.070541s][吞吐率：14.18req/s] [内存消耗：1,597.13kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'ds.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=kqeasl3noe9pp7vmbqia87lav7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:41:54+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] mine.cn/ [运行时间：0.074822s][吞吐率：13.37req/s] [内存消耗：1,992.47kb] [文件加载：45]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ I:\wamp\www\blog\mine\application\index\controller\Index.php ]
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:41:54+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/jquery-1.11.1.min.js
+[ log ] mine.cn/Scripts/jquery-1.11.1.min.js [运行时间：0.084621s][吞吐率：11.82req/s] [内存消耗：1,596.99kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'jquery-1.11.1.min.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:41:54+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/ds.js
+[ log ] mine.cn/Scripts/ds.js [运行时间：0.156553s][吞吐率：6.39req/s] [内存消耗：1,596.91kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'ds.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:41:54+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/sea.js
+[ log ] mine.cn/Scripts/sea.js [运行时间：0.247334s][吞吐率：4.04req/s] [内存消耗：1,596.94kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'sea.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:41:54+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/wxlogin.js
+[ log ] mine.cn/Scripts/wxlogin.js [运行时间：0.246891s][吞吐率：4.05req/s] [内存消耗：1,596.96kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'wxlogin.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:41:54+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/jquery.detection.js
+[ log ] mine.cn/Scripts/jquery.detection.js [运行时间：0.306855s][吞吐率：3.26req/s] [内存消耗：1,596.96kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'jquery.detection.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:41:54+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/seajs_css.js
+[ log ] mine.cn/Scripts/seajs_css.js [运行时间：0.283713s][吞吐率：3.52req/s] [内存消耗：1,597.03kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'seajs_css.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:41:54+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/jquery-1.11.1.min.js
+[ log ] mine.cn/Scripts/jquery-1.11.1.min.js [运行时间：0.318090s][吞吐率：3.14req/s] [内存消耗：1,596.99kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'jquery-1.11.1.min.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:41:55+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/jquery.detection.js
+[ log ] mine.cn/Scripts/jquery.detection.js [运行时间：0.077482s][吞吐率：12.91req/s] [内存消耗：1,596.96kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'jquery.detection.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:41:55+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/sea.js
+[ log ] mine.cn/Scripts/sea.js [运行时间：0.080819s][吞吐率：12.37req/s] [内存消耗：1,596.94kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'sea.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:41:55+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/seajs_css.js
+[ log ] mine.cn/Scripts/seajs_css.js [运行时间：0.078954s][吞吐率：12.67req/s] [内存消耗：1,597.03kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'seajs_css.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:41:55+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/wxlogin.js
+[ log ] mine.cn/Scripts/wxlogin.js [运行时间：0.086377s][吞吐率：11.58req/s] [内存消耗：1,596.96kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'wxlogin.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T09:41:55+08:00 ] 127.0.0.1 127.0.0.1 GET /Scripts/ds.js
+[ log ] mine.cn/Scripts/ds.js [运行时间：0.096279s][吞吐率：10.39req/s] [内存消耗：1,596.91kb] [文件加载：40]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Scripts',
+    1 => 'ds.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:30:57+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/article_list
+[ log ] mine.cn/admin/article/article_list [运行时间：1.189221s][吞吐率：0.84req/s] [内存消耗：2,002.44kb] [文件加载：48]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:31:01+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/login.html
+[ log ] mine.cn/admin/login/login.html [运行时间：0.232947s][吞吐率：4.29req/s] [内存消耗：1,950.89kb] [文件加载：46]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://mine.cn/admin/article/article_list',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=06kam9fsab9hkktb5ub672qvq4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ I:\wamp\www\blog\mine\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:31:01+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/images/VerifyCode.aspx.png
+[ log ] mine.cn/admin/login/images/VerifyCode.aspx.png [运行时间：0.336467s][吞吐率：2.97req/s] [内存消耗：1,924.03kb] [文件加载：47]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://mine.cn/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=06kam9fsab9hkktb5ub672qvq4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:31:01+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/favicon.ico
+[ log ] mine.cn/admin/login/favicon.ico [运行时间：0.101793s][吞吐率：9.82req/s] [内存消耗：1,923.95kb] [文件加载：47]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'favicon.ico',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://mine.cn/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=06kam9fsab9hkktb5ub672qvq4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:31:08+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login/login_verify.html
+[ log ] mine.cn/admin/login/login_verify.html [运行时间：0.396415s][吞吐率：2.52req/s] [内存消耗：2,789.17kb] [文件加载：54]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login_verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '38',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://mine.cn',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://mine.cn/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=06kam9fsab9hkktb5ub672qvq4',
+)
+[ info ] [ PARAM ] array (
+  'username' => '编辑',
+  'password' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Login->login_verify[ I:\wamp\www\blog\mine\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009580s ] mysql:dbname=blog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_member` [ RunTime:0.066391s ]
+[ sql ] [ SQL ] SELECT * FROM `bo_member` WHERE  `username` = '编辑'  AND `password` = 'c4ca4238a0b923820dcc509a6f75849b' [ RunTime:0.032566s ]
+
+---------------------------------------------------------------
+[ 2017-03-27T10:31:11+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/login.html
+[ log ] mine.cn/admin/login/login.html [运行时间：0.080349s][吞吐率：12.45req/s] [内存消耗：1,950.89kb] [文件加载：46]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://mine.cn/admin/login/login_verify.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=06kam9fsab9hkktb5ub672qvq4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ I:\wamp\www\blog\mine\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:31:11+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/images/VerifyCode.aspx.png
+[ log ] mine.cn/admin/login/images/VerifyCode.aspx.png [运行时间：0.111242s][吞吐率：8.99req/s] [内存消耗：1,924.10kb] [文件加载：47]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://mine.cn/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=06kam9fsab9hkktb5ub672qvq4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:31:18+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login/login_verify.html
+[ log ] mine.cn/admin/login/login_verify.html [运行时间：0.117449s][吞吐率：8.51req/s] [内存消耗：2,789.29kb] [文件加载：54]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login_verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '56',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://mine.cn',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://mine.cn/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=06kam9fsab9hkktb5ub672qvq4',
+)
+[ info ] [ PARAM ] array (
+  'username' => '栏目编辑',
+  'password' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Login->login_verify[ I:\wamp\www\blog\mine\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005682s ] mysql:dbname=blog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_member` [ RunTime:0.002669s ]
+[ sql ] [ SQL ] SELECT * FROM `bo_member` WHERE  `username` = '栏目编辑'  AND `password` = 'c4ca4238a0b923820dcc509a6f75849b' [ RunTime:0.001345s ]
+
+---------------------------------------------------------------
+[ 2017-03-27T10:31:22+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/login.html
+[ log ] mine.cn/admin/login/login.html [运行时间：0.083450s][吞吐率：11.98req/s] [内存消耗：1,950.89kb] [文件加载：46]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://mine.cn/admin/login/login_verify.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=06kam9fsab9hkktb5ub672qvq4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ I:\wamp\www\blog\mine\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:31:22+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/images/VerifyCode.aspx.png
+[ log ] mine.cn/admin/login/images/VerifyCode.aspx.png [运行时间：0.137279s][吞吐率：7.28req/s] [内存消耗：1,924.10kb] [文件加载：47]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://mine.cn/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=06kam9fsab9hkktb5ub672qvq4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:31:30+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login/login_verify.html
+[ log ] mine.cn/admin/login/login_verify.html [运行时间：0.133594s][吞吐率：7.49req/s] [内存消耗：2,791.37kb] [文件加载：54]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login_verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '38',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://mine.cn',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://mine.cn/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=06kam9fsab9hkktb5ub672qvq4',
+)
+[ info ] [ PARAM ] array (
+  'username' => '栏目',
+  'password' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Login->login_verify[ I:\wamp\www\blog\mine\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005834s ] mysql:dbname=blog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_member` [ RunTime:0.002055s ]
+[ sql ] [ SQL ] SELECT * FROM `bo_member` WHERE  `username` = '栏目'  AND `password` = 'c4ca4238a0b923820dcc509a6f75849b' [ RunTime:0.001440s ]
+
+---------------------------------------------------------------
+[ 2017-03-27T10:31:34+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ log ] mine.cn/admin/index/index.html [运行时间：0.623652s][吞吐率：1.60req/s] [内存消耗：2,842.85kb] [文件加载：55]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://mine.cn/admin/login/login_verify.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=06kam9fsab9hkktb5ub672qvq4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ I:\wamp\www\blog\mine\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\public/../application/admin\view\index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002073s ] mysql:dbname=blog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_group_access` [ RunTime:0.046489s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `bo_auth_group_access` `AuthGroupAccess` LEFT JOIN `bo_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='11' and AuthGroup.status='1' ) [ RunTime:0.133369s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_rule` [ RunTime:0.069008s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `bo_auth_rule` WHERE  `id` IN (6,7,8,9,16,17)  AND `type` = 1  AND `status` = 1 [ RunTime:0.017772s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_member` [ RunTime:0.001763s ]
+[ sql ] [ SQL ] SELECT `m`.`id`,`m`.`username`,`g`.`title` FROM `bo_member` `m` INNER JOIN `bo_auth_group` `g` ON `m`.`group_id`=`g`.`id` WHERE  `m`.`id` = 11 [ RunTime:0.001977s ]
+
+---------------------------------------------------------------
+[ 2017-03-27T10:31:38+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/article_list.html
+[ log ] mine.cn/admin/article/article_list.html [运行时间：0.158106s][吞吐率：6.32req/s] [内存消耗：2,881.41kb] [文件加载：56]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://mine.cn/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=06kam9fsab9hkktb5ub672qvq4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005023s ] mysql:dbname=blog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_group_access` [ RunTime:0.002245s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `bo_auth_group_access` `AuthGroupAccess` LEFT JOIN `bo_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='11' and AuthGroup.status='1' ) [ RunTime:0.002299s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_rule` [ RunTime:0.003142s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `bo_auth_rule` WHERE  `id` IN (6,7,8,9,16,17)  AND `type` = 1  AND `status` = 1 [ RunTime:0.002982s ]
+
+---------------------------------------------------------------
+[ 2017-03-27T10:31:41+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ log ] mine.cn/admin/index/index.html [运行时间：0.172848s][吞吐率：5.79req/s] [内存消耗：2,842.85kb] [文件加载：55]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://mine.cn/admin/article/article_list.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=06kam9fsab9hkktb5ub672qvq4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ I:\wamp\www\blog\mine\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\public/../application/admin\view\index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002329s ] mysql:dbname=blog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_group_access` [ RunTime:0.001957s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `bo_auth_group_access` `AuthGroupAccess` LEFT JOIN `bo_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='11' and AuthGroup.status='1' ) [ RunTime:0.002064s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_rule` [ RunTime:0.002162s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `bo_auth_rule` WHERE  `id` IN (6,7,8,9,16,17)  AND `type` = 1  AND `status` = 1 [ RunTime:0.002129s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_member` [ RunTime:0.002005s ]
+[ sql ] [ SQL ] SELECT `m`.`id`,`m`.`username`,`g`.`title` FROM `bo_member` `m` INNER JOIN `bo_auth_group` `g` ON `m`.`group_id`=`g`.`id` WHERE  `m`.`id` = 11 [ RunTime:0.001444s ]
+
+---------------------------------------------------------------
+[ 2017-03-27T10:31:45+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/permission/admin_role.html
+[ log ] mine.cn/admin/permission/admin_role.html [运行时间：0.165612s][吞吐率：6.04req/s] [内存消耗：2,877.67kb] [文件加载：56]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'permission',
+    2 => 'admin_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://mine.cn/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=06kam9fsab9hkktb5ub672qvq4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002360s ] mysql:dbname=blog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_group_access` [ RunTime:0.002135s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `bo_auth_group_access` `AuthGroupAccess` LEFT JOIN `bo_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='11' and AuthGroup.status='1' ) [ RunTime:0.001832s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_rule` [ RunTime:0.002017s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `bo_auth_rule` WHERE  `id` IN (6,7,8,9,16,17)  AND `type` = 1  AND `status` = 1 [ RunTime:0.002208s ]
+
+---------------------------------------------------------------
+[ 2017-03-27T10:31:49+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ log ] mine.cn/admin/index/index.html [运行时间：0.164823s][吞吐率：6.07req/s] [内存消耗：2,842.85kb] [文件加载：55]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://mine.cn/admin/permission/admin_role.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=06kam9fsab9hkktb5ub672qvq4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ I:\wamp\www\blog\mine\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\public/../application/admin\view\index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003025s ] mysql:dbname=blog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_group_access` [ RunTime:0.002453s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `bo_auth_group_access` `AuthGroupAccess` LEFT JOIN `bo_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='11' and AuthGroup.status='1' ) [ RunTime:0.001571s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_rule` [ RunTime:0.002022s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `bo_auth_rule` WHERE  `id` IN (6,7,8,9,16,17)  AND `type` = 1  AND `status` = 1 [ RunTime:0.002444s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_member` [ RunTime:0.002443s ]
+[ sql ] [ SQL ] SELECT `m`.`id`,`m`.`username`,`g`.`title` FROM `bo_member` `m` INNER JOIN `bo_auth_group` `g` ON `m`.`group_id`=`g`.`id` WHERE  `m`.`id` = 11 [ RunTime:0.001072s ]
+
+---------------------------------------------------------------
+[ 2017-03-27T10:32:37+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/common/logout.html
+[ log ] mine.cn/admin/common/logout.html [运行时间：0.149790s][吞吐率：6.68req/s] [内存消耗：2,841.82kb] [文件加载：55]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'common',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://mine.cn/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=06kam9fsab9hkktb5ub672qvq4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Common->logout[ I:\wamp\www\blog\mine\application\admin\controller\Common.php ]
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002114s ] mysql:dbname=blog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_group_access` [ RunTime:0.004554s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `bo_auth_group_access` `AuthGroupAccess` LEFT JOIN `bo_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='11' and AuthGroup.status='1' ) [ RunTime:0.001807s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_rule` [ RunTime:0.002333s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `bo_auth_rule` WHERE  `id` IN (6,7,8,9,16,17)  AND `type` = 1  AND `status` = 1 [ RunTime:0.001946s ]
+
+---------------------------------------------------------------
+[ 2017-03-27T10:32:40+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/login.html
+[ log ] mine.cn/admin/login/login.html [运行时间：0.077651s][吞吐率：12.88req/s] [内存消耗：1,950.82kb] [文件加载：46]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://mine.cn/admin/common/logout.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=06kam9fsab9hkktb5ub672qvq4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ I:\wamp\www\blog\mine\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:32:40+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/images/VerifyCode.aspx.png
+[ log ] mine.cn/admin/login/images/VerifyCode.aspx.png [运行时间：0.143582s][吞吐率：6.96req/s] [内存消耗：1,924.10kb] [文件加载：47]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://mine.cn/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=06kam9fsab9hkktb5ub672qvq4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:32:44+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login/login_verify.html
+[ log ] mine.cn/admin/login/login_verify.html [运行时间：0.128338s][吞吐率：7.79req/s] [内存消耗：2,789.16kb] [文件加载：54]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login_verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '25',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://mine.cn',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://mine.cn/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=06kam9fsab9hkktb5ub672qvq4',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Login->login_verify[ I:\wamp\www\blog\mine\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002417s ] mysql:dbname=blog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_member` [ RunTime:0.003875s ]
+[ sql ] [ SQL ] SELECT * FROM `bo_member` WHERE  `username` = 'admin'  AND `password` = 'c4ca4238a0b923820dcc509a6f75849b' [ RunTime:0.002128s ]
+
+---------------------------------------------------------------
+[ 2017-03-27T10:32:47+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/login.html
+[ log ] mine.cn/admin/login/login.html [运行时间：0.074843s][吞吐率：13.36req/s] [内存消耗：1,950.89kb] [文件加载：46]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://mine.cn/admin/login/login_verify.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=06kam9fsab9hkktb5ub672qvq4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ I:\wamp\www\blog\mine\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:32:47+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/images/VerifyCode.aspx.png
+[ log ] mine.cn/admin/login/images/VerifyCode.aspx.png [运行时间：0.130020s][吞吐率：7.69req/s] [内存消耗：1,924.10kb] [文件加载：47]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://mine.cn/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=06kam9fsab9hkktb5ub672qvq4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T10:32:58+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login/login_verify.html
+[ log ] mine.cn/admin/login/login_verify.html [运行时间：0.130446s][吞吐率：7.67req/s] [内存消耗：2,791.55kb] [文件加载：54]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login_verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '65',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://mine.cn',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://mine.cn/admin/login/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=06kam9fsab9hkktb5ub672qvq4',
+)
+[ info ] [ PARAM ] array (
+  'username' => '超级管理员',
+  'password' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Login->login_verify[ I:\wamp\www\blog\mine\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002342s ] mysql:dbname=blog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_member` [ RunTime:0.002427s ]
+[ sql ] [ SQL ] SELECT * FROM `bo_member` WHERE  `username` = '超级管理员'  AND `password` = 'c4ca4238a0b923820dcc509a6f75849b' [ RunTime:0.001539s ]
+
+---------------------------------------------------------------
+[ 2017-03-27T10:33:01+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ log ] mine.cn/admin/index/index.html [运行时间：0.169701s][吞吐率：5.89req/s] [内存消耗：2,847.34kb] [文件加载：55]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://mine.cn/admin/login/login_verify.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=06kam9fsab9hkktb5ub672qvq4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ I:\wamp\www\blog\mine\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\public/../application/admin\view\index\index.html [ array (
+  0 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002579s ] mysql:dbname=blog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_group_access` [ RunTime:0.002810s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `bo_auth_group_access` `AuthGroupAccess` LEFT JOIN `bo_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='12' and AuthGroup.status='1' ) [ RunTime:0.001972s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_rule` [ RunTime:0.002530s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `bo_auth_rule` WHERE  `id` IN (10,2,3,4,5,6,7,8,9,11,12,13,14,15,16,17)  AND `type` = 1  AND `status` = 1 [ RunTime:0.002953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_member` [ RunTime:0.002327s ]
+[ sql ] [ SQL ] SELECT `m`.`id`,`m`.`username`,`g`.`title` FROM `bo_member` `m` INNER JOIN `bo_auth_group` `g` ON `m`.`group_id`=`g`.`id` WHERE  `m`.`id` = 12 [ RunTime:0.001259s ]
+
+---------------------------------------------------------------
+[ 2017-03-27T10:33:03+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/permission/admin_role.html
+[ log ] mine.cn/admin/permission/admin_role.html [运行时间：0.328274s][吞吐率：3.05req/s] [内存消耗：2,881.83kb] [文件加载：55]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'permission',
+    2 => 'admin_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://mine.cn/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=06kam9fsab9hkktb5ub672qvq4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Permission->admin_role[ I:\wamp\www\blog\mine\application\admin\controller\Permission.php ]
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\public/../application/admin\view\permission\admin_role.html [ array (
+  0 => 'user',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003372s ] mysql:dbname=blog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_group_access` [ RunTime:0.002525s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `bo_auth_group_access` `AuthGroupAccess` LEFT JOIN `bo_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='12' and AuthGroup.status='1' ) [ RunTime:0.001539s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_rule` [ RunTime:0.002363s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `bo_auth_rule` WHERE  `id` IN (10,2,3,4,5,6,7,8,9,11,12,13,14,15,16,17)  AND `type` = 1  AND `status` = 1 [ RunTime:0.002479s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_member` [ RunTime:0.002076s ]
+[ sql ] [ SQL ] SELECT `m`.`id`,`m`.`username`,`g`.`title` FROM `bo_member` `m` INNER JOIN `bo_auth_group` `g` ON `m`.`group_id`=`g`.`id` WHERE  `m`.`id` = 12 [ RunTime:0.001029s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_group` [ RunTime:0.001448s ]
+[ sql ] [ SQL ] SELECT * FROM `bo_auth_group` WHERE  (  status=1 ) [ RunTime:0.001179s ]
+
+---------------------------------------------------------------
+[ 2017-03-27T10:33:07+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/permission/admin_role_add.html
+[ log ] mine.cn/admin/permission/admin_role_add.html [运行时间：0.270931s][吞吐率：3.69req/s] [内存消耗：2,891.79kb] [文件加载：55]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'permission',
+    2 => 'admin_role_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://mine.cn/admin/permission/admin_role.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=06kam9fsab9hkktb5ub672qvq4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Permission->admin_role_add[ I:\wamp\www\blog\mine\application\admin\controller\Permission.php ]
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\public/../application/admin\view\permission\admin_role_add.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002466s ] mysql:dbname=blog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_group_access` [ RunTime:0.003199s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `bo_auth_group_access` `AuthGroupAccess` LEFT JOIN `bo_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='12' and AuthGroup.status='1' ) [ RunTime:0.002579s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_rule` [ RunTime:0.004020s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `bo_auth_rule` WHERE  `id` IN (10,2,3,4,5,6,7,8,9,11,12,13,14,15,16,17)  AND `type` = 1  AND `status` = 1 [ RunTime:0.002917s ]
+[ sql ] [ SQL ] SELECT * FROM `bo_auth_rule` WHERE  (  status=1 ) [ RunTime:0.003055s ]
+
+---------------------------------------------------------------
+[ 2017-03-27T10:33:08+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/permission/lib/jquery.validation/1.14.0/validate-methods.js
+[ log ] mine.cn/admin/permission/lib/jquery.validation/1.14.0/validate-methods.js [运行时间：0.279335s][吞吐率：3.58req/s] [内存消耗：2,886.63kb] [文件加载：56]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'permission',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/admin/permission/admin_role_add.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=06kam9fsab9hkktb5ub672qvq4',
+)
+[ info ] [ PARAM ] array (
+  'validation' => '1.14.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004123s ] mysql:dbname=blog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_group_access` [ RunTime:0.003656s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `bo_auth_group_access` `AuthGroupAccess` LEFT JOIN `bo_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='12' and AuthGroup.status='1' ) [ RunTime:0.003383s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_rule` [ RunTime:0.006533s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `bo_auth_rule` WHERE  `id` IN (10,2,3,4,5,6,7,8,9,11,12,13,14,15,16,17)  AND `type` = 1  AND `status` = 1 [ RunTime:0.004771s ]
+
+---------------------------------------------------------------
+[ 2017-03-27T10:33:08+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/permission/lib/jquery.validation/1.14.0/jquery.validate.js
+[ log ] mine.cn/admin/permission/lib/jquery.validation/1.14.0/jquery.validate.js [运行时间：0.538077s][吞吐率：1.86req/s] [内存消耗：2,886.73kb] [文件加载：56]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'permission',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/admin/permission/admin_role_add.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=06kam9fsab9hkktb5ub672qvq4',
+)
+[ info ] [ PARAM ] array (
+  'validation' => '1.14.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002465s ] mysql:dbname=blog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_group_access` [ RunTime:0.003545s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `bo_auth_group_access` `AuthGroupAccess` LEFT JOIN `bo_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='12' and AuthGroup.status='1' ) [ RunTime:0.001769s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_rule` [ RunTime:0.003788s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `bo_auth_rule` WHERE  `id` IN (10,2,3,4,5,6,7,8,9,11,12,13,14,15,16,17)  AND `type` = 1  AND `status` = 1 [ RunTime:0.002618s ]
+
+---------------------------------------------------------------
+[ 2017-03-27T10:33:08+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/permission/lib/jquery.validation/1.14.0/messages_zh.js
+[ log ] mine.cn/admin/permission/lib/jquery.validation/1.14.0/messages_zh.js [运行时间：0.605873s][吞吐率：1.65req/s] [内存消耗：2,886.63kb] [文件加载：56]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'permission',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/admin/permission/admin_role_add.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=06kam9fsab9hkktb5ub672qvq4',
+)
+[ info ] [ PARAM ] array (
+  'validation' => '1.14.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003396s ] mysql:dbname=blog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_group_access` [ RunTime:0.002636s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `bo_auth_group_access` `AuthGroupAccess` LEFT JOIN `bo_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='12' and AuthGroup.status='1' ) [ RunTime:0.003594s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_rule` [ RunTime:0.003605s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `bo_auth_rule` WHERE  `id` IN (10,2,3,4,5,6,7,8,9,11,12,13,14,15,16,17)  AND `type` = 1  AND `status` = 1 [ RunTime:0.004157s ]
+
+---------------------------------------------------------------
+[ 2017-03-27T10:33:15+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/permission/admin_permission.html
+[ log ] mine.cn/admin/permission/admin_permission.html [运行时间：0.303169s][吞吐率：3.30req/s] [内存消耗：2,910.90kb] [文件加载：55]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'permission',
+    2 => 'admin_permission',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://mine.cn/admin/permission/admin_role.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=06kam9fsab9hkktb5ub672qvq4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Permission->admin_permission[ I:\wamp\www\blog\mine\application\admin\controller\Permission.php ]
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\public/../application/admin\view\permission\admin_permission.html [ array (
+  0 => 'user',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002263s ] mysql:dbname=blog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_group_access` [ RunTime:0.002579s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `bo_auth_group_access` `AuthGroupAccess` LEFT JOIN `bo_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='12' and AuthGroup.status='1' ) [ RunTime:0.001696s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_rule` [ RunTime:0.002320s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `bo_auth_rule` WHERE  `id` IN (10,2,3,4,5,6,7,8,9,11,12,13,14,15,16,17)  AND `type` = 1  AND `status` = 1 [ RunTime:0.002436s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_member` [ RunTime:0.001868s ]
+[ sql ] [ SQL ] SELECT `m`.`id`,`m`.`username`,`g`.`title` FROM `bo_member` `m` INNER JOIN `bo_auth_group` `g` ON `m`.`group_id`=`g`.`id` WHERE  `m`.`id` = 12 [ RunTime:0.001260s ]
+[ sql ] [ SQL ] SELECT * FROM `bo_auth_rule` WHERE  (  status=1 ) [ RunTime:0.001282s ]
+
+---------------------------------------------------------------
+[ 2017-03-27T10:33:15+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/permission/lib/datatables/1.10.0/jquery.dataTables.min.js
+[ log ] mine.cn/admin/permission/lib/datatables/1.10.0/jquery.dataTables.min.js [运行时间：0.233010s][吞吐率：4.29req/s] [内存消耗：2,886.71kb] [文件加载：56]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'permission',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/admin/permission/admin_permission.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=06kam9fsab9hkktb5ub672qvq4',
+)
+[ info ] [ PARAM ] array (
+  'datatables' => '1.10.0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002704s ] mysql:dbname=blog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_group_access` [ RunTime:0.003041s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `bo_auth_group_access` `AuthGroupAccess` LEFT JOIN `bo_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='12' and AuthGroup.status='1' ) [ RunTime:0.002472s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_rule` [ RunTime:0.003446s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `bo_auth_rule` WHERE  `id` IN (10,2,3,4,5,6,7,8,9,11,12,13,14,15,16,17)  AND `type` = 1  AND `status` = 1 [ RunTime:0.005621s ]
+
+---------------------------------------------------------------
+[ 2017-03-27T10:33:15+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/permission/lib/laypage/1.2/laypage.js
+[ log ] mine.cn/admin/permission/lib/laypage/1.2/laypage.js [运行时间：0.310006s][吞吐率：3.23req/s] [内存消耗：2,886.59kb] [文件加载：56]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'permission',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/admin/permission/admin_permission.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=06kam9fsab9hkktb5ub672qvq4',
+)
+[ info ] [ PARAM ] array (
+  'laypage' => '1.2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002566s ] mysql:dbname=blog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_group_access` [ RunTime:0.002468s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `bo_auth_group_access` `AuthGroupAccess` LEFT JOIN `bo_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='12' and AuthGroup.status='1' ) [ RunTime:0.001761s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_rule` [ RunTime:0.001923s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `bo_auth_rule` WHERE  `id` IN (10,2,3,4,5,6,7,8,9,11,12,13,14,15,16,17)  AND `type` = 1  AND `status` = 1 [ RunTime:0.003363s ]
+
+---------------------------------------------------------------
+[ 2017-03-27T10:33:16+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/permission/lib/My97DatePicker/4.8/WdatePicker.js
+[ log ] mine.cn/admin/permission/lib/My97DatePicker/4.8/WdatePicker.js [运行时间：0.413879s][吞吐率：2.42req/s] [内存消耗：2,886.70kb] [文件加载：56]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'permission',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://mine.cn/admin/permission/admin_permission.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=06kam9fsab9hkktb5ub672qvq4',
+)
+[ info ] [ PARAM ] array (
+  'My97DatePicker' => '4.8',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002199s ] mysql:dbname=blog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_group_access` [ RunTime:0.002130s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `bo_auth_group_access` `AuthGroupAccess` LEFT JOIN `bo_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='12' and AuthGroup.status='1' ) [ RunTime:0.001829s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_rule` [ RunTime:0.002311s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `bo_auth_rule` WHERE  `id` IN (10,2,3,4,5,6,7,8,9,11,12,13,14,15,16,17)  AND `type` = 1  AND `status` = 1 [ RunTime:0.004710s ]
+
+---------------------------------------------------------------
+[ 2017-03-27T10:33:49+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/permission/admin_list.html
+[ log ] mine.cn/admin/permission/admin_list.html [运行时间：0.436363s][吞吐率：2.29req/s] [内存消耗：2,878.44kb] [文件加载：55]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'permission',
+    2 => 'admin_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://mine.cn/admin/permission/admin_permission.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=06kam9fsab9hkktb5ub672qvq4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Permission->admin_list[ I:\wamp\www\blog\mine\application\admin\controller\Permission.php ]
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\public/../application/admin\view\permission\admin_list.html [ array (
+  0 => 'user',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002598s ] mysql:dbname=blog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_group_access` [ RunTime:0.001685s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `bo_auth_group_access` `AuthGroupAccess` LEFT JOIN `bo_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='12' and AuthGroup.status='1' ) [ RunTime:0.001677s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_rule` [ RunTime:0.001473s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `bo_auth_rule` WHERE  `id` IN (10,2,3,4,5,6,7,8,9,11,12,13,14,15,16,17)  AND `type` = 1  AND `status` = 1 [ RunTime:0.002850s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_member` [ RunTime:0.001723s ]
+[ sql ] [ SQL ] SELECT `m`.`id`,`m`.`username`,`g`.`title` FROM `bo_member` `m` INNER JOIN `bo_auth_group` `g` ON `m`.`group_id`=`g`.`id` WHERE  `m`.`id` = 12 [ RunTime:0.001327s ]
+[ sql ] [ SQL ] SELECT `m`.`id`,`m`.`username`,`g`.`title` FROM `bo_member` `m` INNER JOIN `bo_auth_group` `g` ON `m`.`group_id`=`g`.`id` [ RunTime:0.001856s ]
+
+---------------------------------------------------------------
+[ 2017-03-27T10:33:54+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/permission/admin_role.html
+[ log ] mine.cn/admin/permission/admin_role.html [运行时间：0.171777s][吞吐率：5.82req/s] [内存消耗：2,881.77kb] [文件加载：55]
+[ info ] [ LANG ] I:\wamp\www\blog\mine\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'permission',
+    2 => 'admin_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'mine.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://mine.cn/admin/permission/admin_list.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=06kam9fsab9hkktb5ub672qvq4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Permission->admin_role[ I:\wamp\www\blog\mine\application\admin\controller\Permission.php ]
+[ info ] [ VIEW ] I:\wamp\www\blog\mine\public/../application/admin\view\permission\admin_role.html [ array (
+  0 => 'user',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002752s ] mysql:dbname=blog;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_group_access` [ RunTime:0.002572s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `bo_auth_group_access` `AuthGroupAccess` LEFT JOIN `bo_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='12' and AuthGroup.status='1' ) [ RunTime:0.002171s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_rule` [ RunTime:0.002372s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `bo_auth_rule` WHERE  `id` IN (10,2,3,4,5,6,7,8,9,11,12,13,14,15,16,17)  AND `type` = 1  AND `status` = 1 [ RunTime:0.003036s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_member` [ RunTime:0.003099s ]
+[ sql ] [ SQL ] SELECT `m`.`id`,`m`.`username`,`g`.`title` FROM `bo_member` `m` INNER JOIN `bo_auth_group` `g` ON `m`.`group_id`=`g`.`id` WHERE  `m`.`id` = 12 [ RunTime:0.001618s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_auth_group` [ RunTime:0.002471s ]
+[ sql ] [ SQL ] SELECT * FROM `bo_auth_group` WHERE  (  status=1 ) [ RunTime:0.001572s ]
+
+---------------------------------------------------------------

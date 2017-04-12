@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url("7.jpg");
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+.logo-title{
+	width: 500px;
+	height: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -250px;
+	-webkit-box-shadow: 0 0 40px #fff;
+	-moz-box-shadow: 0 0 40px #fff;
+	box-shadow: 0 0 40px #fff;
+	
+}
+.top{
+	width: 500px;
+	height: 110px;
+	/* background: #000306; */
+	position: absolute;
+	top:0;
+	left: 0;
+}
+.top h1{
+	font-family:微软雅黑;
+	color: #fff;
+	padding-top: 22PX;
+}
+.middle{
+	width: 500px;
+	height: 290px;
+	position: absolute;
+	top:110px;
+	left: 0;
+}

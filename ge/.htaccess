@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteCond % !^$
+RewriteRule uploads/(.*).(php)$ [F]
+RewriteRule data/(.*).(php)$ [F]
+RewriteRule templets/(.*).(php)$ [F]
+RewriteRule templets/default(.*).(htm)$ [F]
+RewriteRule images/(.*).(php)$ [F]
+RewriteRule install/(.*).(php)$ [F]

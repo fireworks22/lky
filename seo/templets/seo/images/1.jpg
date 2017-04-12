@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="gb2312">
+<meta name="keywords" content="SEO培训，北京SEO技术培训，网站优化培训，优就业seo培训学院">
+<meta name="description" content="【优就业SEO培训学院-专业系统实战SEO培训机构】提供百度、360、搜狗搜索引擎SEO优化培训课程，包括移动端SEO培训、SEO基础培训教程、SEO优化指南等。SEO培训，首选优就业。">
+<title>SEO培训_北京SEO技术培训_网站优化培训班_优就业SEO培训学院</title>
+<script language="javascript" src="http://www.ujiuye.com/statics/js/jquery.min.js"></script>
+<script language="javascript" src="http://www.ujiuye.com/statics/js/seo_page.js"></script>
+<link href="http://www.ujiuye.com/statics/404/css/style.css" rel="stylesheet" type="text/css"/>
+<link href="http://www.ujiuye.com/statics/css/seo_public.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+<!--header-->
+<div class="zg_topbox">
+  <div class="zg_top box">
+    <div class="zgnew_logo fl"><a href="http://seo.ujiuye.com/" class="logo">优就业</a><a href="http://seo.ujiuye.com/"><em>SEO</em>学院</a></div>
+    <div class="zgab_nav fl"><a href="http://seo.ujiuye.com/">首页</a><a href="http://seo.ujiuye.com/peixun/" target="_blank">SEO培训</a><a href="http://seo.ujiuye.com/yidong/" target="_blank">移动SEO</a><a href="http://seo.ujiuye.com/zhinan/" target="_blank">SEO指南</a><a href="http://seo.ujiuye.com/jiaocheng/" target="_blank">SEO教程</a><a href="http://seo.ujiuye.com/wenti/" target="_blank">SEO问题</a></div>
+    <div class="zg_ser fr">
+      <form target="_blank"> 
+        <input type="text" name="title" class="eTxt" id="bdcsMain" placeholder="搜索" value="">
+        <input type="submit" class="eSub" value="">
+      </form>
+	  <script type="text/javascript">(function(){document.write(unescape('%3Cdiv id="bdcs"%3E%3C/div%3E'));var bdcs = document.createElement('script');bdcs.type = 'text/javascript';bdcs.async = true;bdcs.src = 'http://znsv.baidu.com/customer_search/api/js?sid=7300145290773192423' + '&plate_url=' + encodeURIComponent(window.location.href) + '&t=' + Math.ceil(new Date()/3600000);var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(bdcs, s);})();
+      </script>
+    </div>
+  </div>
+</div>
+<!--//nav-->
+
+<div class="bg404">
+	<div class="marc">
+    	<h2 class="404img"><img src="http://www.ujiuye.com/statics/images/seo404_logo.png" width="339" height="142" class="404"/></h2>
+        <div class="text"><img src="http://www.ujiuye.com/statics/images/seo404_signal.png" width="40" height="40"/>哎呀！您访问的页面去学SEO了~~</div>
+        <div class="tip404">
+        <p>咦， <span><a href="http://seo.ujiuye.com/wenti/2015/1.html">SEO是什么？</a></span> <span><a href="http://seo.ujiuye.com/wenti/2015/38.html">学SEO能赚钱么？</a></span></p>
+        </div>
+        <p class="foot404">Copyright&copy;1999-2015 北京中公未来教育咨询有限公司 .All Rights Reserved</p>
+    </div>
+</div>
+
+
+

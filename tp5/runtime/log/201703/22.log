@@ -1,0 +1,60 @@
+[ 2017-03-22T09:48:06+08:00 ] ::1 ::1 GET /
+[ log ] localhost/ [运行时间：0.095005s][吞吐率：10.53req/s] [内存消耗：1,793.80kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=8354029568; bdfmapping=1490080270; DedeUserID=1; DedeUserID__ckMd5=e8ea2d52b7afd39f; DedeLoginTime=1490080402; DedeLoginTime__ckMd5=879e5f9e8bc25bda; _pk_id.1.1fff=32e73f3c5f63b43f.1490080271.1.1490080881.1490080271.; UM_distinctid=15aefc3785143b-00fb0ae83b8784-4049042b-100200-15aefc3785626c; lastCid=5; lastCid__ckMd5=4b5f1fcffd2b3585; Hm_lvt_a6adf98bf5f7dd3d72872cf8b3535543=1490081249; Hm_lvt_6a30590aa8493671246d87a320807461=1490081249; CNZZDATA1261058309=1493572498-1490080594-http%253A%252F%252Flocalhost%252F%7C1490086062; Hm_lvt_3a93da1a563d8d1c151716e2b12738c9=1490080952',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-22T09:49:05+08:00 ] ::1 ::1 GET /
+[ log ] localhost/ [运行时间：0.065004s][吞吐率：15.38req/s] [内存消耗：1,793.84kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=8354029568; bdfmapping=1490080270; DedeUserID=1; DedeUserID__ckMd5=e8ea2d52b7afd39f; DedeLoginTime=1490080402; DedeLoginTime__ckMd5=879e5f9e8bc25bda; _pk_id.1.1fff=32e73f3c5f63b43f.1490080271.1.1490080881.1490080271.; UM_distinctid=15aefc3785143b-00fb0ae83b8784-4049042b-100200-15aefc3785626c; lastCid=5; lastCid__ckMd5=4b5f1fcffd2b3585; Hm_lvt_a6adf98bf5f7dd3d72872cf8b3535543=1490081249; Hm_lvt_6a30590aa8493671246d87a320807461=1490081249; CNZZDATA1261058309=1493572498-1490080594-http%253A%252F%252Flocalhost%252F%7C1490086062; Hm_lvt_3a93da1a563d8d1c151716e2b12738c9=1490080952; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

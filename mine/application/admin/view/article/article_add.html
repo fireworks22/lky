@@ -1,0 +1,111 @@
+{include file='common/meta'}
+{include file='common/fileinput'}
+<title>新增文章</title>
+</head>
+<body>
+<article class="page-container">
+	<form class="form form-horizontal" id="form-article-add" enctype="multipart/form-data" action="{:url('admin/article/article_insert')}" method="post">
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>文章标题：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="" id="" name="title">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>分类栏目：</label>
+			<div class="formControls col-xs-8 col-sm-9"> <span class="select-box">
+				<select name="cate_id" class="select">
+					{foreach $data as $vo}
+					<option value="{$vo.id}">{$vo.cate_name}</option>
+					{/foreach}
+				</select>
+				</span> </div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">文章作者：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="admin" placeholder="" id="author" name="">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">文章摘要：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<textarea name="content_short" cols="" rows="" class="textarea"  placeholder="说点什么...最少输入10个字符" datatype="*10-100" dragonfly="true" nullmsg="备注不能为空！" onKeyUp="textarealength(this,200)"></textarea>
+				<p class="textarea-numberbar"><em class="textarea-length">0</em>/200</p>
+			</div>
+		</div>
+
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">其他操作：</label>
+			<div class="formControls col-xs-8 col-sm-9 skin-minimal">
+				<div class="check-box">
+					<input type="checkbox" id="radio-top" name="isTop">
+					<label for="radio-top">&nbsp; 置顶</label>
+				</div>
+				<div class="check-box">
+					<input type="checkbox" id="radio-hot" name="isHot">
+					<label for="radio-hot">&nbsp; 热门</label>
+				</div>
+				<div class="check-box">
+					<input type="checkbox" id="radio-commend" name="isCommend">
+					<label for="radio-commend">&nbsp; 推荐</label>
+				</div>
+			</div>
+		</div>
+
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">封面：</label>
+			<div class="formControls col-xs-7 col-sm-8" style="margin-left: 20px;">
+				<div class="uploader-thumb-container">
+					<span class="btn-upload form-group">
+					  <input class="input-text upload-url radius" type="text" name="uploadfile-1" id="uploadfile-1" readonly><a href="javascript:void();" class="btn btn-primary radius"><i class="iconfont">&#xf0020;</i> 浏览文件</a>
+					  <input type="file" multiple name="file" class="input-file">
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">文章内容：</label>
+			<div class="formControls col-xs-8 col-sm-9"> 
+				<script id="editor" type="text/plain" name="content" style="width:100%;height:400px;"></script>
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-2">标签：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="多个标签请使用英文下的逗号分隔（,）" id="" name="tags">
+			</div>
+		</div>
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2">
+				<button onClick="article_save_submit();" class="btn btn-primary radius" type="submit"><i class="Hui-iconfont">&#xe632;</i> 保存并发布</button>
+				<button onClick="article_save();" class="btn btn-secondary radius" type="button"><i class="Hui-iconfont">&#xe632;</i> 保存草稿</button>
+				<button onClick="removeIframe();" class="btn btn-default radius" type="button">&nbsp;&nbsp;取消&nbsp;&nbsp;</button>
+			</div>
+		</div>
+	</form>
+</article>
+
+{include file='common/footer'}
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="_admim_/lib/My97DatePicker/4.8/WdatePicker.js"></script>
+<script type="text/javascript" src="_admim_/lib/jquery.validation/1.14.0/jquery.validate.js"></script>
+<script type="text/javascript" src="_admim_/lib/jquery.validation/1.14.0/validate-methods.js"></script>
+<script type="text/javascript" src="_admin_/lib/jquery.validation/1.14.0/messages_zh.js"></script>
+<script type="text/javascript" src="_admin_/lib/webuploader/0.1.5/webuploader.min.js"></script>
+<script type="text/javascript" src="_admin_/lib/ueditor/1.4.3/ueditor.config.js"></script>
+<script type="text/javascript" src="_admin_/lib/ueditor/1.4.3/ueditor.all.min.js"> </script>
+<script type="text/javascript" src="_admin_/lib/ueditor/1.4.3/lang/zh-cn/zh-cn.js"></script>
+
+<script type="text/javascript">
+$(function(){
+
+	var ue = UE.getEditor('editor');
+
+});
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

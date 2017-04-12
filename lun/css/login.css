@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearFix{
+    zoom: 1;
+}
+.clearFix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+li{
+    list-style: none;
+}
+a:hover{
+    text-decoration:none;
+}
+body{
+    font-family:"Microsoft HeiTi";
+    background: url(../img/login_bg.jpg) repeat;
+    margin: 0;
+}
+
+.log{
+    width: 714px;
+    min-height: 498px;
+    background: #fff;
+    margin:80px auto 20px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.mod-body{
+    width: 100%;
+    height: 428px;
+    padding:50px 67px;
+}
+.pull-left{
+    width: 350px;
+    min-height: 300px;
+    padding-right: 50px;
+    float: left;
+}
+.pull-left img{
+    display: inline-block;
+    width: 300px;
+    height: 64px;
+    padding: 0 100px 4px 0;
+}
+.pull-left h2{
+    width: 300px;
+    height: 23px;
+    display: block;
+    font-size: 1.5rem;
+}
+.pull-left ul{
+    width: 300px;
+    height: 160px;
+    padding-top: 40px;
+}
+
+.pull-left .it{
+    display: block;
+    height: 40px;
+}
+.pull-left .aw-li{
+    position: relative;
+}
+.pull-left .aw-li label{
+    display: block;
+    height: 38px;
+    width: 120px;
+    line-height: 38px;
+    font-size: 1rem;
+    font-weight:normal;
+    position: absolute;
+    left: 0;
+}
+.pull-left .aw-li .btn{
+    display: block;
+    width: 120px;
+    height: 38px;
+    color: #fff;
+    background: #59b0ff;
+    font-weight:700;
+    position: absolute;
+    right: 0;
+}
+.side-bar{
+    width: 230px;
+    height: 328px;
+    border-left: 1px solid #ddd;
+    padding: 60px 0 60px 60px;
+    float: right;
+}
+.side-bar h3{
+    text-align: center;
+    font-size: 1.3rem;
+    color: #666;
+    margin-bottom: 35px;
+}
+.side-bar a{
+    display: block;
+    width: 100%;
+    height: 34px;
+    background: silver;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.side-bar .btn-weibo{
+    background: red;
+}
+.side-bar .btn-qq{
+    background: #418ac2;
+}
+.side-bar a img{
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    left: -1px;
+    top: -1px;
+}
+.side-bar a span{
+    width: 135px;
+    height: 34px;
+    display: inline-block;
+    color: #fff;
+    font-size: 1.8rem;
+    line-height: 34px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.mod-footer{
+    width: 100%;
+    height: 70px;
+    padding:0 67px;
+    line-height: 70px;
+    font-size: 1rem;
+}
+.aw-footer{
+    color: #666;
+    width: 100%;
+    height: 62px;
+    line-height: 62px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+#username-error{
+    width: 300px;
+    font-size: 1rem;
+
+}

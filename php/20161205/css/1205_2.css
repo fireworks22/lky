@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    width: 50px;
+    height: 50px;
+    margin:30px 30px;
+    border: 3px solid #000;
+    border-right:none;
+    border-bottom:none;
+    /*偏移*/
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    float: left;
+}
+.first{
+    width: 80%;
+    height: 400px;
+    margin:auto;
+    background: #000;
+    z-index: 1;
+}
+.first .two{
+    width: 50%;
+    height: 400px;
+    margin:auto;
+    background: gold;
+    z-index: 2;
+}
+.first .two .three{
+    width: 50%;
+    height: 400px;
+    margin:auto;
+    background: green;
+    z-index: 3;
+}
+.nav{
+    margin: 30px auto;
+    background: #000;
+
+}
+.nav li{
+    list-style: none;
+    float: left;
+    margin:0 10px;
+}
+.clear{
+    clear: both;
+}
+p{
+    width:100px;
+    white-space: nowrap;/*强制在一行显示*/
+    overflow: hidden;/*溢出部分隐藏*/
+    text-overflow: ellipsis;/*超出部分省略号显示*/
+}

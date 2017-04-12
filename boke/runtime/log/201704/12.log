@@ -1,0 +1,1457 @@
+[ 2017-04-12T09:58:42+08:00 ] ::1 ::1 GET /boke/public/
+[ log ] localhost/boke/public/ [运行时间：0.056004s][吞吐率：17.86req/s] [内存消耗：1,269.38kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=8354029568; UM_distinctid=15aefc3785143b-00fb0ae83b8784-4049042b-100200-15aefc3785626c; Phpstorm-4ce5e59f=e30c4d48-9c14-4589-809e-db1838da767f; _pk_id.1.1fff=32e73f3c5f63b43f.1490080271.2.1490259285.1490257505.; Hm_lvt_a6adf98bf5f7dd3d72872cf8b3535543=1490176310,1490247209,1490258988,1490599702; Hm_lvt_6a30590aa8493671246d87a320807461=1490176310,1490247210,1490258988,1490599703; CNZZDATA1261058309=1493572498-1490080594-http%253A%252F%252Flocalhost%252F%7C1490663648; Hm_lvt_3a93da1a563d8d1c151716e2b12738c9=1490176310,1490247210,1490258988,1490599703; bdshare_firstime=1491551887698; DedeUserID=1; DedeUserID__ckMd5=fb67bd62d888f1b9; DedeLoginTime=1491889135; DedeLoginTime__ckMd5=8280feb0c41931e6; lastCid=2; lastCid__ckMd5=cc1217a8a31ac20f; Hm_lvt_080836300300be57b7f34f4b3e97d911=1491899140; CNZZDATA1000446293=1320311719-1490254793-http%253A%252F%252Flocalhost%253A83%252F%7C1491899519',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'http://localhost/boke/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\boke\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T09:59:14+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] boke.cn/ [运行时间：0.046800s][吞吐率：21.37req/s] [内存消耗：1,267.71kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490318455,1490335152,1490576713,1491529025',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\boke\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T09:59:24+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ log ] boke.cn/index.php [运行时间：0.053602s][吞吐率：18.66req/s] [内存消耗：1,267.70kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490318455,1490335152,1490576713,1491529025; pgv_si=s4984915968',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\boke\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T09:59:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin
+[ log ] boke.cn/index.php/admin [运行时间：0.092604s][吞吐率：10.80req/s] [内存消耗：1,587.64kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490318455,1490335152,1490576713,1491529025; pgv_si=s4984915968',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpStudy\WWW\boke\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\boke\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T09:59:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/category/product_category.html
+[ log ] boke.cn/index.php/admin/category/product_category.html [运行时间：0.089604s][吞吐率：11.16req/s] [内存消耗：1,598.37kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'product_category',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491962373',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://boke.cn/index.php/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Category->product_category[ D:\phpStudy\WWW\boke\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\boke\public/../application/admin\view\category\product_category.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T09:59:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/category/product_category_add.html
+[ log ] boke.cn/index.php/admin/category/product_category_add.html [运行时间：0.134007s][吞吐率：7.46req/s] [内存消耗：2,534.15kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'product_category_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491962373',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://boke.cn/index.php/admin/category/product_category.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Category->product_category_add[ D:\phpStudy\WWW\boke\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\boke\public/../application/admin\view\category\product_category_add.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:dbname=tpbo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_category` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT *,concat(path,id) as paths FROM `bo_category` ORDER BY paths desc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T09:59:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/category/category_list_tree.html
+[ log ] boke.cn/index.php/admin/category/category_list_tree.html [运行时间：0.075004s][吞吐率：13.33req/s] [内存消耗：2,208.76kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'category_list_tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491962373',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://boke.cn/index.php/admin/category/product_category.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Category->category_list_tree[ D:\phpStudy\WWW\boke\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=tpbo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_category` [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`name` FROM `bo_category` [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T09:59:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/article/article_list.html
+[ log ] boke.cn/index.php/admin/article/article_list.html [运行时间：0.148008s][吞吐率：6.76req/s] [内存消耗：2,652.44kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491962373',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://boke.cn/index.php/admin/category/product_category.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->article_list[ D:\phpStudy\WWW\boke\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\boke\public/../application/admin\view\article\article_list.html [ array (
+  0 => 'cated',
+  1 => 'data',
+  2 => 'count',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=tpbo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_category` [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT *,concat(path,id) as paths FROM `bo_category` ORDER BY paths desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_article` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT count(*) as count FROM `bo_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bo_article` `a` INNER JOIN `bo_category` `c` ON `a`.`cate_id`=`c`.`id` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`create_time`,`a`.`author`,`c`.`name` FROM `bo_article` `a` INNER JOIN `bo_category` `c` ON `a`.`cate_id`=`c`.`id` LIMIT 0,3 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T09:59:43+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/picture/picture_list.html
+[ log ] boke.cn/index.php/admin/picture/picture_list.html [运行时间：0.085004s][吞吐率：11.76req/s] [内存消耗：1,588.76kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'picture',
+    2 => 'picture_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491962373',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://boke.cn/index.php/admin/article/article_list.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Picture->picture_list[ D:\phpStudy\WWW\boke\application\admin\controller\Picture.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\boke\public/../application/admin\view\picture\picture_list.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T09:59:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/picture/pic/200x150.jpg
+[ log ] boke.cn/index.php/admin/picture/pic/200x150.jpg [运行时间：0.066003s][吞吐率：15.15req/s] [内存消耗：1,564.33kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'picture',
+    2 => 'pic',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491962373',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://boke.cn/index.php/admin/picture/picture_list.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T10:24:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/picture/picture_list.html
+[ log ] boke.cn/index.php/admin/picture/picture_list.html [运行时间：0.089203s][吞吐率：11.21req/s] [内存消耗：1,588.76kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'picture',
+    2 => 'picture_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491962373',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://boke.cn/index.php/admin/picture/picture_list.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Picture->picture_list[ D:\phpStudy\WWW\boke\application\admin\controller\Picture.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\boke\public/../application/admin\view\picture\picture_list.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T10:24:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/picture/pic/200x150.jpg
+[ log ] boke.cn/index.php/admin/picture/pic/200x150.jpg [运行时间：0.075004s][吞吐率：13.33req/s] [内存消耗：1,564.33kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'picture',
+    2 => 'pic',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491962373',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://boke.cn/index.php/admin/picture/picture_list.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T10:24:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/admin/admin_role.html
+[ log ] boke.cn/index.php/admin/admin/admin_role.html [运行时间：0.091605s][吞吐率：10.92req/s] [内存消耗：1,739.16kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'admin_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491962373',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://boke.cn/index.php/admin/picture/picture_list.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->admin_role[ D:\phpStudy\WWW\boke\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\boke\public/../application/admin\view\admin\admin_role.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T10:24:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/admin/admin_permission.html
+[ log ] boke.cn/index.php/admin/admin/admin_permission.html [运行时间：0.086604s][吞吐率：11.55req/s] [内存消耗：1,736.33kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'admin_permission',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491962373',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://boke.cn/index.php/admin/admin/admin_role.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->admin_permission[ D:\phpStudy\WWW\boke\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\boke\public/../application/admin\view\admin\admin_permission.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T10:24:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/admin/admin_list.html
+[ log ] boke.cn/index.php/admin/admin/admin_list.html [运行时间：0.078604s][吞吐率：12.72req/s] [内存消耗：1,740.94kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'admin_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491962373',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://boke.cn/index.php/admin/admin/admin_permission.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->admin_list[ D:\phpStudy\WWW\boke\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\boke\public/../application/admin\view\admin\admin_list.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T10:24:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/picture/picture_list.html
+[ log ] boke.cn/index.php/admin/picture/picture_list.html [运行时间：0.071603s][吞吐率：13.97req/s] [内存消耗：1,588.84kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'picture',
+    2 => 'picture_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491962373',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://boke.cn/index.php/admin/admin/admin_list.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Picture->picture_list[ D:\phpStudy\WWW\boke\application\admin\controller\Picture.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\boke\public/../application/admin\view\picture\picture_list.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T10:24:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/picture/pic/200x150.jpg
+[ log ] boke.cn/index.php/admin/picture/pic/200x150.jpg [运行时间：0.076005s][吞吐率：13.16req/s] [内存消耗：1,564.33kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'picture',
+    2 => 'pic',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491962373',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://boke.cn/index.php/admin/picture/picture_list.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T10:24:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/category/product_category.html
+[ log ] boke.cn/index.php/admin/category/product_category.html [运行时间：0.070604s][吞吐率：14.16req/s] [内存消耗：1,598.39kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'product_category',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491962373',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://boke.cn/index.php/admin/picture/picture_list.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Category->product_category[ D:\phpStudy\WWW\boke\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\boke\public/../application/admin\view\category\product_category.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T10:24:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/category/product_category_add.html
+[ log ] boke.cn/index.php/admin/category/product_category_add.html [运行时间：0.108006s][吞吐率：9.26req/s] [内存消耗：2,534.15kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'product_category_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491962373',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://boke.cn/index.php/admin/category/product_category.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Category->product_category_add[ D:\phpStudy\WWW\boke\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\boke\public/../application/admin\view\category\product_category_add.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tpbo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_category` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT *,concat(path,id) as paths FROM `bo_category` ORDER BY paths desc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T10:24:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/article/article_list.html
+[ log ] boke.cn/index.php/admin/article/article_list.html [运行时间：0.149206s][吞吐率：6.70req/s] [内存消耗：2,652.44kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491962373',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://boke.cn/index.php/admin/category/product_category.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->article_list[ D:\phpStudy\WWW\boke\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\boke\public/../application/admin\view\article\article_list.html [ array (
+  0 => 'cated',
+  1 => 'data',
+  2 => 'count',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=tpbo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_category` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT *,concat(path,id) as paths FROM `bo_category` ORDER BY paths desc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_article` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT count(*) as count FROM `bo_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bo_article` `a` INNER JOIN `bo_category` `c` ON `a`.`cate_id`=`c`.`id` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`create_time`,`a`.`author`,`c`.`name` FROM `bo_article` `a` INNER JOIN `bo_category` `c` ON `a`.`cate_id`=`c`.`id` LIMIT 0,3 [ RunTime:0.001001s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T10:24:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/category/category_list_tree.html
+[ log ] boke.cn/index.php/admin/category/category_list_tree.html [运行时间：0.074004s][吞吐率：13.51req/s] [内存消耗：2,208.76kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'category_list_tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491962373',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://boke.cn/index.php/admin/category/product_category.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Category->category_list_tree[ D:\phpStudy\WWW\boke\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=tpbo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_category` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`name` FROM `bo_category` [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T10:24:27+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/article/article_list.html
+[ log ] boke.cn/index.php/admin/article/article_list.html [运行时间：0.149207s][吞吐率：6.70req/s] [内存消耗：2,652.68kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491962373',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://boke.cn/index.php/admin/category/product_category.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->article_list[ D:\phpStudy\WWW\boke\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\boke\public/../application/admin\view\article\article_list.html [ array (
+  0 => 'cated',
+  1 => 'data',
+  2 => 'count',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=tpbo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_category` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT *,concat(path,id) as paths FROM `bo_category` ORDER BY paths desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_article` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT count(*) as count FROM `bo_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bo_article` `a` INNER JOIN `bo_category` `c` ON `a`.`cate_id`=`c`.`id` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`create_time`,`a`.`author`,`c`.`name` FROM `bo_article` `a` INNER JOIN `bo_category` `c` ON `a`.`cate_id`=`c`.`id` LIMIT 0,3 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T10:32:56+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/article/article_add.html
+[ log ] boke.cn/index.php/admin/article/article_add.html [运行时间：0.104006s][吞吐率：9.61req/s] [内存消耗：2,540.40kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'article_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491962373',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://boke.cn/index.php/admin/article/article_list.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->article_add[ D:\phpStudy\WWW\boke\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\boke\public/../application/admin\view\article\article_add.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=tpbo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_category` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT *,concat(path,id) as paths FROM `bo_category` ORDER BY paths desc [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T10:36:21+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/article/article_add.html
+[ log ] boke.cn/index.php/admin/article/article_add.html [运行时间：0.099006s][吞吐率：10.10req/s] [内存消耗：2,540.40kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'article_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491962373',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://boke.cn/index.php/admin/article/article_list.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->article_add[ D:\phpStudy\WWW\boke\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\boke\public/../application/admin\view\article\article_add.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=tpbo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_category` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT *,concat(path,id) as paths FROM `bo_category` ORDER BY paths desc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T10:37:02+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/admin/article/article_save.html
+[ log ] boke.cn/index.php/admin/article/article_save.html [运行时间：0.099006s][吞吐率：10.10req/s] [内存消耗：2,285.91kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'article_save',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491962373',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://boke.cn/index.php/admin/article/article_add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarydlVq1WvbInqzgQBj',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://boke.cn',
+  'cache-control' => 'max-age=0',
+  'content-length' => '1136',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+  'title' => '模型',
+  'cate_id' => '1',
+  'abstract' => '是大法师的',
+  'author' => 'admin',
+  'isHot' => 'on',
+  'file_name' => '',
+  'tags' => 'Html',
+  'content' => '<p>阿斯达沙发</p><p><br/></p><p><br/></p><p><br/></p><p><br/></p><p>阿萨德发声法</p><p><br/></p><p><br/></p><p><br/></p><p><br/></p><p><br/></p><p>asdasf</p>',
+)
+[ info ] [ RUN ] app\admin\controller\Article->article_save[ D:\phpStudy\WWW\boke\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\boke\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=tpbo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_article` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] INSERT INTO `bo_article` (`title` , `cate_id` , `abstract` , `author` , `isHot` , `create_time` , `publish_time` , `content`) VALUES ('模型' , 1 , '是大法师的' , 'admin' , 1 , '1491964622' , '1491964622' , '<p>阿斯达沙发</p><p><br/></p><p><br/></p><p><br/></p><p><br/></p><p>阿萨德发声法</p><p><br/></p><p><br/></p><p><br/></p><p><br/></p><p><br/></p><p>asdasf</p>') [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T10:37:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/article/article_list.html
+[ log ] boke.cn/index.php/admin/article/article_list.html [运行时间：0.168010s][吞吐率：5.95req/s] [内存消耗：2,700.66kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491962373',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://boke.cn/index.php/admin/article/article_save.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->article_list[ D:\phpStudy\WWW\boke\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\boke\public/../application/admin\view\article\article_list.html [ array (
+  0 => 'cated',
+  1 => 'data',
+  2 => 'count',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=tpbo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_category` [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT *,concat(path,id) as paths FROM `bo_category` ORDER BY paths desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_article` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT count(*) as count FROM `bo_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bo_article` `a` INNER JOIN `bo_category` `c` ON `a`.`cate_id`=`c`.`id` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`create_time`,`a`.`author`,`c`.`name` FROM `bo_article` `a` INNER JOIN `bo_category` `c` ON `a`.`cate_id`=`c`.`id` LIMIT 0,3 [ RunTime:0.001000s ]
+[ error ] [8]未定义数组索引: publish_time[D:\phpStudy\WWW\boke\runtime\temp\9f536aaabbde2297e269db7e988a4fae.php:178]
+
+---------------------------------------------------------------
+[ 2017-04-12T10:38:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/article/article_list.html
+[ log ] boke.cn/index.php/admin/article/article_list.html [运行时间：0.186011s][吞吐率：5.38req/s] [内存消耗：2,700.63kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491962373',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->article_list[ D:\phpStudy\WWW\boke\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\boke\public/../application/admin\view\article\article_list.html [ array (
+  0 => 'cated',
+  1 => 'data',
+  2 => 'count',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tpbo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_category` [ RunTime:0.028002s ]
+[ sql ] [ SQL ] SELECT *,concat(path,id) as paths FROM `bo_category` ORDER BY paths desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_article` [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT count(*) as count FROM `bo_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bo_article` `a` INNER JOIN `bo_category` `c` ON `a`.`cate_id`=`c`.`id` LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`create_time`,`a`.`author`,`c`.`name` FROM `bo_article` `a` INNER JOIN `bo_category` `c` ON `a`.`cate_id`=`c`.`id` LIMIT 0,3 [ RunTime:0.000000s ]
+[ error ] [8]未定义数组索引: publish_time[D:\phpStudy\WWW\boke\runtime\temp\9f536aaabbde2297e269db7e988a4fae.php:178]
+
+---------------------------------------------------------------
+[ 2017-04-12T10:38:17+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin
+[ log ] boke.cn/index.php/admin [运行时间：0.163009s][吞吐率：6.13req/s] [内存消耗：1,587.70kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491962373',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpStudy\WWW\boke\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\boke\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T10:38:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/article/article_list.html
+[ log ] boke.cn/index.php/admin/article/article_list.html [运行时间：0.171010s][吞吐率：5.85req/s] [内存消耗：2,700.62kb] [文件加载：62]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491964699',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://boke.cn/index.php/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->article_list[ D:\phpStudy\WWW\boke\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\boke\public/../application/admin\view\article\article_list.html [ array (
+  0 => 'cated',
+  1 => 'data',
+  2 => 'count',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=tpbo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_category` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT *,concat(path,id) as paths FROM `bo_category` ORDER BY paths desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_article` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT count(*) as count FROM `bo_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bo_article` `a` INNER JOIN `bo_category` `c` ON `a`.`cate_id`=`c`.`id` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`create_time`,`a`.`author`,`c`.`name` FROM `bo_article` `a` INNER JOIN `bo_category` `c` ON `a`.`cate_id`=`c`.`id` LIMIT 0,3 [ RunTime:0.000000s ]
+[ error ] [8]未定义数组索引: publish_time[D:\phpStudy\WWW\boke\runtime\temp\9f536aaabbde2297e269db7e988a4fae.php:178]
+
+---------------------------------------------------------------
+[ 2017-04-12T10:38:38+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/article/article_list.html
+[ log ] boke.cn/index.php/admin/article/article_list.html [运行时间：0.169009s][吞吐率：5.92req/s] [内存消耗：2,809.95kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491964699',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://boke.cn/index.php/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->article_list[ D:\phpStudy\WWW\boke\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\boke\public/../application/admin\view\article\article_list.html [ array (
+  0 => 'cated',
+  1 => 'data',
+  2 => 'count',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=tpbo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_category` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT *,concat(path,id) as paths FROM `bo_category` ORDER BY paths desc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_article` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT count(*) as count FROM `bo_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bo_article` `a` INNER JOIN `bo_category` `c` ON `a`.`cate_id`=`c`.`id` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`create_time`,`a`.`author`,`c`.`name` FROM `bo_article` `a` INNER JOIN `bo_category` `c` ON `a`.`cate_id`=`c`.`id` LIMIT 0,3 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T10:39:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/article/article_list.html
+[ log ] boke.cn/index.php/admin/article/article_list.html [运行时间：0.158009s][吞吐率：6.33req/s] [内存消耗：2,809.81kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491964699',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://boke.cn/index.php/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->article_list[ D:\phpStudy\WWW\boke\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\boke\public/../application/admin\view\article\article_list.html [ array (
+  0 => 'cated',
+  1 => 'data',
+  2 => 'count',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=tpbo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_category` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT *,concat(path,id) as paths FROM `bo_category` ORDER BY paths desc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_article` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT count(*) as count FROM `bo_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bo_article` `a` INNER JOIN `bo_category` `c` ON `a`.`cate_id`=`c`.`id` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`create_time`,`a`.`author`,`c`.`name` FROM `bo_article` `a` INNER JOIN `bo_category` `c` ON `a`.`cate_id`=`c`.`id` LIMIT 0,3 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T10:40:21+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/category/product_category.html
+[ log ] boke.cn/index.php/admin/category/product_category.html [运行时间：0.082005s][吞吐率：12.19req/s] [内存消耗：1,598.30kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'product_category',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491964699',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://boke.cn/index.php/admin/article/article_list.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Category->product_category[ D:\phpStudy\WWW\boke\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\boke\public/../application/admin\view\category\product_category.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T10:40:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/category/product_category_add.html
+[ log ] boke.cn/index.php/admin/category/product_category_add.html [运行时间：0.122007s][吞吐率：8.20req/s] [内存消耗：2,534.15kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'product_category_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491964699',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://boke.cn/index.php/admin/category/product_category.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Category->product_category_add[ D:\phpStudy\WWW\boke\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\boke\public/../application/admin\view\category\product_category_add.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=tpbo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_category` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT *,concat(path,id) as paths FROM `bo_category` ORDER BY paths desc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T10:40:23+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/category/category_list_tree.html
+[ log ] boke.cn/index.php/admin/category/category_list_tree.html [运行时间：0.069004s][吞吐率：14.49req/s] [内存消耗：2,208.76kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'category_list_tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491964699',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://boke.cn/index.php/admin/category/product_category.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Category->category_list_tree[ D:\phpStudy\WWW\boke\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=tpbo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_category` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`name` FROM `bo_category` [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T10:40:30+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/admin/category/category_insert.html
+[ log ] boke.cn/index.php/admin/category/category_insert.html [运行时间：0.102006s][吞吐率：9.80req/s] [内存消耗：2,274.77kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'category_insert',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491964699',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://boke.cn/index.php/admin/category/product_category_add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://boke.cn',
+  'cache-control' => 'max-age=0',
+  'content-length' => '15',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'Html',
+  'pid' => '0',
+)
+[ info ] [ RUN ] app\admin\controller\Category->category_insert[ D:\phpStudy\WWW\boke\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\boke\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=tpbo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_category` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] INSERT INTO `bo_category` (`name` , `pid` , `path` , `level`) VALUES ('Html' , 0 , '0' , 1) [ RunTime:0.002001s ]
+[ sql ] [ SQL ] UPDATE `bo_category`  SET `name`='Html',`pid`=0,`path`='0,16',`level`=1  WHERE  `id` = 16 [ RunTime:0.019001s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T10:40:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/category/product_category_add.html
+[ log ] boke.cn/index.php/admin/category/product_category_add.html [运行时间：0.081005s][吞吐率：12.34req/s] [内存消耗：2,535.63kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'product_category_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491964699',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://boke.cn/index.php/admin/category/category_insert.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Category->product_category_add[ D:\phpStudy\WWW\boke\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\boke\public/../application/admin\view\category\product_category_add.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tpbo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_category` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT *,concat(path,id) as paths FROM `bo_category` ORDER BY paths desc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T10:40:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/category/product_category.html
+[ log ] boke.cn/index.php/admin/category/product_category.html [运行时间：0.070004s][吞吐率：14.28req/s] [内存消耗：1,598.53kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'product_category',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491964699',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://boke.cn/index.php/admin/article/article_list.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Category->product_category[ D:\phpStudy\WWW\boke\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\boke\public/../application/admin\view\category\product_category.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-12T10:40:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/category/product_category_add.html
+[ log ] boke.cn/index.php/admin/category/product_category_add.html [运行时间：0.113007s][吞吐率：8.85req/s] [内存消耗：2,535.63kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'product_category_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491964699',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://boke.cn/index.php/admin/category/product_category.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Category->product_category_add[ D:\phpStudy\WWW\boke\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\boke\public/../application/admin\view\category\product_category_add.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=tpbo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_category` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT *,concat(path,id) as paths FROM `bo_category` ORDER BY paths desc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T10:40:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/category/category_list_tree.html
+[ log ] boke.cn/index.php/admin/category/category_list_tree.html [运行时间：0.060004s][吞吐率：16.67req/s] [内存消耗：2,208.91kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'category_list_tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491964699',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://boke.cn/index.php/admin/category/product_category.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Category->category_list_tree[ D:\phpStudy\WWW\boke\application\admin\controller\Category.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tpbo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_category` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`name` FROM `bo_category` [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T10:40:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/article/article_list.html
+[ log ] boke.cn/index.php/admin/article/article_list.html [运行时间：0.133008s][吞吐率：7.52req/s] [内存消耗：2,654.55kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491964699',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://boke.cn/index.php/admin/category/product_category.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->article_list[ D:\phpStudy\WWW\boke\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\boke\public/../application/admin\view\article\article_list.html [ array (
+  0 => 'cated',
+  1 => 'data',
+  2 => 'count',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=tpbo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_category` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT *,concat(path,id) as paths FROM `bo_category` ORDER BY paths desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_article` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT count(*) as count FROM `bo_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bo_article` `a` INNER JOIN `bo_category` `c` ON `a`.`cate_id`=`c`.`id` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`create_time`,`a`.`author`,`c`.`name` FROM `bo_article` `a` INNER JOIN `bo_category` `c` ON `a`.`cate_id`=`c`.`id` LIMIT 0,3 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-04-12T10:40:43+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/article/article_list.html
+[ log ] boke.cn/index.php/admin/article/article_list.html [运行时间：0.132007s][吞吐率：7.58req/s] [内存消耗：2,654.71kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\WWW\boke\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=6964442112; pgv_si=s4984915968; Hm_lvt_080836300300be57b7f34f4b3e97d911=1490335152,1490576713,1491529025,1491962373; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1491964699',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://boke.cn/index.php/admin/category/product_category.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'boke.cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->article_list[ D:\phpStudy\WWW\boke\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\boke\public/../application/admin\view\article\article_list.html [ array (
+  0 => 'cated',
+  1 => 'data',
+  2 => 'count',
+  3 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=tpbo;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_category` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT *,concat(path,id) as paths FROM `bo_category` ORDER BY paths desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bo_article` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT count(*) as count FROM `bo_article` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bo_article` `a` INNER JOIN `bo_category` `c` ON `a`.`cate_id`=`c`.`id` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`create_time`,`a`.`author`,`c`.`name` FROM `bo_article` `a` INNER JOIN `bo_category` `c` ON `a`.`cate_id`=`c`.`id` LIMIT 0,3 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------

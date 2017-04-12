@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+body{
+    font-family:"Microsoft YaHei";
+    font-size: 14px;
+}
+.clearFix{
+    clear: both;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+/*header部分 start*/
+.header{
+    height: 107px;
+    background-color: #fff;
+    border-bottom: 1px solid #ebebeb;
+}
+.header-top{
+    text-align: right;
+    margin-top: 20px;
+}
+.header-top a{
+    text-decoration: none;
+    color: #999;
+    padding: 0 15px;
+}
+.header-top a:hover{
+    color: #45B6F7;
+}
+.icon-down{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+
+/*使用定位方式布局*/
+.nav-main{
+    position: relative;
+    margin-top: 30px;
+}
+
+.nav-main img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.nav-main .min-tit{
+    margin-left: 147px;
+    border-left: 2px solid #eaeaea;
+    padding-left: 10px;
+    font-size: 1em;
+    color: #bbb;
+}
+.nav-main .navbar{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.nav-main .navbar li{
+    float: left;
+    padding: 0 15px;
+    font-size: 18px;
+}
+.nav-main .navbar li a{
+    color: #666;
+}
+.nav-main .navbar li .active{
+    color: #45B6F7;
+}
+
+.nav-main .navbar li a:hover{
+    color: #45B6F7;
+}
+.nav-main .navbar .icon-search{
+    cursor: pointer;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+.nav-main .navbar .icon-search:hover{
+}
+/*header部分 end*/
+
+/*内容部分 start*/
+.content-index{
+    height: 1000px;/***/
+    background-color: #890;
+}
+/*内容部分 end*/
+
+/*联系我们 start*/
+.contact{
+    height: 245px;
+    width: 100%;
+    background-color: #444;
+}
+/*联系我们 end*/
+
+/*footer部分 start*/
+.footer{
+    height: 125px;
+    background-color: #876;
+}
+/*footer部分 end*/

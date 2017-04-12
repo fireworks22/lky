@@ -1,0 +1,1 @@
+<p>[field:content function='html2text(cn_substr(@me,160))'/]...</p>

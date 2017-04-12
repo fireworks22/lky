@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../../dist/css/bootstrap.min.css">
+    <script src="../../JQUERY/jquery-3.1.1.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+    }
+    .box{
+        width: 200px;
+        border: 1px solid #000;
+    }
+</style>
+<body>
+<div class="container">
+    <div class="box">
+        <input type="text" name="" id=""  value="freea"/>d<br>
+        <input type="checkbox" name=""  id=""/>de
+        <input type="checkbox" name="" disabled id=""/>de
+        <input type="checkbox" name="" disabled id=""/>de
+    </div>
+</div>
+<h1></h1>
+<script>
+    $(".box").attr({
+        "height":"200px"
+    });
+    var c = $("input[type='text']").val("dedededede");
+    //alert(c);
+    //var d = $(".box").html("aaaaa");
+    //alert(d);
+    var a = $("input[type='checkbox']").prop("disabled", function( index, attr) {
+        console.log(index, attr);
+    });
+    var s = $("input").last();
+    console.log(s);
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3d炫酷旋转</title>
+    <script src="../JQUERY/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="css/retate.css">
+</head>
+<body>
+<div class="outer">
+    <div class="inner">
+        <div class="image image1" draggable="false">front</div>
+        <div class="image image2" draggable="false">back</div>
+        <div class="image image3" draggable="false">left</div>
+        <div class="image image4" draggable="false">right</div>
+        <div class="image image5" draggable="false">top</div>
+        <div class="image image6" draggable="false">bottom</div>
+    </div>
+</div>
+
+</body>
+</html>
+<script>
+    var xdeg=0,ydeg=0;
+    setInterval(function(){
+        xdeg += parseInt(Math.random()*90);
+        ydeg += parseInt(Math.random()*90);
+        $(".inner").css("transform","rotateX("+xdeg+"deg) rotateY("+ydeg+"deg)");
+    },1000);
+</script>

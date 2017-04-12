@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>页面不存在 404错误</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+<meta name="Generator" content="EditPlus"/>
+<style>
+body{
+	font-family: 'Microsoft Yahei', Verdana, arial, sans-serif;
+	font-size:14px;
+}
+a{text-decoration:none;color:#F60;}
+a:hover{ text-decoration:none;color:#FF6600;}
+h2{
+	border-bottom:1px solid #DDD;
+	padding:8px 0;
+	font-size:25px;
+	text-align: center;
+}
+.title{
+	margin:4px 0;
+	color:#000;
+	font-weight:bold;
+	text-align: center;
+}
+.message,#trace{
+	padding:1em;
+	margin:10px 0;
+	line-height:150%;
+	text-align: center;
+}
+.message{
+	color:#2E2E2E;
+	text-align: center;
+}
+#trace{
+	background:#E7F7FF;
+	border:1px solid #E0E0E0;
+	color:#535353;
+}
+
+.red{
+	color:red;
+	font-weight:bold;
+}
+</style>
+<script type="text/javascript">
+//<!--
+function isIFrameSelf(){try{if(window.top ==window){return false;}else{return true;}}catch(e){return true;}}
+function toHome(){ if(!isIFrameSelf()){ window.location.href="/";}}
+window.setTimeout("toHome()",10000);
+//-->
+</script>
+
+</head>
+<body>
+<div class="notice">
+<h2>页面不存在或链接错误！如不进行任何操作我们将在3秒后自动返回首页！ </h2>
+<p class="message"><span class="title">[ 错误信息 ]</span> : 当前页面不存在！</p>
+<div align="center" >您可以点击  [ <A HREF="javascript:history.back()">返回</A> ] 或者 [ <A HREF="/">回到首页</A> ]</div>
+<div align="center" style="color:#FF3300;margin:5pt;font-family:Verdana"><a href="http://china.toocle.com/">浙江网盛生意宝股份有限公司</a>&nbsp;<span class="zzb07tail">版权所有(C)</span> </div>
+</div>
+</body>
+</html>

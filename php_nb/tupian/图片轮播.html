@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>定时 切换 </title>
+ </head>
+<style type="text/css">
+#yi{
+	width:300px;
+	height:200px;
+	border:1px solid blue;
+	background-image:url("./000.jpg");
+	background-size: 100% 100%;
+	position:relative;
+	left:0px;
+	top:0px;
+
+}
+
+#er{
+	width:130px;
+	height:15px;
+	padding-left:0px;
+	list-style:none;
+	padding-left:0px;
+	position:relative;
+	left:170px;
+	top:-40px;
+
+}
+#er li{
+	width:8px;
+	height:8px;
+	
+	float:left;
+	margin:0 0 0 5px;
+	border-radius:10px;
+}
+#zuo{
+	width:20px;
+	height:30px;
+	border:1px solid red;
+	position:relative;
+	left:0px;
+	top:-170px;
+}
+#you{
+	width:20px;
+	height:30px;
+	border:1px solid red;
+	position:relative;
+	left:280px;
+	top:-200px;
+}
+
+.back1{
+	background-color:red;
+}
+
+.back2{
+	background-color:#c3c3c3;
+}
+
+
+</style>
+
+ <body>
+  <div id="yi">
+
+  </div>
+  <div>
+	<ul id="er">
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+  </div>
+<div id="zuo"></div>
+<div id="you"></div>
+
+ </body>
+</html>
+ <script type="text/javascript">
+var arr = new Array('url("./000.jpg")','url("./001.jpg")','url("./002.jpg")',
+		'url("./003.jpg")','url("./004.jpg")','url("./005.jpg")','url("./006.jpg")',
+		'url("./007.jpg")','url("./008.jpg")');
+var lis = document.getElementsByTagName('li');
+ window.onload = function(){
+	
+	var yi = document.getElementById('yi');
+	var you = document.getElementById('you');
+	var zuo = document.getElementById('zuo');
+	
+	for(var i=0; i<lis.length; ++i){
+			lis[i].num = i;
+			lis[i].id = "li"+i;
+			if(i == 0){
+				lis[i].className = "back1";
+			}else{
+				lis[i].className = "back2";
+			}
+			lis[i].onmouseover = function(){
+				yi.style.backgroundImage = arr[this.num];
+				var back1 = document.getElementsByClassName('back1')[0];
+				back1.className = "back2";
+				this.className = "back1";
+			}
+			
+		}
+		zuo.onclick = function(){
+			var div = document.getElementById("yi");
+			var back1 = document.getElementsByClassName('back1')[0];
+			back1.className = "back2";
+			if(!div.style.backgroundImage){
+				div.style.backgroundImage = arr[lis.length-1];
+				var xx = document.getElementById('li8');
+				xx.className = "back1";
+			}else{
+				for(var i=0; i<lis.length; ++i){
+					if(div.style.backgroundImage == arr[i]){
+						
+						if(i == 0){
+							div.style.backgroundImage = arr[lis.length-1];
+							var xx = document.getElementById('li8');
+							xx.className = "back1";
+							return;
+						}else{
+							div.style.backgroundImage = arr[i-1];
+							var num = i-1;
+							var xx = document.getElementById('li'+num);
+							xx.className = "back1";
+							return;
+						}
+					}
+				}
+			}
+		}
+	you.onclick = function(){
+		var div = document.getElementById("yi");
+		var back1 = document.getElementsByClassName('back1')[0];
+		back1.className = "back2";
+		if(!div.style.backgroundImage){
+		div.style.backgroundImage = arr[1];
+		var yy = document.getElementById('li1');
+		yy.className = "back1";
+		}else{
+			for(var i=0; i<lis.length; ++i){
+				if(div.style.backgroundImage == arr[i]){
+					if(i == lis.length-1){
+						div.style.backgroundImage = arr[lis.length-1-i];
+						var yy = document.getElementById('li0');
+						yy.className = "back1";
+						return;
+					}else{
+						div.style.backgroundImage = arr[i+1];
+						var num = i+1;
+						var yy = document.getElementById('li'+num);
+						yy.className = "back1";
+						return;
+					}
+				}
+			}
+		}
+	}
+	setInterval("liss()", 2000);
+	
+
+
+ } 
+
+ function xxx(){			//循环1
+		var div = document.getElementById("yi");
+		var back1 = document.getElementsByClassName('back1')[0];
+		back1.className = "back2";
+		if(!div.style.backgroundImage){
+		div.style.backgroundImage = arr[1];
+		var yy = document.getElementById('li1');
+		yy.className = "back1";
+		}else{
+			for(var i=0; i<lis.length; ++i){
+				if(div.style.backgroundImage == arr[i]){
+					if(i == lis.length-1){
+						div.style.backgroundImage = arr[lis.length-1-i];
+						var yy = document.getElementById('li0');
+						yy.className = "back1";
+						return;
+					}else{
+						div.style.backgroundImage = arr[i+1];
+						var num = i+1;
+						var yy = document.getElementById('li'+num);
+						yy.className = "back1";
+						return;
+					}
+				}
+			}
+		}
+	}
+function liss(){			//循环2
+	var you = document.getElementById('you');
+	you.onclick();
+}
+ 
+ </script>

@@ -1,0 +1,52 @@
+div{
+    width: 50px;
+    height: 50px;
+    background: #000;
+    float: left;
+    margin:0 25px;
+    border-radius: 5px;
+   /* border-radius：20px;*/
+    text-align: center;
+    line-height:50px;
+    color: #fff;
+}
+div:hover{
+    transition: 1s all;
+}
+.scaleX{
+     background: RED;
+ }
+.scaleX:hover{
+    transform: scaleX(0.5);
+}
+.scaleY{
+    background: RED;
+}
+.scaleY:hover{
+    transform: scaleY(0.5);
+}
+.rotate{
+    background: blue;
+}
+.rotate:hover{
+    transform: rotate(180deg);
+}
+.skew{
+    background: green;
+}
+.skew:hover{
+    transform: skew(45deg, 0);
+}
+.translateX{
+    background: violet;
+}
+.translateX:hover{
+    transform: translateX(20px);
+}
+.translateY{
+    background: violet;
+}
+.translateY:hover{
+    transform: translateY(20px);
+}
+

@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+.container-fluid{
+	background: #3b5998;
+}
+.navbar-nav li a{
+	font-size: 14px;
+	color: #fff;
+}
+.navbar-nav li a:hover{
+	background: #2b4170;
+}
+.active{
+	background: #2b4170;
+}
+td,th{
+	background: #fff;
+	
+}

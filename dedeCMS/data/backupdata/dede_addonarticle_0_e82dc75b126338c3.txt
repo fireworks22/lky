@@ -1,0 +1,6 @@
+INSERT INTO `dede_addonarticle` VALUES('3','15','','','','0.0.0.0');
+INSERT INTO `dede_addonarticle` VALUES('4','16','','','','0.0.0.0');
+INSERT INTO `dede_addonarticle` VALUES('5','17','','','','0.0.0.0');
+INSERT INTO `dede_addonarticle` VALUES('6','18','','','','0.0.0.0');
+INSERT INTO `dede_addonarticle` VALUES('7','19','','','','0.0.0.0');
+INSERT INTO `dede_addonarticle` VALUES('8','20','','','','0.0.0.0');

@@ -1,0 +1,40 @@
+<?php
+$z[0]=Array("global","",250,276);
+$z[0][4]['name']="cfg_webname";
+$z[1]=Array("global","",319,349);
+$z[1][4]['name']="cfg_description";
+$z[2]=Array("global","",385,412);
+$z[2][4]['name']="cfg_keywords";
+$z[3]=Array("global","",429,461);
+$z[3][4]['name']="cfg_templets_skin";
+$z[4]=Array("global","",521,553);
+$z[4][4]['name']="cfg_templets_skin";
+$z[5]=Array("global","",623,655);
+$z[5][4]['name']="cfg_templets_skin";
+$z[6]=Array("global","",723,755);
+$z[6][4]['name']="cfg_templets_skin";
+$z[7]=Array("include","",1509,1544);
+$z[7][4]['filename']="head.htm";
+$z[8]=Array("global","",1579,1611);
+$z[8][4]['name']="cfg_templets_skin";
+$z[9]=Array("channelartlist","\n					<li class=\"cai\"><a href='{dede:field name='typeurl'/}'>{dede:field name='typename'/}</a>\n					<ul>\n{dede:sql sql='Select * from dede_arctype where reid=~id~ ORDER BY id limit 0,7'}\n<li><a href='[field:typedir/]' target='_blank'>[field:typename/]</a></li>\n{/dede:sql}\n					</ul>\n					</li>\n				",1896,2253);
+$z[9][4]['typeid']="3";
+$z[9][4]['row']="4";
+$z[10]=Array("sql","\n　　     				<p>[field:content/]</p>\n							",2468,2586);
+$z[10][4]['sql']="Select content from dede_arctype where id=6";
+$z[11]=Array("field","",3188,3217);
+$z[11][4]['name']="position";
+$z[12]=Array("field","",3292,3311);
+$z[12][4]['name']="title";
+$z[13]=Array("field","",3556,3575);
+$z[13][4]['name']="title";
+$z[14]=Array("field","",3637,3655);
+$z[14][4]['name']="body";
+$z[15]=Array("prenext","",4262,4287);
+$z[15][4]['get']="pre";
+$z[16]=Array("prenext","",4301,4327);
+$z[16][4]['get']="next";
+$z[17]=Array("include","",4644,4681);
+$z[17][4]['filename']="footer.htm";
+
+?>

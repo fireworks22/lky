@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+.center{
+	background: blue;
+	font-family: Microsoft YaHei Font;
+	
+}
+.text-center{
+	color:#fff;
+}
+.form{
+	background: violet;
+	color:#fff;
+}
+#button{
+	background: #0279ff;
+	border:none;
+	color:#fff;
+}
+#code{
+	font-weight: 700;
+	color:#000;
+}
+.multiple{
+	font-size: 10px;
+	font-family: 宋体;
+
+	
+}

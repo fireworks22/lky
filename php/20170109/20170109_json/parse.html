@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<ul id="list">
+    <li>
+        <img src="" alt="">
+        <a href="http://baidu.com">标题</a>
+        <i>发布时间： <span></span></i>
+        <i>作者: <span></span></i>
+        <i>分类: <span></span></i>
+    </li>
+</ul>
+<script src="data.js"></script>
+<script>
+
+    /**
+     * 数据绑定
+     * json ==> html中
+     * @type {Element}
+     */
+    var list = document.getElementById("list");
+   var d = data.results;
+   var html = "";
+    for(var i=0; i< d.length; i++){
+        html += createList(d[i]);
+    }
+    list.innerHTML = html;
+    function createList(data){
+        var imgUrl = "";
+        if(data["images"]){
+            imgUrl = data["images"][0];
+        }
+        var html = ' <li>'+
+                '<img src="http://img.gank.io/fbc78e71-583f-4d8a-ac55-eb9dbf5f43ce" alt="">'+
+                '<a href="'+data["url"]+'">标题</a>'+
+                '<i>发布时间： <span>'+data["publishedAt"]+'</span></i>'+
+                '<i>作者: <span>'+data["who"]+'</span></i>'+
+                '<i>分类: <span>'+data["type"]+'</span></i>'+
+                '</li>';
+        return html;
+    }
+</script>
+
+</body>
+</html>

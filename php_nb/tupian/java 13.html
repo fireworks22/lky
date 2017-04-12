@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>切换</title>
+ </head>
+ <style type="text/css">
+
+#yi{
+	width:100%;
+	height:480px;
+	background-image:url("./10.jpg");
+	background-size: 100% 100%;
+	position:relative;
+	left:0px;
+	top:0px;
+
+}
+#er{
+	width:1300px;
+	height:120px;
+	list-style:none;
+	padding-left:0px;
+	position:relative;
+	left:10px;
+	top:-60px;
+}
+#er li{
+	width:128px;
+	height:78px;
+	float:left;
+	position:relative;
+	left:0px;
+	top:0px;
+}
+img{
+	width:128px;
+	height:78px;
+}
+#san{
+	width:100%;
+	height:100px;
+	background-color:#00ff33;
+	position:relative;
+	left:0px;
+	top:-155px;
+}
+
+ </style>
+ <body>
+	<div id="yi">
+	
+	</div>
+	<div>
+		<ul id="er">
+			<li><img src="./00.jpg" alt="" /></li>
+			<li><img src="./01.jpg" alt="" /></li>
+			<li><img src="./02.jpg" alt="" /></li>
+			<li><img src="./03.jpg" alt="" /></li>
+			<li><img src="./04.jpg" alt="" /></li>
+			<li><img src="./05.jpg" alt="" /></li>
+			<li><img src="./06.jpg" alt="" /></li>
+			<li><img src="./07.jpg" alt="" /></li>
+			<li><img src="./08.jpg" alt="" /></li>
+			<li><img src="./09.jpg" alt="" /></li>
+		</ul>
+	</div>
+
+	<div id="san"></div>
+ </body>
+</html>
+<script type="text/javascript">
+	window.onload = function(){
+		var lis = document.getElementsByTagName('li');
+		var yi = document.getElementById('yi');
+
+		var arr = new Array('url("./10.jpg")','url("./11.jpg")','url("./12.jpg")',
+		'url("./13.jpg")','url("./14.jpg")','url("./15.jpg")','url("./16.jpg")',
+		'url("./17.jpg")','url("./18.jpg")','url("./19.jpg")');
+		for(var i=0; i<lis.length; ++i){
+			lis[i].num = i;
+			lis[i].onmouseover = function(){
+				this.style.top = "-30px";
+				this.style.transition = "top 1s";
+				yi.style.backgroundImage = arr[this.num];
+
+			}
+			lis[i].onmouseout = function(){
+				this.style.top = "0px";
+				this.style.transition = "top 1s";
+			}
+		/*	lis[i].type=0;
+			lis[i].onclick = function(){
+				if(this.type == 1){
+					this.style.top = "0px";
+					this.type = 0;
+				}else{
+					this.style.top = "-30px";
+					yi.style.backgroundImage = arr[this.num];
+					this.type = 1;
+				}
+				
+			}*/
+			
+		}
+	}
+</script>

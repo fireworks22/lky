@@ -1,0 +1,91 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family:Microsoft yahei;
+    font-size: 12px;
+    
+}
+.container{
+    width:1200px;
+    margin:0 auto;
+}
+.header{
+    height:107px;
+    background-color: #fff;
+    border-bottom:2px solid #ebebeb;
+}
+.header-top{
+    text-align: right;
+    margin-top: 20px;
+}
+.header-top a{
+    text-decoration: none;
+    color: #999;
+    padding: 0 15px;
+}
+.header-top a:hover{
+    color: #45B6F7;
+}
+.icon-down{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    background: url("../images/bottom.png") 0 0 no-repeat;
+}
+
+.clearFix{
+    clear: both;
+}
+.nav-main{
+    position: relative;
+    margin-top:30px;
+}
+.nav-main img{
+    position: absolute;
+    top:0;
+    left:0;
+}
+.nav-main .min-tit{
+    margin-left:147px;
+    border-left:2px solid #eaeaea;
+    padding-left:10px;
+    font-size: 1em;
+    color: #bbb;
+}
+.nav-main .navbar{
+    float: left;
+    padding:0 15px;
+    font-size: 18px;
+}
+.nav-main .navbar li a{
+    color: #666;
+}
+.nav-main .navbar .active{
+    color: #45b6f7;
+}
+.nav-main .navbar li:hover{
+    color: #45b6f7;
+}
+.nav-main .navbar .icon-search{
+    display: inline-block;
+    width:16px;
+    height:16px;
+}
+.container-index{
+    height:1000PX;
+    background: #fff;
+}
+
+.contact{
+    height:245px;
+    width:100%;
+    background-color: #444;
+}
+.footer{
+    width:100%;
+    height:125px;
+    background: #000;
+}

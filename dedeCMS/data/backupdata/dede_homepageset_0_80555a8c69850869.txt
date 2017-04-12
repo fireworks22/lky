@@ -1,0 +1,1 @@
+INSERT INTO `dede_homepageset` VALUES('yitong/index.htm','../index.html','1');

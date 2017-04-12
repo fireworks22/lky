@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<title>{dede:field.title/}-{dede:global.cfg_webname/}</title>
+<link rel="stylesheet" href="../../../../css/stylerj.css">
+<style type="text/css">
+/*内联式CSS*/
+</style>
+</head>
+<meta http-equiv="mobile-agent" content="format=xhtml;url={dede:global.cfg_mobileurl/}/view.php?aid={dede:field.id/}">
+<script type="text/javascript">if(window.location.toString().indexOf('pref=padindex') != -1){}else{if(/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))){if(window.location.href.indexOf("?mobile")<0){try{if(/Android|Windows Phone|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)){window.location.href="{dede:global.cfg_mobileurl/}/view.php?aid={dede:field.id/}";}else if(/iPad/i.test(navigator.userAgent)){}else{}}catch(e){}}}}</script>
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+<script language="javascript" type="text/javascript" src="{dede:global.cfg_cmsurl/}/include/dedeajax2.js"></script>
+<body>
+<div class="topa"><div class="top">
+<ul>
+<li><a href="{dede:global.cfg_cmsurl/}/">首页</a></li>
+      	{dede:channel type='top' row='11' currentstyle="<li class='nav-item'><a class='shouye' style='color:#fff;' href='~typelink~' ~rel~>~typename~</a></li>"}
+            <li class="nav-item"><a href='[field:typeurl/]' [field:rel/]>[field:typename/]</a></li>
+      	{/dede:channel}
+</ul>
+</div></div><div class="julidingbu"></div>
+
+<div class="top2">
+<div class="wzbta"><span id="masked">
+{dede:field.title/}</span></div>
+<div class="wzsj">时间：{dede:field.pubdate function="MyDate('Y-m-d H:i',@me)"/}  来源：{dede:field.source/}</div>
+<table><tr><td class="rjxx">
+				<p>软件类型：<span>{dede:field.softtype/}</span></p>
+				<p>授权方式：<span>{dede:field.accredit/}</span></p>
+				<p>界面语言：<span>{dede:field.language/}</span></p>
+				<p>软件大小：<span>{dede:field.softsize/}</span></p>
+				<p>文件类型：<span>{dede:field.filetype/}</span></p>
+				<p>运行环境：<span>{dede:field.os/}</span>
+				<p>软件等级：<span>{dede:field.softrank function='GetRankStar(@me)'/}</span></p>
+				<p>发布时间：<span>{dede:field.pubdate function="GetDateMk('@me')"/}</span></p>
+				<p>官方网址：<span>{dede:field.officialurl/}</span></p>
+        <p>演示网址：<span>{dede:field.officialdemo/}</span></p>
+        <p>下载次数：<span><script src="{dede:field.phpurl/}/disdls.php?aid={dede:field.id/}" language="javascript"></script></span></p>
+
+</td><td class="rjimg">
+				{dede:field name='image'/}
+
+</td></tr>
+
+</table>
+<div class="rjjs"><p>软件介绍：</p>
+{dede:field.introduce/}
+</div>
+
+
+
+<span>下载地址：</span><span class="xzdz">{dede:field name='softlinks'/}</span>
+
+
+
+<div class="xzsm"><p>下载说明：</p>
+				<span class="xzsma">{dede:softmsg/}</span>
+</div>
+<div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin","sqq"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin","sqq"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+
+<div class="fanye"><p>{dede:prenext get='pre'/}</p><p>{dede:prenext get='next'/}</p></div>
+
+
+
+
+</div>
+
+
+
+</body>
+</html>

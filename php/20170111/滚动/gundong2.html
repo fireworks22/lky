@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/gundong.css">
+</head>
+<body>
+<div id="box2">
+    <ul class="clearFix" id="roll1">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+</div>
+<script>
+    var roll = document.getElementById("roll1");
+    roll.innerHTML = roll.innerHTML + roll.innerHTML;
+    var timer;
+    timer = setInterval(function () {
+        if(roll.offsetLeft <= -roll.offsetWidth/2){
+            roll.style.left = "0";
+        }else{
+            roll.style.left = roll.offsetLeft-2+"px";
+        }
+       // document.getElementById("h2").innerHTML = roll.offsetLeft;
+    },30);
+</script>
+</body>
+</html>

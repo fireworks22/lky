@@ -1,0 +1,11 @@
+INSERT INTO `dede_myad` VALUES('31','0','0','center','首页中部广告位','0','1390975387','1393567387','<a href=#><img src=/dedemao/ad/center.png></a>','');
+INSERT INTO `dede_myad` VALUES('29','0','0','left1','首页左侧广告位1','0','1390974984','1393566984','<a href=#><img src=/dedemao/ad/left1.jpg></a>','');
+INSERT INTO `dede_myad` VALUES('30','0','0','left2','首页左侧广告位2','0','1390975074','1393567074','<a href=#><img src=/dedemao/ad/left2.jpg></a>','');
+INSERT INTO `dede_myad` VALUES('28','0','0','footer','内容页底部广告位','0','1390960106','1393552106','<a href=#><img src=/dedemao/ad/footer.jpg /></a>','');
+INSERT INTO `dede_myad` VALUES('26','0','0','article1','文章内容页广告位1','0','1390959336','1393551336','<a href=#><img src=/dedemao/ad/article_ad1.jpg /></a>','');
+INSERT INTO `dede_myad` VALUES('27','0','0','article2','文章内容页广告位2','0','1390959449','1393551449','<a href=#><img src=/dedemao/ad/article_ad2.jpg /></a>','');
+INSERT INTO `dede_myad` VALUES('25','0','0','right4','右侧悬浮广告位2','0','1390959291','1393551291','<a href=#><img src=/dedemao/ad/right4.jpg /></a>','');
+INSERT INTO `dede_myad` VALUES('23','0','0','right2','右侧广告位2','0','1390959137','1393551137','<a href=#><img src=/dedemao/ad/right2.jpg /></a>','');
+INSERT INTO `dede_myad` VALUES('24','0','0','right3','右侧悬浮广告位1','0','1390959216','1393551216','<a href=#><img src=/dedemao/ad/right3.jpg /></a>','');
+INSERT INTO `dede_myad` VALUES('21','0','0','top_all','全站顶部广告位','0','1390958868','1393550868','<a href=#><img src=/dedemao/ad/top.png /></a>','');
+INSERT INTO `dede_myad` VALUES('22','0','0','right1','右侧广告位1','0','1390959024','1393551024','<a href=#><img src=/dedemao/ad/right1.jpg /></a>','');

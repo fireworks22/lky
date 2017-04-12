@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>焦点图</title>
+    <link rel="stylesheet" href="./css/css.css">
+</head>
+<body>
+<div id="box">
+    <div class="div">
+        <ul id="roll">
+            <li>
+                <div class="div">
+                    <div class="img2">
+                        <img src="./img/z_img13.jpg" alt="">
+                        <div class="annotation">
+                            <div class="ton">
+                                <h4>ABOUT BAONENG</h4>
+                                <h3>宝能教育</h3>
+                                <span>宝能教育凭借先进的教育服务理念，开放的教育合作平台共赢的教育投资模式，强大的资源资本实力，致力于向全社会提供便捷、领先…</span><br>
+                                <p><a href="">更多</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img3">
+                        <img src="./img/z_img14.jpg" alt="">
+                        <div class="annotation1">
+                            <div class="ton1">
+                                <h3>社会责任</h3><br>
+                                <span>引领新发展引进国际先进的教育理念</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img4">
+                        <img src="./img/z_img15.jpg" alt="">
+                        <div class="annotation2">
+                            <span>合作伙伴</span>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="div">
+                    <div class="img2">
+                        <img src="./img/z_img20.jpg" alt="">
+                        <div class="annotation">
+                            <div class="ton">
+                                <h4>TALENT CONCEPT</h4>
+                                <h3>人才理念</h3>
+                                <span>合理用人，客观评人，文化留人”，宝能教育殷切期待有识之士、有志之才加入我们，携手提供领先、便捷、优质的教育和服务…</span><br>
+                                <p><a href="">更多</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img3">
+                        <img src="./img/z_img21.jpg" alt="">
+                        <div class="annotation1">
+                            <div class="ton1">
+                                <h3>员工发展</h3><br>
+                                <span>引领新发展引进国际先进的教育理念</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img4">
+                        <img src="./img/z_img22.jpg" alt="">
+                        <div class="annotation2">
+                            <span>招聘信息</span>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="sets">
+        <div id="left">
+            <span></span>
+        </div>
+        <div id="right">
+            <span></span>
+        </div>
+
+    </div>
+</div>
+<script src="./move.js"></script>
+<script>
+    var roll = document.getElementById("roll");
+    var rollImg = document.querySelectorAll("#roll li");
+    var right = document.getElementById("right");
+    var left = document.getElementById("left");
+    var box = document.getElementById("box");
+    var w = rollImg[0].offsetWidth;
+    var now = 0;
+    left.onclick = function () {
+        now--;
+        if(now == -1){
+            now = rollImg.length -1;
+        }
+        startMove(roll, {"left": -now*w});
+    };
+    var ss;
+    ss = right.onclick = function () {
+        now++;
+        if(now == rollImg.length){
+            now = 0;
+        }
+        startMove(roll, {"left": -now*w});
+    };
+    var timer;
+    timer = setInterval(ss,2000);
+    box.onmouseover = function () {
+        clearInterval(timer);
+    };
+    box.onmouseout = function () {
+        timer = setInterval(ss,2000);
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>9*9乘法表</title>
+</head>
+<style>
+
+    .d{
+        border: 1px solid #000;
+    }
+</style>
+<body>
+<div id="chess"></div>
+<script>
+    var chess = document.getElementById("chess");
+    for(var i=1; i<10; i++){
+        var div = document.createElement("div");
+        for(var j=1; j<=i; j++){
+            var span = document.createElement("span");
+            span.innerHTML = i+"*"+j+"="+i*j;
+            div.appendChild(span);
+            span.className = "d";
+        }
+
+        chess.appendChild(div);
+    }
+</script>
+</body>
+</html>

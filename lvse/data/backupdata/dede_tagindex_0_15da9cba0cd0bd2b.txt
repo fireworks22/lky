@@ -1,0 +1,3 @@
+INSERT INTO `dede_tagindex` VALUES('1','O-Amino Phen','43','0','1','0','0','1383962944','1383962944','1383962944');
+INSERT INTO `dede_tagindex` VALUES('2','O-Nitro Phen','44','0','1','0','0','1383963620','1383963620','1383963620');
+INSERT INTO `dede_tagindex` VALUES('3','中间体','3','0','1','0','0','1386904569','1386904569','1386904569');

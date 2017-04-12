@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+</head>
+<link rel="stylesheet" href="../../dist/css/bootstrap.min.css">
+<style>
+    .div{
+        margin-top: 100px;
+    }
+    span{
+        display: inline-block;
+        float: right;
+    }
+    input{
+        float: left;
+    }
+    .error{
+        color: red;
+    }
+</style>
+<body>
+<div class="container">
+    <div class="div">
+        <form action="" class="col-md-8 col-md-offset-2 form-horizontal" role="form" id="form">
+            <div class="form-group">
+                <label for="inputEmail3" class="col-sm-2 control-label">用户名</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputEmail3" name="username" placeholder="username">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputPassword3" class="col-sm-2 control-label">密码</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword3" name="password" placeholder="password">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="Password" class="col-sm-2 control-label">确认密码</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="password" name="repassword" placeholder="repassword">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputPassword5" class="col-sm-2 control-label">email</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputPassword5" name="email" placeholder="email">
+                </div>
+            </div>
+            <div class="form-group checkbox-con">
+                <div class="col-sm-offset-2 col-sm-8">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" class="checkbox" name="agree" > 我接受《注册协议》
+                        </label>
+                    </div>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+            <div class="form-group checkbox-con">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" class="checkbox" id="accept"> 我愿意接受用户体验计划
+                        </label>
+                    </div>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">底线(至少两个)</label>
+                <div class="col-sm-10">
+                    <div class="checkbox col-sm-3">
+                        <label>
+                            <input type="checkbox" name="baseline[]"> 接受发送邮件
+                        </label>
+                    </div>
+                    <div class="checkbox col-sm-3">
+                        <label>
+                            <input type="checkbox" name="baseline[]"> 接受发送短息
+                        </label>
+                    </div>
+                    <div class="checkbox col-sm-3">
+                        <label>
+                            <input type="checkbox" name="baseline[]"> 接受打电话咨询
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-4 col-sm-4">
+                    <input type="button" class="btn btn-md btn-info form-control" value="sign in">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<script src="../../JQUERY/jquery-3.1.1.min.js"></script>
+<script src="../../JQUERY/dist/jquery.validate.js"></script>
+<script>
+    $("#form").validate({
+        /*errorPlacement:function (error,element) {
+            if(element.is("text") || element.hasClass("email")){
+                element.parent().next.appenf(error);
+            }
+        },*/
+        //定义验证规则
+        rules:{
+            //对应的是用户名输入框中的name
+            username:{
+                required:true , //必填项目
+                minlength:2   ,  //最少几个字符（中文占一个字符）
+                maxlength:6
+            },
+            password:{
+                required:true ,
+                minlength:6,
+                maxlenth:12
+            },
+            repassword:{
+                required:true ,
+                minlength:6,
+                equalTo:"#password"
+            },
+            email:{
+                required:true,
+                email:true
+            },
+            "baseline[]": {
+                required: "#accept:checked",
+                minlength: 2
+            },
+            agree: "required"
+        },
+        //将错误信息转换成中文
+        messages:{
+            username:{
+                required:"请输入用户名" , //必填项目
+                minlength:"最少2个字符",     //最少几个字符（中文占一个字符）
+                maxlength:"最多6个字符"
+            },
+            password:{
+                required:"请输入密码" , //必填项目
+                minlength:"最少6个字符",     //最少几个字符（中文占一个字符）
+                maxlength:"最多12个字符"
+            },
+            repassword:{
+                required:"请确认密码" , //必填项目
+                minlength:"最少6个字符",     //最少几个字符（中文占一个字符）
+                equalTo:"两次密码不一样"
+            },
+            email:{
+                required:"请确认密码" , //必填项目
+                email:"请输入正确的邮箱地址"
+            },
+            agree: "请同意我们的协议",
+            "baseline[]":"请选择两个主题"
+        }
+    });
+</script>
+</body>
+</html>

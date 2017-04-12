@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+}
+.logo{
+    font-family:"叶根友毛笔行书2.0版";
+}
+.theme{
+    height:640px;
+    background: #00b38a;
+}
+.resume{
+    height:540px;
+    /*margin-top:70px;*/
+    background: #fff;
+}
+.logo-circle h4{
+    margin-top:30px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+</head>
+<link rel="stylesheet" href="../../dist/css/bootstrap.min.css">
+<style>
+    .form{
+        margin-top:200px;
+    }
+</style>
+<body>
+<div class="container">
+    <form action="" class="col-md-4 col-md-offset-4 form" method="post">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 form-group input-group">
+                <div class="input-group-addon">
+                    <span class="glyphicon glyphicon-user"></span>
+                </div>
+                <input type="text" class="form-control" name="name" placeholder="用户名"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 form-group input-group">
+                <div class="input-group-addon">
+                    <span class="glyphicon glyphicon-lock"></span>
+                </div>
+                <input type="password" class="form-control" name="password" placeholder="密码"/>
+            </div>
+        </div>
+        <div class="col-md-6 col-md-offset-3 ">
+            <input type="button" class="btn btn-md btn-info form-control" value="登录">
+        </div>
+    </form>
+</div>
+<script src="../../JQUERY/jquery-3.1.1.min.js"></script>
+<script src="../../dist/js/bootstrap.min.js"></script>
+<!--<script src="layer.js"></script>-->
+<script>
+    $(".btn").click(function () {
+        var input = $("input");
+        if(input[0].value != "" && input[1].value != ""){
+            var s = $("form").serialize();
+            alert(s);
+        }
+    });
+</script>
+</body>
+</html>

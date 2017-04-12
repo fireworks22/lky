@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../dist/css/bootstrap.min.css">
+    <script src="../JQUERY/jquery-3.1.1.min.js"></script>
+    <script src="../dist/js/bootstrap.min.js"></script>
+</head>
+<style>
+    a:hover{
+        text-decoration: none;
+    }
+</style>
+<body>
+<div class="container">
+    <a href="">绝对路径</a>
+    <!-- .当前目录 。。父级目录-->
+    <a target="_blank" href="../20161128/anniu/lianxi/f_1.html">相对路径</a>
+    <!--注意：当前目录得加上./-->
+    <!--路径导航-->
+    <ol class="breadcrumb">
+        <li><a href="#">Home</a></li>
+        <li><a href="">Data</a></li>
+        <li class="active">blu</li>
+    </ol>
+    <nav>
+        <ul class="pagination">
+            <li><a href="">0</a></li>
+        </ul>
+    </nav>
+    <div id="cut" style="width: 200px;height: 200px;position: relative;background: violet;margin:0;padding:0;">
+            <div id="left_onclick" style="position: absolute;top:50%;margin-top:-40px;opacity: 0.3; ">
+                <nav>
+                    <ul class="pagination">
+                        <li><a href="#">&laquo;</a></li>
+                    </ul>
+                </nav>
+            </div>
+        <div id="right_onclick" style="position: absolute;top:50%;margin-top:-40px;right:0;opacity: 0.3; ">
+            <nav>
+                <ul class="pagination">
+                    <li><a href="#">&raquo;</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="progress">
+        <div id="bar" class="progress-bar progress-bar-danger progress-bar-striped active"aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+        </div>
+    </div>
+    <button id="start" class="btn btn-info">Start</button>
+    <button id="stop"class="btn btn-danger">Stop</button>
+</div>
+</body>
+</html>
+<script>
+  /*  var n = 0;
+    var timer = setInterval(function () {
+        $('#aria').css('width',n+"%");
+        $('#aria').html(n+"%");
+        n = n > 100 ? 100 : n+1;
+        if(n>100)
+            clearInterval(timer);
+    }, 10);*/
+    var bar = document.getElementById('bar');
+    var start = document.getElementById('start');
+    var stop = document.getElementById('stop');
+    var timer;
+    var n = 0;
+    //定义函数
+    function time() {
+        //清除定时器
+        clearInterval(timer);
+        //设置定时器并给timer赋值
+        timer = setInterval(function () {
+            //
+            bar.style.width = n+"%";
+            bar.innerHTML = n+"%";
+            var arr =["progress-bar progress-bar-danger progress-bar-striped active",
+                "progress-bar progress-bar-success progress-bar-striped active",
+                "progress-bar progress-bar-info progress-bar-striped active",
+                "progress-bar progress-bar-warning progress-bar-striped active",];
+            bar.className = arr[Math.floor(n/30)];
+            if(n>=100){
+                clearInterval(timer);
+            }else {
+                n++;
+            }
+        },200);
+    }
+    start.onclick = function () {
+        time();
+    }
+    stop.onclick = function () {
+        clearInterval(timer);
+    }
+    var cut = document.getElementById('cut');
+    var left_onclick = document.getElementById('left_onclick');
+    var right_onclick = document.getElementById('right_onclick');
+    var arr = Array{}
+</script>

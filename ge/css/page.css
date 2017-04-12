@@ -1,0 +1,6 @@
+﻿.page{width:800px;height:40px;float:left;background:#3e3e3e;display:block;}
+.pagelist{widtrh:800px;height:40px;}
+.pagelist li{display:block;width:88.88px;height:40px;float:left;text-align:center;line-height:40px;background:#3e3e3e;color:#1abc9c;color:#fff;font-size:16px;font-weight:bold;}
+.pagelist li a{display:block;width:100%;height:100%;text-align:center;line-height:40px;font-size:16px;font-weight:bold;color:#fff;}
+.pagelist li a:hover{background:#1abc9c;}
+.pagelist li:hover{background:#1abc9c;}

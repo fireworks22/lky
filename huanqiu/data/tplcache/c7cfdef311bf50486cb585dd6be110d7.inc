@@ -1,0 +1,1 @@
+<tr bgcolor="#fff" style="cursor:hand" onmouseover="this.style.backgroundColor='#f7f7f7'" onmouseout="this.style.backgroundColor='#fff'" >            <td align="left">                <a href="[field:arcurl/]" >                    [field:title/]                </a>            </td>        </tr>

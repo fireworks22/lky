@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    height: 800px;
+    margin:0 auto;
+}
+.content{
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    height: 300px;
+    margin:50px auto;
+}
+.content img{
+    width: 100%;
+    height: 100%;
+}
+
+@media all and (min-width: 768px){
+    .container{
+        width:750px;
+        background-color: red;
+    }
+}
+@media all and (min-width: 992px){
+    .container{
+        width:970px;
+        background-color: orange;
+    }
+}
+@media all and (min-width: 1200px){
+    .container{
+        width:1170px;
+        background-color: blue;
+    }
+}
+@media all and (max-width: 768px){
+    .container{
+        width:100%;
+        background-color: violet;
+    }
+}

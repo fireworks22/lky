@@ -1,0 +1,43 @@
+.form-horizontal, .container-fluid{
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar{
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.col-md-10{
+    /*border-left: 1px solid #000;*/
+    position: fixed;
+
+    right: 0;
+    top: 50px;
+    bottom: 35px;
+    overflow: hidden;
+}
+.col-md-2{
+    position: fixed;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    overflow: scroll;
+    overflow-x: hidden;
+    width: 189px;
+    background: #f2f2f2;
+    border-right: 1px solid #ccc;
+    z-index: 10;
+
+}
+
+.col-md-2 li{
+    list-style: none;
+}
+
+.col-md-2 .list-next li a{
+    padding-left: 10px;
+}
+.form-horizontal{
+    margin-top: 20px;
+}

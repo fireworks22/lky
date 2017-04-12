@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JQUERY</title>
+    <script src="../JQUERY/jquery-3.1.1.min.js"></script>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #box{
+        width: 600px;
+        height: 300px;
+        border: 1px solid #000;
+        margin:0 auto;
+        position: relative;
+    }
+    .roll{
+        width: 600px;
+        height: 30px;
+        background: #000;
+    }
+    .roll span{
+        display: inline-block;
+        width: 120px;
+        height: 30px;
+
+        line-height: 30px;
+        text-align: center;
+        background: red;
+        color: #fff;
+    }
+    .roll span:hover,
+    .roll span .active{
+        background: #000;
+    }
+    .con{
+        width: 600px;
+        height: 270px;
+    }
+    .con li{
+        list-style: none;
+        width: 600px;
+        height: 270px;
+        display: none;
+        float: left;
+    }
+    .con li.active{
+        display: block;
+    }
+    .con li:first-child{
+        background: #258;
+    }
+    .con li:last-child{
+        background: #789;
+    }
+    .con li:nth-child(2){
+        background: yellow;
+    }
+    .l{
+        width: 30px;
+        height: 30px;
+        background: #000;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+</style>
+<body>
+<div id="box">
+    <div class="roll">
+        <span class="active">1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+    </div>
+    <ul class="con">
+        <li class="active">1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </ul>
+</div>
+<div class="l"></div>
+<script>
+    var con = $(".con li");
+    var c = $(".roll span").click(function () {
+        $(".roll span").removeClass("active");
+        $(this).addClass('active');
+        con.hide();
+        var index = $(this).index();
+        $(con[index]).slideToggle("slow");
+    });
+
+    $(".l").click(function () {
+    });
+   /* $(".l").on("click", function(){
+        alert("deee");
+    });
+    $(".l").off();
+    $(".l").bind("click", function () {
+        alert("dfdf");
+    });
+    $(".l").unbind("click");
+    $(window).unload( function () { alert("Bye now!"); } );*/
+    /*$(".roll span").each(function (i, item) {
+        item.index = i;
+        $(item).click(function () {
+            var index = this.index;
+            $(".roll span").removeClass("active");
+            $(this).addClass("active");
+            con.hide();
+            $(con[index]).show();
+        })
+    });*/
+
+    /*var c = $("li:first");
+    console.log(c);
+    /!**
+     * attr(name, value)
+     * 传一个参数：获取属性值
+     * 串二个参数：设置属性值
+     * name：属性名称
+     * value：属性值
+     *!/*/
+</script>
+</body>
+</html>

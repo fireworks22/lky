@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/1205_1.css">
+</head>
+<body>
+<button id="btn">点击</button>
+<ul class="nav">
+    <li><a class="active" href="#">首页</a></li>
+    <li><a href="#">JavaScript</a></li>
+    <li><a href="#">Java</a></li>
+    <li><a href="#">Python</a></li>
+    <li><a href="#">Ruby</a></li>
+    <div class="clear"></div>
+</ul>
+<div class="first"></div>
+<div class="circle"></div>
+<div class="top"></div>
+<div class="left"></div>
+<div class="bottom"></div>
+<div class="right"></div>
+<div class="box2">
+    <p>立即查看</p>
+    <div class="box3"></div>
+</div>
+<div id="layer"></div>
+
+</body>
+</html>
+<script>
+    var btn = document.getElementById("btn");
+    btn.onclick = function(){
+        document.getElementById("layer").ClassName = "layer";
+    }
+</script>

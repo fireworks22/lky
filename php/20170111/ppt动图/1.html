@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动图-ppt</title>
+    <link rel="stylesheet" href="./css/css.css">
+</head>
+
+<body>
+<div id="box">
+    <div class="clearFix" id="roll">
+        <img src="./img/10.jpg" alt=""/>
+        <img src="./img/11.jpg" alt=""/>
+        <img src="./img/16.jpg" alt=""/>
+        <img src="./img/13.jpg" alt=""/>
+        <img src="./img/14.jpg" alt=""/>
+        <img src="./img/15.jpg" alt=""/>
+    </div>
+    <div id="left">
+        <span></span>
+    </div>
+    <div id="right">
+        <span></span>
+    </div>
+    <div id="cell">
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+<script src="./move.js"></script>
+<script>
+    var Left = document.getElementById("left");
+    var Right = document.getElementById("right");
+    var box = document.getElementById("box");
+    // 大图的切换（通过指示器）
+    var roll = document.getElementById("roll");
+    var rollImg = document.querySelectorAll("#roll img");
+    var cell = document.getElementById("cell");
+    var cellSpan = document.querySelectorAll("#cell span");
+    var w = rollImg[0].offsetWidth;
+    var now = 0; //当前显示的图片索引
+    //now = this.index;
+    function auto() {
+        //修改span的bg
+        for(var j=0; j<cellSpan.length; j++){
+            cellSpan[j].className = "";
+        }
+        cellSpan[now].className = "active";
+        //图片跟着span的切换而切换
+        startMove(roll, {"left": -now*w});
+    }
+    for(var i=0; i<cellSpan.length; i++){
+        cellSpan[i].index = i;
+        cellSpan[i].onclick = function () {
+            //修改span的bg
+            for(var j=0; j<cellSpan.length; j++){
+                cellSpan[j].className = "";
+            }
+            cellSpan[this.index].className = "active";
+            //图片跟着span的切换而切换
+            startMove(roll, {"left": -this.index*w});
+        }
+    }
+    // 点击左右图片转换
+    left.onclick = function () {
+        now--;
+        if(now == -1){
+            now = rollImg.length -1;
+        }
+        auto();
+    };
+    var ss;
+    ss = right.onclick = function () {
+        now++;
+        if(now == rollImg.length){
+            now = 0;
+        }
+        auto();
+    };
+    var timer;
+    timer = setInterval(ss,2000);
+    box.onmouseover = function () {
+        clearInterval(timer);
+    };
+    box.onmouseout = function () {
+        timer = setInterval(ss,2000);
+    }
+</script>
+</body>
+</html>

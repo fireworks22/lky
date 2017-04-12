@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AJAX</title>
+    <script src="../JQUERY/jquery-3.1.1.min.js"></script>
+</head>
+<style>
+    #p{
+        width: 500px;
+        height: 500px;
+        overflow: auto;
+    }
+    #l{
+        width: 500px;
+        height: 500px;
+        overflow: auto;
+    }
+</style>
+<body>
+
+<div id="p"></div>
+<div id="l"></div>
+<script>
+    $("#p").load("josn/json.html");
+    $.get("http://gank.io/api/data/Android/10/1",
+    function(data){
+    });
+    /*$.ajax({
+        type: "GET",
+        url: "http://gank.io/api/data/Android/10/1",
+        data: "name=John&location=Boston",
+        success: function(data){
+           // document.getElementById("p").innerHTML = data;
+        },
+        error:function (XMLHttpRequest, textStatus, errorThrown) {
+            console.log(XMLHttpRequest, textStatus, errorThrown);
+        }
+    });*/
+</script>
+</body>
+</html>

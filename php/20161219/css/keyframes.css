@@ -1,0 +1,81 @@
+@keyframes xxx {
+    from{
+        /*background-image: url(../img/5.jpg);*/
+        background: yellow;
+
+    }
+
+    to{
+        /*background-image: url(../img/6.jpg);*/
+        background: violet;
+        transform: scale(0.5);
+    }
+}
+.box{
+    width: 200px;
+    height: 200px;
+    margin-left:0;
+    position: absolute;
+    margin-top:50px;
+    border: 1px solid #000;
+    /*animation-name: xxx;!*动画名称*!
+    animation-duration: 4s;!*动画持续时间*!
+    !*animation-delay: 3s;*!!*动画延迟时间*!
+    animation-direction: normal;!*动画运动的方向*!
+    animation-iteration-count: infinite;*//*循环*/
+    animation: xxx 4s normal infinite;
+}
+.div{
+    width: 300px;
+    height: 300px;
+    margin-left: 50%;
+    position: absolute;
+    left: -150px;
+}
+.div img{
+    width: 100%;
+    height: 100%;
+    animation: beat 0.2s normal infinite;
+}
+@keyframes beat {
+    from{
+        /*opacity: 0.9;*/
+        /*width:497px;*/
+        /*transform: scale(0.98);*/
+        -webkit-transform: scale(0.98, 0.98);
+        -moz-transform: scale(0.98, 0.98);
+        -ms-transform: scale(0.98, 0.98);
+        -o-transform: scale(0.98, 0.98);
+        transform: scale(0.98, 0.98);
+    }
+    to{
+        /*opacity:1;*/
+        /*width: 500px;*/
+        /*transform: scale(1);*/
+        -webkit-transform: scale(1, 1);
+        -moz-transform: scale(1, 1);
+        -ms-transform: scale(1, 1);
+        -o-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+}
+@keyframes type {
+    from{
+        width: 0;
+    }
+
+}
+@keyframes border {
+    50%{
+        border-right-color: transparent;
+    }
+}
+p{
+    font-size: 1em;
+    width: 88ch;
+    overflow: hidden;
+    white-space:nowrap;
+    border-right: 1px solid #000;
+    animation: type 20s steps(88,end),border 0.5s step-end infinite;
+}
+

@@ -1,0 +1,22 @@
+.active{
+    font-weight: 600;
+    text-align: center;
+}
+.table tr{
+    height: 30px;
+}
+.table tr td:first-child{
+    width: 3%;
+}
+.table tr td:nth-child(2){
+    width: 30%;
+}
+.table tr td:nth-child(3){
+    width: 7%;
+}
+.pagination .active{
+    background: blueviolet;
+}
+.pagination .li:hover{
+    background: blueviolet;
+}

@@ -1,0 +1,1 @@
+<li><a href='[field:typedir/]' target='_blank'>[field:typename/]</a></li>

@@ -1,0 +1,181 @@
+/*by李文华*/
+/*qq1070892573*/
+*{padding:0px;margin:0px;}	/*消除边距*/
+* a{text-decoration:none;}
+* img{border:0px;}
+* li{list-style:none;}
+body{font-family:"Microsoft Yahei",微软雅黑;font-size:14px; }
+html{
+background:#EEEEEE;
+/*background:url('../images/heya.jpg');
+background-attachment:fixed;
+background-repeat:no-repeat;
+-webkit-background-size: cover;
+-o-background-size: cover;
+-ms-background-size: cover;
+-moz-background-size: cover;*/
+}
+/*总体*/
+.zongti{width:1200px;margin:0 auto;margin-top:10px;}
+.zuo{width:800px;float:left;}
+.you{width:380px;margin-left:20px;float:left;}
+/*总体*/
+/*导航开始*/
+.textlogo{display:block;width:100%;height:301px;background:url('../images/body_bg.png');}/*background:#1ABC9C;*/
+.textlogo1{display:block;width:1200px;height:301px;margin:0 auto;background:url('../images/topbg.png');line-height:220px;}
+.textlogo1 a{display:block;width:300px;height:100px;text-align:center;font-size:36px;color:#fff;}
+.textlogo1 a:hover{text-decoration:underline;}
+.textlogo1 img{width:188px;height:100px;}
+.daohang{width:100%;height:60px;background:#169FE6;float:left;}	/*position: fixed;box-shadow: 1px 1px 5px 1px #3E3E3E;*/
+.daohang1{width:1200px;margin:0 auto;}
+.daohang1 li a{display:block;color:#fff;}
+.daohang1 li{width:100px;height:60px;float:left;font-size:16px;line-height:60px;text-align:center;}
+.daohang1 li:hover{background:#DEA677;}
+.daohang1 li a:hover{color:#fff;text-shadow: 0px 1px 2px #000;}
+.shouye a{background:#DEA677;text-color:#169FE6;text-shadow: 0px 1px 2px #000;}
+/*导航结束*/
+/*公告*/
+.gonggao{background:#FBFBFB;margin:0 auto;width:1200px;}
+.gonggaotext{background:url('../images/ico1.png');line-height:32px;font-size:14px;color:#666;background-repeat: no-repeat;background-position: 1% 50%;margin-left:5px;}
+.gonggaotext1{margin-left:25px;}
+.gonggaotext img{margin:0px 10px 0px 10px;}
+.login{float:right;}
+.login a{font-size:14px;color:green;line-height:32px;margin-right:20px;}
+/*公告*/
+/*广告*/
+.guanggao1{width:1200px;margin:0 auto;margin-top:10px;}
+.guanggao1 img{width:100%;}
+/*广告*/
+/*文章内容*/
+.wenzhang{width:100%;background:#fff;}
+.wzbt{font-size:24px;line-height:60px;margin-left:10px;color:#1abc9c;}
+.sjly{line-height:30px;margin-left:10px;color:#3e3e3e;font-size:12px;}
+.xian2{width:100%;height:1px;background:#dcdcdc;}
+.wzguanggao{margin:10px 0px 10px 0px;}
+.wzguanggao img{width:100%;}
+.wzguanggaodibu img{width:100%;}
+.wznr{width:98%;margin:0 auto;color:#3E3E3E;font-size:15px;line-height:30px;}/*text-indent:10px;margin-bottom:50px;*/
+.wznr img{max-width:100%;height:auto;}
+.shengming{margin:10px 0px 0px 10px;color:#3E3E3E;font-size:15px;line-height:30px;}
+.shengming a{color:#1abc9c;}
+.fanye{margin-left:10px;color:#3e3e3e;font-size:15px;line-height:50px;height:50px;}
+.fanye2{float:right;margin-right:10px;}
+.fanye a{color:#1abc9c;}
+.fanye a:hover{color:#1abc9c;}
+.plfx{width:96%;background:#fff;margin:0 auto;}
+/*文章内容*/
+/*最新内容*/
+.news{width:800px;background:#fff;height:256px;}
+.news li{line-height:30px;font-size:14px;}
+.newsli{margin:10px 0px 0px 20px;}
+.newsli li a{color:#1abc9c;}
+.newsli li a:hover{color:#007046;}
+.biaoti1{line-height:45px;font-size:18px;color:#1abc9c;margin-left:20px;}
+.xian1{width:100%;height:2px;background:#1abc9c;}
+.riqi{float:right;margin-right:10px;color:#F78585;}
+/*最新内容*/
+/*博客列表*/
+.blogli{width:100%;margin-top:10px;}
+.biogli2{height:60px;}
+.blogli1{width:100%;height:205px;background:#fff;margin-top:10px;}
+.blogico{background:url('../images/ico.png');width:72px;height:20px;float:left;margin:20px 5px 20px 20px;font-size:14px;line-height:18px;overflow:hidden;}
+.blogico a{color:#fff;margin-left:2px;}
+.blogbiaoti{font-size:20px;line-height:60px;}
+.blogbiaoti a{color:#007046;}
+.blogbiaoti a:hover{color:#1abc9c;}
+.blogli3{height:130px;}
+.blogimg{margin:3px 10px 3px 20px;float:left;}
+.blogp1{height:100px;margin:0px 20px 0px 0px;color:#777777;}
+.blogp2{height:24px;margin:0px 20px 0px 0px;float:right;}
+.blogspan1{color:#999999;}
+.blogspan2{color:#ff6600;}
+/*博客列表*/
+/*寄语*/
+.jiyu1{font-size:14px;display:block;line-height:20px;float:left;margin-left:10px;width:100%;}
+.jiyu2{font-size:14px;display:block;line-height:20px;float:right;margin-right:10px;}
+/*寄语*/
+/*右侧列表*/
+.fenxiang{width:100%;height:72px;background:#fff;}
+.guanggao2{width:100%;height:300px;background:#fff;margin-top:10px;}
+/*.guanggao2 img{width:100%;height:100%;}*/
+.lianxi{width:100%;height:120px;background:#fff;}
+.lianxi img{width:100%;height:100%;}
+.weixin{width:100%;background:#fff;margin-top:10px;}
+.weixin li{line-height:30px;font-size:14px;border-bottom:1px solid #dcdcdc;}
+.weixin li a{color:#1abc9c;margin:10px 0px 0px 10px;}
+.weixin li a:hover{color:#007046;}
+/*右侧列表*/
+/*友情链接*/
+.yqlj{width:100%;background:#fff;margin-top:10px;}
+.yqlj li{line-height:30px;font-size:14px;}
+.yqlj li a{color:#1abc9c;margin:10px 0px 0px 10px;}
+.yqlj li a:hover{color:#007046;}
+/*友情链接*/
+/*齿轮开始*/
+.chilun{width:380px;height:250px;margin-top:10px;background:url('../img/zhehuoshixiaowen.png');}
+.chilun img{width:220px;height:220px;}/* margin:80px 0px 0px 80px; */
+/*齿轮结束*/
+/*底部版权*/
+.dibu{width:100%;height:50px;background:#3E3E3E;float:left;margin:0 auto;border-top:5px solid #1ABC9C;}
+.banquan{width:1200px;height:50px;margin:0 auto;}
+.banquan1{line-height:28px;font-size:14px;color:#fff;}
+.banquan1 a{color:#fff;}
+.banquan1 a:hover{color:#1ABC9C;}
+#days{color:yellow;font-weight:bold;}
+/*底部版权*/
+/*LOGO文本*/
+.yusi-mono{letter-spacing:-2px;position:relative;color:#fff;font-size:54px;text-shadow:0 0 1px rgba(94,255,216,0.8);margin:0;padding:0;z-index:0;-webkit-transition:all .1s ease-out;-moz-transition:all .1s ease-out;-o-transition:all .1s ease-out;-ms-transition:all .1s ease-out;transition:all .1s ease-out}.yusi-bloger{position:relative;color:#fff;font-weight:normal;font-size:24px;text-shadow:0 0 1px rgba(94,255,216,0.8);margin-left:-6px;letter-spacing:-2px;padding:0;z-index:2;-webkit-transition:all .5s ease-out;-moz-transition:all .5s ease-out;-o-transition:all .5s ease-out;-ms-transition:all .5s ease-out;transition:all .5s ease-out}.yusi-logo h1:hover .yusi-mono{letter-spacing:5px}.yusi-logo h1:hover .yusi-bloger{left:26px;opacity:.2}.toggle-search{position:absolute;margin-top:0;right:0;padding:16px 19px 15px 19px;background:#16a085;color:#fff;cursor:pointer;-webkit-transition:all .25s ease-out;-moz-transition:all .25s ease-out;-o-transition:all .25s ease-out;transition:all .25s ease-out}.toggle-search:hover,.toggle-search.active{opacity:.75}
+/*LOGO文本*/
+/*MEMBER*/
+.member{width:1200px;margin:0 auto;margin-top:10px;}
+.memberli{width:170px;float:left;background:#fff;}
+.memberli li{display:block;width:170px;height:40px;}
+.memberli li{border-bottom:1px solid #EEE;}
+.biankuang{width:100%;height:100%;border-left:1px solid #EEE;}
+.memberli li a{display:block;width:100%;height:98%;font-size:14px;line-height:40px;text-align:center;color:#888;}
+.memberli li a:hover{background:#F7F7F7;color:#666;}
+.shouye1{background:#F7F7F7;color:#666;}
+.membernr{width:1029px;background:#fff;float:right;height:1080px;}
+.memberbt{border-bottom:1px solid #EEE;width:980px;margin:0 auto;}
+.memberbt1{height:60px;font-size:20px;color:#1abc9c;line-height:60px;}
+.memberbt2{display:block;float:right;margin:9px 0px 9px 0px;}
+.memberbt2 a{width:165px;height:42px;background:url('../images/memberfx.png');display:block;}
+.memberbt2 a:hover{background:url('../images/memberfx.png') 0 42px;}
+.membername{font-size:14px;color:#1abc9c;height:30px;line-height:30px;width:980px;margin:0 auto;}
+.membername1{font-size:16px;color:red;font-weight:bold;}
+.memberxx{color:#1abc9c;height:30px;line-height:30px;width:980px;margin:0 auto;}
+.member01{width:980px;margin:0 auto;margin-top:20px;}
+.membertg{display:block;height:30px;line-height:30px;font-size:14px;color:#1abc9c;}
+.membertg1{color:red;}
+.membertg2{display:block;height:30px;line-height:30px;font-size:14px;color:red;}
+/*MEMBER*/
+
+/*图片旋转CSS*/
+
+.chilun{text-align: center;}
+@-webkit-keyframes rotation{
+from {-webkit-transform: rotate(0deg);}
+to {-webkit-transform: rotate(360deg);}
+}
+.xuanzhuan{
+-webkit-transform: rotate(360deg);
+animation: rotation 6s linear infinite;
+-moz-animation: rotation 6s linear infinite;
+-webkit-animation: rotation 6s linear infinite;
+-o-animation: rotation 6s linear infinite;
+margin-top:10px;
+}
+
+/*图片旋转CSS*/
+
+
+/*位置*/
+.weizhi{width:100%;height:36px;float:left;margin-bottom:10px;}
+.weizhi_body{width:1200px;height:36px;margin:0 auto;background:#fff;color:#3e3e3e;font-size:12px;}
+.weizhi_body a{background:#fff;color:#3e3e3e;line-height:36px;text-align:center;}
+.weizhi_body a:hover{color:#1abc9c;}
+.weizhi_span1{margin-left:10px;}
+/*位置*/
+/*统计*/
+#cnzz_stat_icon_1000446293 a{color:#fff;}
+/*统计*/

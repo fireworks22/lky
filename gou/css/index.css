@@ -1,0 +1,200 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+}
+a:hover {
+  text-decoration: none;
+}
+body {
+  width: 100%;
+  font-family: 微软雅黑;
+}
+.head {
+  width: 100%;
+  height: 30px;
+}
+.head .container {
+  width: 1000px;
+  height: 100%;
+  line-height: 30px;
+  margin: 0 auto;
+}
+.head .container .nav:first-child {
+  height: 100%;
+  float: left;
+}
+.head .container .nav:last-child {
+  float: right;
+  height: 100%;
+}
+.head .container .nav:last-child li:first-child {
+  margin-right: 30px;
+}
+.head .container .nav:last-child li:first-child a {
+  color: #e5077c;
+  font-size: 1.4rem;
+}
+.head .container .nav li {
+  padding: 0 10px;
+}
+.head .container .nav li a {
+  font-size: 1.3rem;
+  color: #937881;
+  text-decoration: none;
+}
+.content {
+  width: 100%;
+}
+.content .content_head {
+  width: 100%;
+  height: 738px;
+}
+.content .content_head:first-child img {
+  width: 100%;
+  height: 100%;
+}
+.content .content_head:nth-child(2) {
+  height: 800px;
+  margin-top: 20px;
+  background: url(../images/area1-bg.png) -250px -50px no-repeat;
+  position: relative;
+}
+.content .content_head:nth-child(2) .img {
+  width: 642px;
+  height: 440px;
+  overflow: hidden;
+  border-radius: 10px;
+  position: absolute;
+  left: 264px;
+  top: 167px;
+}
+.content .content_head:nth-child(2) .img .img_one {
+  height: 50%;
+}
+.content .content_head:nth-child(2) .img .img_two {
+  height: 50%;
+  overflow: hidden;
+  position: relative;
+}
+.content .content_head:nth-child(2) .img .img_two img {
+  position: absolute;
+  top: -220px;
+}
+.content .content_head:nth-child(2) .img_nav {
+  width: 210px;
+  height: 380px;
+  position: absolute;
+  left: 1000px;
+  top: 210px;
+}
+.content .content_head:nth-child(2) .img_nav ul {
+  width: 100%;
+  height: 100%;
+}
+.content .content_head:nth-child(2) .img_nav ul li:first-child {
+  width: 160px;
+  height: 100%;
+}
+.content .content_head:nth-child(2) .img_nav ul li:first-child ul {
+  width: 100%;
+  height: 100%;
+}
+.content .content_head:nth-child(2) .img_nav ul li:first-child ul li {
+  float: none;
+  width: 100%;
+  height: 120px;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 3px solid #222222;
+  background: url(../pic/t2.jpg) 0 0 no-repeat;
+}
+.content .content_head:nth-child(2) .img_nav ul li:first-child ul li div {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.5;
+  position: relative;
+}
+.content .content_head:nth-child(2) .img_nav ul li:first-child ul li div .sp {
+  opacity: 1.0;
+  width: 115px;
+  height: 30px;
+  border-bottom: 1px dashed #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -57.5px;
+  margin-top: -15px;
+}
+.content .content_head:nth-child(2) .img_nav ul li:first-child ul li div .sp p {
+  font-family: 微软雅黑;
+  color: #fff;
+  font-weight: 900;
+  text-align: center;
+}
+.content .content_head:nth-child(2) .img_nav ul li:first-child ul li:nth-child(2) {
+  margin: 10px 0;
+}
+.content .content_head:nth-child(2) .img_nav ul li:first-child ul li:hover div {
+  display: none;
+}
+.content .content_head:nth-child(2) .img_nav ul li:last-child {
+  width: 35px;
+  height: 100%;
+  float: right;
+}
+.content .content_head:nth-child(2) .img_nav ul li:last-child ul {
+  width: 100%;
+  height: 100%;
+}
+.content .content_head:nth-child(2) .img_nav ul li:last-child ul li {
+  float: none;
+  width: 100%;
+  padding: 20px 10px;
+  height: 120px;
+  text-align: center;
+  background: url(../images/fontbg.png) -14px 0 no-repeat;
+}
+.content .content_head:nth-child(2) .img_nav ul li:last-child ul li a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #323232;
+}
+.content .content_head:nth-child(2) .img_nav ul li:last-child ul li:nth-child(2) {
+  margin: 10px 0;
+}
+.content .content_head:nth-child(2) .img_nav ul li:last-child ul li:hover {
+  background: url(../images/fontbgcur.png) -14px 0 no-repeat;
+}
+.content .content_head:nth-child(2) .click {
+  width: 70px;
+  height: 80px;
+  background: url(../pic/click.png) 0 0 no-repeat;
+  position: absolute;
+  left: 940px;
+  top: 210px;
+}
+.content .content_head:nth-child(3) {
+  height: 900px;
+  margin-top: 20px;
+  background: url(../images/area2-bg.png) -250px -70px no-repeat;
+  position: relative;
+}
+.content .content_head:nth-child(3) .mv {
+  width: 376px;
+  height: 268px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: url(../pic/t1.jpg) 0 0 no-repeat;
+  -webkit-background-size: 376px 268px;
+  background-size: 376px 268px;
+  position: absolute;
+  left: 784px;
+  top: 139px;
+}

@@ -1,0 +1,45 @@
+body{
+    background: url(../0.jpg) 0 0 no-repeat;
+    -webkit-background-size:100%;
+    background-size:100%;
+}
+.box li:first-child{
+    color: #0ff;
+}
+.box li:last-child{
+    color: red;
+}
+.box li:nth-child(2n-1){
+    color: blue;
+}
+.box:nth-child(2n){
+
+}
+table{
+    width:100%;
+    margin-top:30px;
+    border-collapse: collapse;
+}
+table td{
+    border:1px solid red;
+}
+table tr:nth-child(2n){
+    background: blue;
+    color: #fff;
+}
+table tr:nth-child(2n-1){
+    background: green;
+    color: #fff;
+}
+.form input:checked{
+    width:30px;
+    height:30px;
+}
+.form input[type="text"]:disabled{
+    background: red;
+    border:none;
+}
+input::-webkit-input-placeholder{
+    font-size: 20px;
+    color: blue;
+}

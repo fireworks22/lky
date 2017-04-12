@@ -1,0 +1,99 @@
+﻿{include file='common/meta'}
+<title>分类管理</title>
+<link rel="stylesheet" href="_admin_/lib/zTree/v3/css/zTreeStyle/zTreeStyle.css" type="text/css">
+</head>
+<body>
+{include file='common/header'}
+
+{include file='common/menu'}
+
+<section class="Hui-article-box">
+	<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 产品管理 <span class="c-gray en">&gt;</span> 产品分类 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+
+	<div class="Hui-article">
+
+		<article class="cl pd-20">
+			<div id="nan"><span>提示：点击树节点可删除该节点</span></div>
+			<table class="table">
+				<tr>
+					<td width="200" class="va-t">
+						<ul id="treeDemo" class="ztree"></ul>
+					</td>
+					<td class="va-t"><iframe ID="testIframe" Name="testIframe" FRAMEBORDER=0 SCROLLING=AUTO width=100%  height=390px SRC="{:url('admin/category/product_category_add')}"></iframe></td>
+				</tr>
+			</table>
+		</article>
+	</div>
+</section>
+{include file='common/footer'}
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="_admin_/lib/My97DatePicker/4.8/WdatePicker.js"></script>
+<script type="text/javascript" src="_admin_/lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="_admin_/lib/laypage/1.2/laypage.js"></script>
+<script type="text/javascript" src="_admin_/lib/zTree/v3/js/jquery.ztree.all-3.5.min.js"></script>
+<script type="text/javascript">
+var setting = {
+	view: {
+		dblClickExpand: false,
+		showLine: false,
+		selectedMulti: false
+	},
+	data: {
+		simpleData: {
+			enable:true,
+			idKey: "id",
+			pIdKey: "pid",
+			rootPId: ""
+		}
+	},
+	callback: {
+		beforeClick: function(treeId, treeNode) {
+            layer.confirm('确认要删除吗？',function(data){
+                $.ajax({
+                    url:"{:url('admin/category/category_del_ajax')}",
+                    type:"GET",
+                    dataType:"json",
+                    data:"id="+treeNode.id,
+                    success:function (data) {
+                        if(data){
+                            layer.msg('已删除!',{icon:1,time:5000});
+                            location.href = "{:url('admin/category/product_category')}";
+						}else {
+                            layer.msg('删除失败!',{icon:2,time:1000});
+						}
+                    }
+                });
+            });
+
+		}
+	}
+};
+
+var zNodes =[
+
+];
+$.ajax({
+    url:"{:url('admin/category/category_list_tree')}",
+	dataType:"json",
+	type:"GET",
+	success:function(data) {
+        var t = $("#treeDemo");
+        t = $.fn.zTree.init(t, setting, data);
+    }
+});
+var code;
+
+function showCode(str) {
+	if (!code) code = $("#code");
+	code.empty();
+	code.append("<li>"+str+"</li>");
+}
+
+$(document).ready(function(){
+
+});
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

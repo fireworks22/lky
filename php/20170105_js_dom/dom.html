@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格</title>
+    <link rel="stylesheet" href="../dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/dom.css">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: "Microsoft YaHei";
+    }
+    table{
+        font-size: 1.5rem;
+        color: #fff;
+        background: #2c3437;
+        text-align: center;
+    }
+    .tr{
+        font-weight:900;
+        font-size: 1.8rem;
+    }
+    table i{
+        padding:5px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        font-style: normal;
+    }
+
+    table i.icon-del{
+        background-color: #ff0000;
+        cursor: pointer;
+    }
+
+    table i.icon-ok{
+        background-color: #0ff;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="nav nav-bar">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">关键字:</a>
+            </div>
+
+            <ul class="nav navbar-nav">
+                <li >
+                    <form class="navbar-form navbar-left">
+                        <div class="form-group">
+                            <input type="text" id="listCon" class="form-control" placeholder="请填写内容">
+                        </div>
+                        <input type="button" class="btn btn-default" id="query" value="查询" />
+                        <input type="button" value="新增" class="btn btn-default" id="add"/>
+                    </form>
+                </li>
+            </ul>
+        </div><!--table-bordered-->
+        <table class="table table-bordered" id="table">
+            <tbody>
+                <tr class="tr">
+                    <td>学号</td>
+                    <td>姓名</td>
+                    <td>年龄</td>
+                    <td>操作</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
+<script>
+    var map = [
+        [true, "","","",""]
+    ];
+    var flag = 1;
+    function createTodo(todo) {
+       var tr = document.createElement("tr");
+       var td1 = document.createElement("td");
+       var td2 = document.createElement("td");
+       var td3 = document.createElement("td");
+       var td4 = document.createElement("td");
+
+
+       var keep = document.createElement("input");
+        keep.className = "btn btn-sm btn-default";
+        keep.setAttribute("type","button");
+        keep.setAttribute("value","保存");
+
+        keep.onclick = function () {
+            var id = td1.innerText;
+            console.log(id);
+             var name = td2.innerText;
+             var age = td3.innerText;
+            var arr = [id, name, age];
+            arr.push(map);
+            console.log(arr);
+            var tdx = this.parentNode.parentNode.childNodes;
+            if(flag == 1){
+                for(var i=0; i<tdx.length; i++){
+                    tdx[i].setAttribute("contenteditable", false)
+                }
+                this.value = "修改";
+                flag = 0;
+            }else{
+                for(var i=0; i<tdx.length-1; i++){
+                    tdx[i].setAttribute("contenteditable", true)
+                }
+                this.value = "保存";
+                flag = 1;
+            }
+        };
+       var omit = document.createElement("input");//删除
+       omit.className = "btn btn-sm btn-default";
+       omit.setAttribute("type","button");
+       omit.setAttribute("value","删除");
+       omit.style.marginLeft = "10px";
+       omit.onclick = function () {
+           var tr = this.parentNode.parentNode;
+           tbody.removeChild(tr);
+       };
+       td1.innerHTML = todo[1];
+       td1.style.width = "20%";
+       td1.setAttribute("contenteditable",true);
+       td2.innerHTML = todo[2];
+       td2.style.width = "20%";
+       td2.setAttribute("contenteditable",true);
+       td3.innerHTML = todo[3];
+       td3.style.width = "20%";
+       td3.setAttribute("contenteditable",true);
+       td4.innerHTML = todo[4];
+
+       tr.appendChild(td1);
+       tr.appendChild(td2);
+       tr.appendChild(td3);
+       tr.appendChild(td4);
+
+       td4.appendChild(keep);
+       td4.appendChild(omit);
+       var tbody = document.getElementsByTagName("tbody")[0];
+       console.log(tbody);
+       tbody.insertBefore(tr,tbody.lastChild);
+    }
+    var add = document.getElementById("add");
+    add.onclick = function () {
+        for(var i=0; i<map.length; i++){
+            createTodo(map[i]);
+        }
+    };
+    var query = document.getElementById("query");
+    var listCon = document.getElementById("listCon");
+    query.onclick = function () {
+        var text = listCon.value;
+    }
+
+</script>

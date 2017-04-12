@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.clear{
+    clear:both;
+}
+@font-face {
+    font-family: 'AX';/*自己定义字体名称，不能用汉字*/
+    src: url('../../20161206/font/iconfont.eot'); /* IE9+ */
+    src: url('../../20161206/font/iconfont.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../../20161206/font/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../../20161206/font/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../../20161206/font/iconfont.svg#fontname') format('svg'); /* iOS 4.1- */
+}
+.font{
+    font-size: 50px;
+    font-style: normal;
+    font-family:AX;
+    color: red;
+    text-shadow: 20px 0 1px blue;
+}
+.box{
+    width: 50px;
+    height: 50px;
+    background: #000;
+    margin: 25px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+}
+div:hover{
+    transition: 1s all;
+}
+.rotate:hover{
+    transform: rotate(180deg);
+}
+.translateX:hover{
+    transform: translateX(20px);
+}
+.translateY:hover{
+    transform: translateY(20px);
+}
+.skew:hover{
+    transform: skew(30deg, 15deg);
+}
+.scaleX:hover{
+    transform: scaleX(0.5);
+}
+.scaleY:hover{
+    transform: scaleY(0.5);
+}
+.boxS:hover{
+    transform: rotate(180deg) translate(20px, 20px) scale(0.5) skew(30deg, 15deg);
+}
+.test{overflow:hidden;width:100%;margin:0;padding:0;list-style:none;}
+.test li{position:relative;
+    left:8px;
+    width:50px;
+    height:20px;
+    margin:1px 5px;
+    padding:10px;
+    background-color:violet;
+    color:#000;
+    -webkit-transition-duration:.5s;
+    -moz-transition-duration:.5s;
+    transition-duration:.5s;
+    -webkit-transition-property:left;
+    -moz-transition-property:left;
+    transition-property:left;
+}
+.test li:nth-child(1){
+    -webkit-transition-timing-function:linear;
+    -moz-transition-timing-function:linear;
+    transition-timing-function:linear;
+}
+.test li:nth-child(2){
+    -webkit-transition-timing-function:ease;
+    -moz-transition-timing-function:ease;
+    transition-timing-function:ease;
+}
+.test li:nth-child(3){
+    -webkit-transition-timing-function:ease-in;
+    -moz-transition-timing-function:ease-in;
+    transition-timing-function:ease-in;
+}
+.test li:nth-child(4){
+    -webkit-transition-timing-function:ease-out;
+    -moz-transition-timing-function:ease-out;
+    transition-timing-function:ease-out;
+}
+.test li:nth-child(5){
+    -webkit-transition-timing-function:ease-in-out;
+    -moz-transition-timing-function:ease-in-out;
+    transition-timing-function:ease-in-out;
+}
+.test li:hover{left:50px;}
+
+
+
+.tests{overflow:hidden;width:100%;margin:0;padding:0;list-style:none;}
+.tests li{float:left;width:20px;height:20px;margin:0 5px;border:1px solid #ddd;background-color:#eee;text-align:center;
+    -webkit-transition:background-color .5s ease-in;
+    -moz-transition:background-color .5s ease-in;
+    transition:background-color .5s ease-in;
+}
+.tests li:nth-child(1):hover{background-color:#bbb;}
+.tests li:nth-child(2):hover{background-color:#999;}
+.tests li:nth-child(3):hover{background-color:#630;}
+.tests li:nth-child(4):hover{background-color:#090;}
+.tests li:nth-child(5):hover{background-color:#f00;}
+.box2{
+    width: 30px;
+    height: 30px;
+    background: #000;
+    position: relative;
+    left:0;
+    transition:left 2s linear, background-color 2s ease-in;
+}
+.box2:hover{
+    left:20px;
+    background-color: violet;
+}

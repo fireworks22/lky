@@ -1,0 +1,2 @@
+INSERT INTO `dede_diyform1` VALUES('1','0','你好','我想买一个产品','六','123456789');
+INSERT INTO `dede_diyform1` VALUES('2','0','是大地方','啊沙发沙发','商贷','123456789');

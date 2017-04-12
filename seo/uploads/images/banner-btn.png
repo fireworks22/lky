@@ -1,0 +1,284 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<meta charset="gb2312">
+
+<meta name="keywords" content="IT培训，IT培训机构，大学生IT培训，靠谱IT培训机构，中公优就业">
+
+<meta name="description" content="【优就业-中公教育旗下IT培训机构】提供IT就业培训,包括网络营销培训、UI设计培训、Web前端培训、PHP培训、安卓培训等。大学生选靠谱IT培训学校,看中公优就业。">
+
+<title>_优就业IT培训</title>
+
+<link rel="stylesheet" href="http://www.ujiuye.com/statics/css/common_16new.css" type="text/css" />
+
+<link rel="stylesheet" href="http://www.ujiuye.com/statics/css/public_16new.css" type="text/css" />
+
+<link type="text/css" rel="stylesheet" href="http://www.ujiuye.com/statics/css/show_16new.css">
+
+<link type="text/css" rel="stylesheet" href="http://www.ujiuye.com/statics/css/xyjy_style.css"/>
+
+<script type="text/JavaScript" src="http://www.ujiuye.com/statics/js/wapurl.js"></script>
+
+<script type="text/javascript" src="http://www.ujiuye.com/statics/js/jquery.min.js"></script>
+
+<script type="text/javascript" src="http://www.ujiuye.com/statics/js/java_16new.js"></script>
+
+<script type="text/javascript" src="http://www.ujiuye.com/statics/js/show_16new.js"></script>
+
+<script>
+
+
+
+	$(function(){
+
+
+
+		$.post("/index.php?m=content&c=index&a=checkuser", function(data){
+
+
+
+			$(".heard_right").html(data);
+
+
+
+		});
+
+
+
+	});
+
+
+
+</script>
+
+<!--[if lte IE 6]>
+
+<script src="http://www.ujiuye.com/statics/js/js_16new.js" type="text/javascript"></script> 
+
+<script src="http://www.ujiuye.com/statics/js/png.js" type="text/javascript"></script> 
+
+<script type="text/javascript">
+
+DD_belatedPNG.fix('.png');
+
+</script>
+
+<![endif]-->
+
+
+
+<script type="text/javascript" src="http://www.ujiuye.com/statics/js/tjtop.js"></script>
+
+</head>
+
+
+
+<body>
+
+<!--heard-->
+
+<div class="heard">
+
+  <div class="zg_heard header_size">
+
+    <div class="heard_right">
+
+    
+
+    </div>
+
+    <div class="wbx">
+
+      <a class="wx"><span></span></a><a class="wb"><span></span></a><a class="sj"><span></span></a><a class="pd"><span></span></a>
+
+    </div>
+
+    <div class="heard_left"><span class="uNewnav"><a href="http://www.ujiuye.com">IT培训网</a></span><span class="uNewnav"><a href="http://zhi.ujiuye.com/" target="_blank">IT知识库</a></span><span class="uNewnav1"><a href="http://xue.ujiuye.com/" target="_blank">IT在线学习</a></span><span class="uNewnav2"><a href="http://seo.ujiuye.com/" target="_blank">SEO培训学院</a></span><span class="uNewnav3"><a href="http://ui.ujiuye.com/" target="_blank">UI学院</a></span><span class="uNewnav1"><a href="http://pin.ujiuye.com/" target="_blank">IT人才招聘</a></span></div>
+
+  </div>    
+
+</div>
+
+
+
+
+
+<div class="offcn_top mr">
+
+  <div class="logo"><h2><a href="http://www.ujiuye.com">IT职业教育培优品牌<br/>中公教育IT培训品牌</a></h2><a href="http://www.ujiuye.com"><img src="http://www.ujiuye.com/statics/images/hdujiuye_logo.jpg" width="153" height="45" alt="优就业" /></a></div>
+
+  <div class="zghd_citybox">
+ 	<script type="text/javascript" src="http://www.ujiuye.com/index.php?m=dbsource&c=call&a=get&id=4"></script>
+  </div>
+
+  <div class="tel orgeen ff_wryh">400-650-7353</div>
+
+  <div class="seach">
+
+      <form target="_blank">
+
+          <input type="text" class="zg_txt" id="bdcsMain" value=""/><input type="submit" value="" class="zg_sub" />
+
+      </form>
+
+      <script type="text/javascript">(function(){document.write(unescape('%3Cdiv id="bdcs"%3E%3C/div%3E'));var bdcs = document.createElement('script');bdcs.type = 'text/javascript';bdcs.async = true;bdcs.src = 'http://znsv.baidu.com/customer_search/api/js?sid=11542476246928418933' + '&plate_url=' + encodeURIComponent(window.location.href) + '&t=' + Math.ceil(new Date()/3600000);var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(bdcs, s);})();
+
+      </script>
+
+  </div>
+
+  
+
+</div>
+
+
+
+
+
+<div class="nav">
+
+	<div class="oPubNavShow">
+
+    	<p class="bg_org ff_wryh">IT培训课程</p>
+
+    	<div class="aside oPubAsideNav">
+
+           <ul class="aside_nav">
+<li>
+<h2><a class="a_nav_a" href="http://www.ujiuye.com/zt/zsjz/" target="_blank">互联网营销师</a></h2>
+</li>
+<li>
+<h2><a class="a_nav_a" href="http://www.ujiuye.com/zt/seoshizhan/" target="_blank">SEO搜索引擎优化师</a></h2>
+</li>
+<li>
+<h2><a class="a_nav_a" href="http://www.ujiuye.com/zt/semshizhan/" target="_blank">SEM搜索引擎竞价师</a></h2>
+</li>
+<li>
+<h2><a class="a_nav_a" href="http://www.ujiuye.com/zt/smmshizhan/" target="_blank">SMM社会化媒体营销师</a></h2>
+</li>
+<li>
+<h2><a class="a_nav_a" href="http://xue.ujiuye.com/course/courseinfo/id/509/" target="_blank">EPM电商运营师</a></h2>
+</li>
+<li>
+<h2><a class="a_nav_a" href="http://xue.ujiuye.com/course/courseinfo/id/507/" target="_blank">营销建站工程师</a></h2>
+</li>
+<li>
+<h2><a class="a_nav_a" href="http://www.ujiuye.com/zt/uijianzhang/" target="_blank">UI交互设计师</a></h2>
+</li>
+<li>
+<h2><a class="a_nav_a" href="http://www.ujiuye.com/zt/appui/" target="_blank">移动UI设计师</a></h2>
+</li>
+<li>
+<h2><a class="a_nav_a" href="http://www.ujiuye.com/zt/webqianduan/" target="_blank">Web前端(Html5)工程师</a></h2>
+</li>
+<li>
+<h2><a class="a_nav_a" href="http://www.ujiuye.com/zt/php/" target="_blank">PHP工程师</a></h2>
+</li>
+<li>
+<h2><a class="a_nav_a" href="http://www.ujiuye.com/zt/java/" target="_blank">Java工程师</a></h2>
+</li>
+<li>
+<h2><a class="a_nav_a" href="http://www.ujiuye.com/zt/android/" target="_blank">Android工程师</a></h2>
+</li>
+<li>
+<h2><a class="a_nav_a" href="javascript:;">iOS工程师</a></h2>
+</li>
+<li>
+<h2><a class="a_nav_a" href="javascript:;">C/C++工程师</a></h2>
+</li>
+<li>
+<h2><a class="a_nav_a" href="http://www.ujiuye.com/zt/hlwcp/" target="_blank">互联网产品经理人</a></h2>
+</li>
+<li>
+<h2><a class="a_nav_a" href="javascript:;">软件测试工程师</a></h2>
+</li>
+</ul>  
+
+        </div>
+
+    </div>
+
+  <div class="zg_nav">
+
+   <a href="http://www.ujiuye.com" target="_blank">首页</a><a href="http://xue.ujiuye.com/ke/" target="_blank">选课中心</a><span><a href="http://www.ujiuye.com/jiaoxue/" >教学保障</a><div><a href="http://www.ujiuye.com/jiaoxue/zsjz/" target="_blank">招生简章</a><a href="http://www.ujiuye.com/jiaoxue/zthd/" target="_blank">专题活动</a><a href="http://www.ujiuye.com/jiaoxue/pxsz/" target="_blank">培训师资</a><a href="http://www.ujiuye.com/jiaoxue/jxhj/" target="_blank">教学环境</a><a href="http://www.ujiuye.com/jiaoxue/cjwt/" target="_blank">常见问题</a></div></span><span><a href="http://www.ujiuye.com/jiuye/" >学员就业</a><div><a href="http://www.ujiuye.com/jiuye/dmzp/" target="_blank">登门招聘</a><a href="http://www.ujiuye.com/jiuye/xyjy/" target="_blank">学员就业</a><a href="http://www.ujiuye.com/jiuye/hzqy/" target="_blank">合作企业</a><a href="http://www.ujiuye.com/jiuye/msjq/" target="_blank">面试技巧</a><a href="http://www.ujiuye.com/jiuye/qzgl/" target="_blank">求职攻略</a></div></span><a href="http://www.ujiuye.com/jiaoxue/pxsz/"  rel="nofollow">培训师资</a><a href="http://xue.ujiuye.com/ce/" target="_blank">职业测评</a><a href="http://www.ujiuye.com/aboutus.html"  rel="nofollow">关于我们</a>
+
+  </div>
+
+</div><div class="yjy404">
+<img src="http://www.ujiuye.com/statics/images/yjy404.jpg" alt="404" width="303" height="303" />
+<font class="ff_wryh ts404">哎呀亲...你访问的页面出错了！</font>
+<span class="js404">您浏览的页面可能被删除，转移或不可用。遇到此情况的概率和中彩票差不多哦！</span>
+<a href="http://www.ujiuye.com" class="fhsy">返回首页</a>
+</div>
+<div class="footer">
+	<div class="zglh_foot mr">
+    	<a href="http://www.ujiuye.com" target="_blank" class="zglh_botlogo fl"><img src="http://www.ujiuye.com/statics/images/ujiuye.jpg" alt="优就业"></a>
+        <div class="zglh_footrig fl">
+            <ul class="zglh_nav">
+                <li><a href="http://www.ujiuye.com/aboutus.html" target="_blank" rel="nofollow">关于我们</a><span>|</span></li>
+                <li><a href="http://www.ujiuye.com/contactus.html" target="_blank" rel="nofollow">联系我们</a><span>|</span></li>
+                <li><a href="http://www.ujiuye.com/join.html" target="_blank" rel="nofollow">加入我们</a><span>|</span></li>
+                <li><a href="http://www.ujiuye.com/map.html" target="_blank">网站地图</a><span>|</span></li>
+                <li><a href="http://www.ujiuye.com/tags/" target="_blank">热门标签</a></li>
+            </ul>
+            <p class="zglh_last">Copyright&copy;1999-2017 北京中公教育科技股份有限公司 .All Rights Reserved  <br/>
+              京ICP备10218183号-88   京ICP证161188号 <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020723" rel="nofollow"><img src="http://www.ujiuye.com/statics/images/anbei.png" />京公网安备11010802020723号</a>
+</p>
+        </div> 
+        <div class="zglh_tel fr">
+        	<p class="tel01">服务电话:</p>
+            <span class="zglh_ios"></span>
+            <span class="zglh_andr"></span>
+            <div class="zglh_poimg01">
+            </div>
+            <div class="zglh_poimg02">
+            </div>
+        </div>
+    </div>
+</div>
+<!--悬浮窗-->
+<div class="indexFix">
+  <div class="fixBtnClose">&nbsp;</div>
+  <div class="fixBtnOpen">&nbsp;</div>
+  <div class="indexConFix">
+    <div class="indexFixH2t">咨询中心</div>
+    <ul class="indexFixUl">
+      <li class="indexFixLi1"><a rel="nofollow" href="javascript:void(0)"  id="tqchat1">在线咨询</a></li>
+      <li class="indexFixLi3"><a rel="nofollow" href="javascript:void(0)"  id="tqchat2">助学贷款</a></li>
+      <li class="indexFixLi4"><a rel="nofollow" href="javascript:void(0)"  id="tqchat3">申请试听</a></li>
+      <li class="indexFixLi2"><a rel="nofollow" href="http://xue.ujiuye.com/course/courseinfo/id/485/" target="_blank">报名入口</a></li>		
+      <li class="indexFixLi5"><a rel="nofollow" href="http://www.ujiuye.com/zt/qqhdjlpt/" target="_blank">领取教程</a></li>
+    </ul>
+    <dl class="indexFixDl">
+        <dt><img src="http://statics.ujiuye.com/statics/images/indexewm.jpg" width="110" height="110" alt="优就业微信扫一扫"></dt>
+        <dd>微信扫一扫</dd>
+    </dl>
+    <p class="indexFix400">400-650-7353</p>
+    <p class="indexFixWb"><a href="http://weibo.com/ujiuye" target="_blank">加入官方微博</a></p>
+  </div>
+</div>
+<!--以下为配合超链接指定的id可接入会话的代码-->
+<SCRIPT LANGUAGE="JavaScript">
+TQ_RQF = 6;//坐席图标形式（固定格式，无需更改）
+TQ_RQC = 2;//直接请求会话（固定格式，无需更改）
+TQKF.Binding("tqchat1","acd","","666");//排队打开会话页面或留言页面，根据在线状态来定（"tqchat1"为超链接指定的id名，"acd"为策略组打开的方式，""为固定格式，"520"为指定的TQ后台的策略组编号）
+TQKF.Binding("tqchat2","acd","","666");
+TQKF.Binding("tqchat3","acd","","666");
+</SCRIPT>
+
+<script type="text/javascript" src="http://www.ujiuye.com/statics/js/tjbot.js"></script>
+<!-- 百度统计代码www.ujiuye.com-->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?737839c13e3f2071061c575ee322898e";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

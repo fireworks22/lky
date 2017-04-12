@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+
+ <style type="text/css">
+ 
+ #si{
+		width:1015px;
+		height:40px;
+		margin:auto;
+		background-color:#313137;
+	}
+	ul{
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		overflow:hidden;
+	}
+	li{
+	float:left;
+	}
+	.si3:link,si3:visited{
+		display:block;
+		width:93px;
+		font-size:17px;
+		font-weight:boldface;
+		color:#FFFFFF;
+		background-color:#313137;
+		text-align:center;
+		padding:10px;
+		text-decoration:none;
+	
+		}
+	.si4:hover,si4:active{
+		background-color:#080809;
+	}
+	span.highlight{
+		background-color:#feda4e;
+		font-size:13px;
+		color:#000000;
+	}
+	.si5:link,si5:visited{
+		background-color:#080809;
+	}
+ #two{
+	width:113px;
+	height:120px;
+	/*margin:auto;*/
+	display:none;
+	
+ }
+ 
+ </style>
+ <body>
+<div id="si">
+	<ul>
+		<li><a href="首页" class="si3 si5">首页</a></li>
+		<li><a href="精选品牌" class="si3 si4">精选品牌<span class="highlight">Hot</span></a></li>
+		<li><a href="电影" class="si3 si4">电影<span class="highlight">Hot</span></a></li>
+		<li><a href="酒店" class="si3 si4">酒店</a></li>
+		<li><a id="duo" href="出行" class="si3 si4">出行▽</a>
+		<div id="two">
+	<ul>
+		<li><a href="机票" class="si3 si4">机票</a></li>
+		<li><a href="汽车票" class="si3 si4">汽车票</a></li>
+		<li><a href="火车票" class="si3 si4">火车票</a></li>
+	</ul>
+</div>
+		<li><a href="一元抢宝" class="si3 si4">一元抢宝</a></li>
+		<li><a href="今日新单" class="si3 si4">今日新单</a></li>
+	</ul>
+</div>	
+
+ </body>
+</html>
+<!-- <script type="text/javascript">
+	function xxx(){
+		var genduo = document.getElementById("duo");
+		genduo.onmouseover = function(){
+			var two = document.getElementById("two");
+			two.style.display = "block";
+		}
+		genduo.onmouseout = function(){
+			var two = document.getElementById("two");
+			two.style.display = "none"
+		}
+	}
+	xxx();
+
+</script> -->
+
+<script type="text/javascript">
+	function kkk(){
+		var gen = document.getElementById("duo");
+		gen.onmouseover = function(){
+			var two = document.getElementById("two");
+			two.style.display = "block";
+		}
+		gen.onmouseout = function(){
+			var two = document.getElementById("two");
+			two.style.display = "none"
+		}
+
+		var two = document.getElementById("two");
+		two.onmouseover = function(){
+			var two = document.getElementById("two");
+			two.style.display = "block";
+		}
+		two.onmouseout = function(){
+			var two = document.getElementById("two");
+			two.style.display = "none"
+		}
+	}
+	kkk();
+
+
+</script>

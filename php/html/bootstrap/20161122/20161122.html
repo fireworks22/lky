@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Document-导航</title>
+<link rel="stylesheet" href="../dist/css/bootstrap.min.css" />
+<script src="jquery-3.1.1.min.js"></script>
+<script src="../dist/js/bootstrap.js"></script>
+</head>
+<style>
+	/*.navbar-inverse{
+		background-color: blue;
+	}*/
+	#container-fluid{
+		background-color: blue;
+	}
+</style>
+<body>
+
+			<!-- container 容器 -->
+			<div id="container-fluid">
+			<!-- 网站logo 开始 -->
+			<div class="navbar-header">
+				<a href="" class="navbar-brand">Baidu</a>
+			<!-- 网站logo 图片 -->
+			<!-- <a href="http://runoob.com" target="_blank"><img src="" alt="" /></a> -->
+			</div>
+			<!-- 网站logo 结束 -->
+			
+			<!-- collapse 折叠 -->
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="http://www.baidu.com">百度</a></li>
+					<li><a href="http://www.google.com">谷歌</a></li>
+					<li><a href="">CSDN</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">catalogue <span class="caret"></span></a>
+					<ul class="dropdown-menu" >
+						<li><a href="#">北国风光</a></li>
+						<li><a href="#">千里冰封</a></li>
+						<li class="divider"></li>
+						<li><a href="#">万里雪飘</a></li>
+						<li class="divider"></li>
+						<li><a href="#">望长城内外</a></li>
+					</ul>
+					</li>
+				</ul>
+				<form class="navbar-form navbar-left" role="search">
+				<div class="form-group">
+				<input type="text" class="form-control" placeholder="Search"/>
+				</div>
+				<button type="submit" class="btn btn-default">Submit</button>
+				</form>
+				<!-- 右边菜单 开始 -->
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">登录</a></li>
+					<li><a href="#">注册</a></li>
+				</ul>
+				<!-- 右边菜单 结束 -->
+			</div>
+			
+		</div>
+</body>
+</html>

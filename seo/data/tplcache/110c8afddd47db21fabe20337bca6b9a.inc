@@ -1,0 +1,1 @@
+<div class="ret_nr">        <div class="zg_ma_bt">            <strong>                <a href="[field:arcurl/]" title="[field:title/]" target="_blank">[field:title/]</a></strong></div>        <dl>          <dt><a href="[field:arcurl/]" title="[field:title/]" target="_blank">              <img src="{dede:global.cfg_templets_skin
